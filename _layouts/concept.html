@@ -2,107 +2,465 @@
 layout: default
 ---
 
-<div class="concept-header">
-    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
-        <div>
-            <h1>{{ page.title | default: page.name | replace: '_', ' ' | replace: '-', ' ' }}</h1>
-            {% if page.topic %}
-            <span style="background: var(--primary-color); color: white; padding: 4px 12px; border-radius: 15px; font-size: 0.9em;">
-                📖 {{ page.topic }}
-            </span>
-            {% endif %}
-        </div>
-        <div class="concept-actions">
-            <a href="{{ site.baseurl }}/02_Concepts/" style="background: var(--light-bg); padding: 8px 16px; border-radius: 4px; text-decoration: none; color: var(--text-color);">
-                ← Back to Concepts
-            </a>
-        </div>
-    </div>
-</div>
+<div class="obsidian-concept-page">
+    <!-- Breadcrumb Navigation -->
+    <nav class="breadcrumb">
+        <a href="{{ site.baseurl }}/">🏠 Vault Home</a>
+        <span class="separator">›</span>
+        <a href="{{ site.baseurl }}/02_Concepts/">📚 Concepts</a>
+        <span class="separator">›</span>
+        <span class="current">{{ page.title | default: page.name | replace: '_', ' ' | replace: '-', ' ' }}</span>
+    </nav>
 
-<div class="concept-content">
-    {{ content }}
-</div>
-
-<div class="concept-footer" style="margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--border-color);">
-    <div style="background: var(--light-bg); padding: 20px; border-radius: 6px;">
-        <h3>🔗 Related Resources</h3>
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px;">
-            <div>
-                <strong>📚 More Concepts</strong><br>
-                <a href="{{ site.baseurl }}/02_Concepts/">Browse All Concepts</a>
-            </div>
-            <div>
-                <strong>📝 Practice Problems</strong><br>
-                <a href="{{ site.baseurl }}/01_Course/Exercise_Databases/">Exercise Databases</a>
-            </div>
-            <div>
-                <strong>🎓 Exam Prep</strong><br>
-                <a href="{{ site.baseurl }}/01_Course/Exam_Resources/">Study Resources</a>
-            </div>
-            <div>
-                <strong>📖 Course Materials</strong><br>
-                <a href="{{ site.baseurl }}/01_Course/">Textbook Resources</a>
+    <!-- Page Header -->
+    <header class="concept-header">
+        <div class="title-section">
+            <h1 class="concept-title">{{ page.title | default: page.name | replace: '_', ' ' | replace: '-', ' ' }}</h1>
+            <div class="metadata">
+                {% if page.topic %}
+                <span class="topic-tag">{{ page.topic }}</span>
+                {% endif %}
+                {% if page.status %}
+                <span class="status-{{ page.status }}">{{ page.status | capitalize }}</span>
+                {% endif %}
+                {% if page.importance %}
+                <span class="importance-{{ page.importance }}">{{ page.importance | capitalize }}</span>
+                {% endif %}
             </div>
         </div>
-    </div>
+        {% if page.tags %}
+        <div class="tags-section">
+            {% for tag in page.tags %}
+            <span class="tag">#{{ tag }}</span>
+            {% endfor %}
+        </div>
+        {% endif %}
+    </header>
+
+    <!-- Main Content -->
+    <article class="concept-content">
+        {{ content }}
+    </article>
+
+    <!-- Related Links Footer -->
+    <footer class="concept-footer">
+        <div class="related-section">
+            <h3>🔗 Related Resources</h3>
+            <div class="resource-grid">
+                <a href="{{ site.baseurl }}/02_Concepts/" class="resource-link">
+                    <div class="icon">📚</div>
+                    <div class="text">
+                        <strong>Browse Concepts</strong>
+                        <span>Explore all mathematical concepts</span>
+                    </div>
+                </a>
+                <a href="{{ site.baseurl }}/01_Course/Exercise_Databases/" class="resource-link">
+                    <div class="icon">📝</div>
+                    <div class="text">
+                        <strong>Practice Problems</strong>
+                        <span>Exercise databases by chapter</span>
+                    </div>
+                </a>
+                <a href="{{ site.baseurl }}/01_Course/Exam_Resources/" class="resource-link">
+                    <div class="icon">🎓</div>
+                    <div class="text">
+                        <strong>Exam Resources</strong>
+                        <span>Study guides and materials</span>
+                    </div>
+                </a>
+                <a href="{{ site.baseurl }}/01_Course/" class="resource-link">
+                    <div class="icon">📖</div>
+                    <div class="text">
+                        <strong>Course Materials</strong>
+                        <span>Textbook and curriculum</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </footer>
 </div>
 
 <style>
-.concept-content h2 {
-    background: linear-gradient(90deg, var(--primary-color), transparent);
+/* Obsidian-Inspired Design */
+.obsidian-concept-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.6;
+    color: #2c3e50;
+    background: #ffffff;
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+    .obsidian-concept-page {
+        background: #1e1e1e;
+        color: #e1e1e1;
+    }
+}
+
+/* Breadcrumb Navigation */
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    font-size: 14px;
+    color: #7f8c8d;
+}
+
+.breadcrumb a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.breadcrumb a:hover {
+    color: #2980b9;
+}
+
+.breadcrumb .separator {
+    margin: 0 8px;
+    color: #bdc3c7;
+}
+
+.breadcrumb .current {
+    color: #2c3e50;
+    font-weight: 500;
+}
+
+/* Header Section */
+.concept-header {
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #ecf0f1;
+}
+
+.concept-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 0 0 15px 0;
+    color: #2c3e50;
+    line-height: 1.2;
+}
+
+.metadata {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.topic-tag {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
-    padding: 10px 20px;
-    border-radius: 6px;
-    margin-top: 30px;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.status-stable { background: #27ae60; color: white; padding: 4px 10px; border-radius: 12px; font-size: 12px; }
+.status-review { background: #f39c12; color: white; padding: 4px 10px; border-radius: 12px; font-size: 12px; }
+.status-draft { background: #95a5a6; color: white; padding: 4px 10px; border-radius: 12px; font-size: 12px; }
+
+.importance-critical { background: #e74c3c; color: white; padding: 4px 10px; border-radius: 12px; font-size: 12px; }
+.importance-high { background: #e67e22; color: white; padding: 4px 10px; border-radius: 12px; font-size: 12px; }
+.importance-medium { background: #f39c12; color: white; padding: 4px 10px; border-radius: 12px; font-size: 12px; }
+.importance-low { background: #95a5a6; color: white; padding: 4px 10px; border-radius: 12px; font-size: 12px; }
+
+.tags-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 15px;
+}
+
+.tag {
+    background: #ecf0f1;
+    color: #7f8c8d;
+    padding: 4px 10px;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+/* Main Content Styling */
+.concept-content {
+    margin-bottom: 50px;
+}
+
+.concept-content h1 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #2c3e50;
+    margin: 40px 0 20px 0;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 10px;
+}
+
+.concept-content h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #34495e;
+    margin: 35px 0 18px 0;
+    padding-left: 15px;
+    border-left: 4px solid #3498db;
+    background: linear-gradient(90deg, rgba(52, 152, 219, 0.1) 0%, transparent 100%);
+    padding: 12px 0 12px 15px;
+    border-radius: 0 8px 8px 0;
 }
 
 .concept-content h3 {
-    border-left: 4px solid var(--primary-color);
-    padding-left: 15px;
-    background: var(--light-bg);
-    padding: 10px 15px;
-    border-radius: 0 6px 6px 0;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin: 30px 0 15px 0;
+    padding-left: 12px;
+    border-left: 3px solid #9b59b6;
 }
 
-.concept-content ul li {
-    margin: 10px 0;
+.concept-content h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #34495e;
+    margin: 25px 0 12px 0;
+}
+
+.concept-content p {
+    margin: 16px 0;
+    color: #2c3e50;
+    text-align: justify;
+}
+
+.concept-content strong {
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+.concept-content em {
+    color: #7f8c8d;
+    font-style: italic;
+}
+
+/* Lists */
+.concept-content ul, .concept-content ol {
+    margin: 16px 0;
+    padding-left: 25px;
+}
+
+.concept-content li {
+    margin: 8px 0;
+    line-height: 1.6;
+}
+
+.concept-content ul li::marker {
+    color: #3498db;
+}
+
+.concept-content ol li::marker {
+    color: #3498db;
+    font-weight: 600;
+}
+
+/* Code and Math */
+.concept-content code {
+    background: #f8f9fa;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: 'Monaco', 'Consolas', monospace;
+    font-size: 14px;
+    color: #e74c3c;
+    border: 1px solid #ecf0f1;
+}
+
+.concept-content pre {
+    background: #2c3e50;
+    color: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+    overflow-x: auto;
+    margin: 20px 0;
+    font-family: 'Monaco', 'Consolas', monospace;
+    line-height: 1.4;
+}
+
+/* Math expressions */
+.concept-content .MathJax {
+    font-size: 1.1em !important;
 }
 
 .concept-content .math {
     background: #f8f9fa;
-    padding: 15px;
-    border-radius: 6px;
-    border-left: 4px solid var(--success-color);
-    margin: 15px 0;
-}
-
-/* Formula highlighting */
-.concept-content .formula {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
     padding: 20px;
     border-radius: 8px;
+    border-left: 4px solid #3498db;
+    margin: 20px 0;
     text-align: center;
-    font-size: 1.2em;
-    margin: 20px 0;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
 }
 
-/* Example boxes */
-.concept-content .example {
-    background: #e8f5e8;
-    border: 1px solid #27ae60;
-    border-radius: 6px;
+/* Blockquotes */
+.concept-content blockquote {
+    background: #ecf0f1;
+    border-left: 4px solid #95a5a6;
+    margin: 20px 0;
+    padding: 15px 20px;
+    border-radius: 0 8px 8px 0;
+    font-style: italic;
+    color: #7f8c8d;
+}
+
+/* Tables */
+.concept-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.concept-content th {
+    background: #34495e;
+    color: white;
+    padding: 12px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.concept-content td {
+    padding: 12px;
+    border-bottom: 1px solid #ecf0f1;
+}
+
+.concept-content tr:nth-child(even) {
+    background: #f8f9fa;
+}
+
+/* Special Content Boxes */
+.concept-content .example, .concept-content .note, .concept-content .warning {
+    margin: 25px 0;
     padding: 20px;
-    margin: 20px 0;
+    border-radius: 8px;
+    border-left: 4px solid;
 }
 
-.concept-content .example::before {
-    content: "💡 Example";
-    font-weight: bold;
-    color: #27ae60;
+.concept-content .example {
+    background: linear-gradient(135deg, rgba(46, 204, 113, 0.1) 0%, rgba(39, 174, 96, 0.05) 100%);
+    border-left-color: #27ae60;
+}
+
+.concept-content .note {
+    background: linear-gradient(135deg, rgba(52, 152, 219, 0.1) 0%, rgba(41, 128, 185, 0.05) 100%);
+    border-left-color: #3498db;
+}
+
+.concept-content .warning {
+    background: linear-gradient(135deg, rgba(231, 76, 60, 0.1) 0%, rgba(192, 57, 43, 0.05) 100%);
+    border-left-color: #e74c3c;
+}
+
+/* Links */
+.concept-content a {
+    color: #3498db;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: all 0.2s;
+}
+
+.concept-content a:hover {
+    color: #2980b9;
+    border-bottom-color: #2980b9;
+}
+
+/* Horizontal Rules */
+.concept-content hr {
+    border: none;
+    border-top: 2px solid #ecf0f1;
+    margin: 40px 0;
+}
+
+/* Footer Section */
+.concept-footer {
+    margin-top: 50px;
+    padding-top: 30px;
+    border-top: 2px solid #ecf0f1;
+}
+
+.related-section h3 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+}
+
+.resource-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 15px;
+}
+
+.resource-link {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.3s;
+    border: 2px solid transparent;
+}
+
+.resource-link:hover {
+    background: #ecf0f1;
+    border-color: #3498db;
+    transform: translateY(-2px);
+}
+
+.resource-link .icon {
+    font-size: 24px;
+    margin-right: 15px;
+}
+
+.resource-link .text strong {
     display: block;
-    margin-bottom: 10px;
+    color: #2c3e50;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.resource-link .text span {
+    color: #7f8c8d;
+    font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .obsidian-concept-page {
+        padding: 15px;
+    }
+    
+    .concept-title {
+        font-size: 2rem;
+    }
+    
+    .resource-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .breadcrumb {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 480px) {
+    .concept-title {
+        font-size: 1.8rem;
+    }
+    
+    .metadata {
+        flex-direction: column;
+        gap: 8px;
+    }
 }
 </style>
