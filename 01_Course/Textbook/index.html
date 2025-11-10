@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Textbook Resources - MATH 1414 Vault</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f8f9fa;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            text-align: center;
+            color: #7f8c8d;
+            margin-bottom: 30px;
+        }
+        .back-link {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .back-link a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .chapter-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 25px;
+            margin: 30px 0;
+        }
+        .chapter-card {
+            background: #fff;
+            border: 1px solid #ecf0f1;
+            border-radius: 8px;
+            padding: 25px;
+            transition: transform 0.2s, box-shadow 0.2s;
+            border-left: 4px solid #27ae60;
+        }
+        .chapter-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+        }
+        .chapter-card.prerequisites {
+            border-left-color: #e74c3c;
+        }
+        .chapter-card.current {
+            border-left-color: #3498db;
+        }
+        .chapter-card h3 {
+            margin: 0 0 15px 0;
+            color: #2c3e50;
+        }
+        .chapter-card a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+            display: block;
+            margin: 8px 0;
+            padding: 8px 0;
+        }
+        .chapter-card a:hover {
+            color: #2980b9;
+        }
+        .chapter-status {
+            background: #ecf0f1;
+            color: #7f8c8d;
+            padding: 4px 8px;
+            border-radius: 3px;
+            font-size: 0.85em;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        .overview {
+            background: #ecf0f1;
+            padding: 25px;
+            border-radius: 6px;
+            margin: 25px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="back-link">
+            <a href="../../index.html">← Back to Math Vault Home</a> | 
+            <a href="../index.html">← Back to Course Overview</a>
+        </div>
+        
+        <h1>📖 Textbook Resources</h1>
+        <p class="subtitle">Chapter-by-chapter companion materials for MATH 1414</p>
+        
+        <div class="overview">
+            <h3>📚 Textbook Companion</h3>
+            <p>Organized textbook content with section summaries, key learning objectives, and curated example problems. Each chapter provides structured notes that complement your textbook reading and reinforce essential concepts.</p>
+        </div>
+        
+        <div class="chapter-grid">
+            <div class="chapter-card prerequisites">
+                <h3>🔢 Chapter R: Prerequisites</h3>
+                <p>Essential foundation topics including real numbers, algebraic expressions, equations, and fundamental mathematical operations needed for success in college algebra.</p>
+                <a href="ChapterR_Prerequisites/">View Chapter R Notes</a>
+                <span class="chapter-status">Foundation Level</span>
+            </div>
+            
+            <div class="chapter-card current">
+                <h3>📐 Chapter 1: Equations & Inequalities</h3>
+                <p>Linear equations, quadratic equations, other types of equations, inequalities, and absolute value equations and inequalities.</p>
+                <a href="Chapter1_Equations_Inequalities/">View Chapter 1 Notes</a>
+                <span class="chapter-status">Core Topics</span>
+            </div>
+            
+            <div class="chapter-card current">
+                <h3>📊 Chapter 2: Functions & Relations</h3>
+                <p>Introduction to functions, function notation, domain and range, graphing functions, and function transformations.</p>
+                <a href="Chapter2_Functions_Relations/">View Chapter 2 Notes</a>
+                <span class="chapter-status">Core Topics</span>
+            </div>
+            
+            <div class="chapter-card current">
+                <h3>🔄 Chapter 3: Method Extractions</h3>
+                <p>Advanced function analysis techniques, polynomial functions, rational functions, and sophisticated mathematical methods.</p>
+                <a href="Chapter3_Method_Extractions/">View Chapter 3 Notes</a>
+                <span class="chapter-status">Advanced Topics</span>
+            </div>
+            
+            <div class="chapter-card current">
+                <h3>📈 Chapter 4: Exponential & Logarithmic</h3>
+                <p>Exponential functions, logarithmic functions, properties of logarithms, exponential and logarithmic equations, and applications.</p>
+                <a href="Chapter4_Exponential_Logarithmic/">View Chapter 4 Notes</a>
+                <span class="chapter-status">Current Focus</span>
+            </div>
+            
+            <div class="chapter-card">
+                <h3>📋 Complete Index</h3>
+                <p>Comprehensive navigation index for all textbook resources with cross-references and topic organization.</p>
+                <a href="Index/">View Complete Index</a>
+                <span class="chapter-status">Navigation Hub</span>
+            </div>
+        </div>
+
+        <div class="overview">
+            <h3>🎯 Textbook Features</h3>
+            <ul style="text-align: left; display: inline-block;">
+                <li><strong>Learning Objectives:</strong> Clear goals for each chapter section</li>
+                <li><strong>Key Concepts:</strong> Essential ideas highlighted and explained</li>
+                <li><strong>Worked Examples:</strong> Step-by-step problem solutions</li>
+                <li><strong>Concept Connections:</strong> Links to related vault concepts</li>
+                <li><strong>Practice Integration:</strong> References to exercise databases</li>
+                <li><strong>Exam Alignment:</strong> Content organized for assessment prep</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
