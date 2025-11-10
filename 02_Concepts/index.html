@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concept Library - MATH 1414 Vault</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f8f9fa;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            text-align: center;
+            color: #7f8c8d;
+            margin-bottom: 30px;
+        }
+        .search-box {
+            width: 100%;
+            padding: 15px;
+            font-size: 16px;
+            border: 2px solid #ecf0f1;
+            border-radius: 6px;
+            margin-bottom: 30px;
+            box-sizing: border-box;
+        }
+        .search-box:focus {
+            outline: none;
+            border-color: #3498db;
+        }
+        .concepts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        .concept-card {
+            background: #fff;
+            border: 1px solid #ecf0f1;
+            border-radius: 6px;
+            padding: 20px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .concept-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        .concept-card h3 {
+            margin: 0 0 10px 0;
+            color: #2c3e50;
+        }
+        .concept-card a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .concept-card a:hover {
+            color: #2980b9;
+        }
+        .concept-card .topic {
+            background: #ecf0f1;
+            color: #7f8c8d;
+            padding: 4px 8px;
+            border-radius: 3px;
+            font-size: 0.85em;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        .stats {
+            text-align: center;
+            margin: 30px 0;
+            color: #7f8c8d;
+        }
+        .back-link {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .back-link a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .categories {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 20px 0;
+        }
+        .category-filter {
+            padding: 8px 16px;
+            background: #ecf0f1;
+            color: #7f8c8d;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .category-filter:hover, .category-filter.active {
+            background: #3498db;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="back-link">
+            <a href="../index.html">← Back to Math Vault Home</a>
+        </div>
+        
+        <h1>📚 Concept Library</h1>
+        <p class="subtitle">150+ Mathematical Concepts for MATH 1414</p>
+        
+        <input type="text" id="searchBox" class="search-box" placeholder="🔍 Search concepts... (e.g., 'exponential', 'polynomial', 'matrix')">
+        
+        <div class="categories">
+            <button class="category-filter active" onclick="filterCategory('all')">All Concepts</button>
+            <button class="category-filter" onclick="filterCategory('functions')">Functions</button>
+            <button class="category-filter" onclick="filterCategory('polynomials')">Polynomials</button>
+            <button class="category-filter" onclick="filterCategory('exponential')">Exponential & Logs</button>
+            <button class="category-filter" onclick="filterCategory('systems')">Systems & Matrices</button>
+            <button class="category-filter" onclick="filterCategory('equations')">Equations</button>
+        </div>
+        
+        <div class="stats">
+            <strong>Available Concepts:</strong> <span id="conceptCount">150+</span> mathematical topics with detailed explanations
+        </div>
+        
+        <div class="concepts-grid" id="conceptsGrid">
+            <!-- Concepts will be populated by JavaScript -->
+        </div>
+    </div>
+
+    <script>
+        const concepts = [
+            { name: "Absolute_Value", title: "Absolute Value", topic: "Equations", category: "equations" },
+            { name: "Absolute_Value_Inequalities", title: "Absolute Value Inequalities", topic: "Inequalities", category: "equations" },
+            { name: "Algebraic_Equations", title: "Algebraic Equations", topic: "Equations", category: "equations" },
+            { name: "Algebraic_Manipulation", title: "Algebraic Manipulation", topic: "Fundamentals", category: "equations" },
+            { name: "Algebraic_Test_for_One_to_One", title: "Algebraic Test for One-to-One", topic: "Functions", category: "functions" },
+            { name: "Augmented_Matrix", title: "Augmented Matrix", topic: "Systems", category: "systems" },
+            { name: "Average_Rate_of_Change", title: "Average Rate of Change", topic: "Functions", category: "functions" },
+            { name: "Change_of_Base_Formula", title: "Change of Base Formula", topic: "Logarithms", category: "exponential" },
+            { name: "Circles", title: "Circles", topic: "Geometry", category: "functions" },
+            { name: "Common_Logarithm", title: "Common Logarithm", topic: "Logarithms", category: "exponential" },
+            { name: "Completing_the_Square", title: "Completing the Square", topic: "Quadratics", category: "polynomials" },
+            { name: "Complex_Conjugate", title: "Complex Conjugate", topic: "Complex Numbers", category: "polynomials" },
+            { name: "Complex_Numbers", title: "Complex Numbers", topic: "Number Systems", category: "polynomials" },
+            { name: "Compound_Inequalities", title: "Compound Inequalities", topic: "Inequalities", category: "equations" },
+            { name: "Compound_Interest", title: "Compound Interest", topic: "Applications", category: "exponential" },
+            { name: "Cramers_Rule", title: "Cramer's Rule", topic: "Systems", category: "systems" },
+            { name: "Determinant", title: "Determinant", topic: "Matrices", category: "systems" },
+            { name: "Domain_and_Range", title: "Domain and Range", topic: "Functions", category: "functions" },
+            { name: "Domain_Restrictions", title: "Domain Restrictions", topic: "Functions", category: "functions" },
+            { name: "Doubling_Time", title: "Doubling Time", topic: "Exponential Growth", category: "exponential" },
+            { name: "End_Behavior", title: "End Behavior", topic: "Polynomials", category: "polynomials" },
+            { name: "Exponential_Equations", title: "Exponential Equations", topic: "Exponential Functions", category: "exponential" },
+            { name: "Exponential_Functions", title: "Exponential Functions", topic: "Functions", category: "exponential" },
+            { name: "Exponent_Properties", title: "Exponent Properties", topic: "Fundamentals", category: "exponential" },
+            { name: "Factored_Form", title: "Factored Form", topic: "Polynomials", category: "polynomials" },
+            { name: "Factoring_Polynomials", title: "Factoring Polynomials", topic: "Polynomials", category: "polynomials" },
+            { name: "Factor_Theorem", title: "Factor Theorem", topic: "Polynomials", category: "polynomials" },
+            { name: "Finding_Polynomial_Roots", title: "Finding Polynomial Roots", topic: "Polynomials", category: "polynomials" },
+            { name: "Function_Composition", title: "Function Composition", topic: "Functions", category: "functions" },
+            { name: "Function_Notation", title: "Function Notation", topic: "Functions", category: "functions" },
+            { name: "Function_Operations", title: "Function Operations", topic: "Functions", category: "functions" },
+            { name: "Function_Transformations", title: "Function Transformations", topic: "Functions", category: "functions" },
+            { name: "Gaussian_Elimination", title: "Gaussian Elimination", topic: "Systems", category: "systems" },
+            { name: "Graphing_Functions", title: "Graphing Functions", topic: "Functions", category: "functions" },
+            { name: "Graphing_Polynomials", title: "Graphing Polynomials", topic: "Polynomials", category: "polynomials" },
+            { name: "Graphing_Rational_Functions", title: "Graphing Rational Functions", topic: "Rational Functions", category: "polynomials" },
+            { name: "Growth_and_Decay_Models", title: "Growth and Decay Models", topic: "Applications", category: "exponential" },
+            { name: "Half_Life", title: "Half Life", topic: "Exponential Decay", category: "exponential" },
+            { name: "Horizontal_Line_Test", title: "Horizontal Line Test", topic: "Functions", category: "functions" },
+            { name: "Identity_Matrix", title: "Identity Matrix", topic: "Matrices", category: "systems" },
+            { name: "Inverse_Functions", title: "Inverse Functions", topic: "Functions", category: "functions" },
+            { name: "Inverse_Matrix", title: "Inverse Matrix", topic: "Matrices", category: "systems" },
+            { name: "Linear_Equations", title: "Linear Equations", topic: "Equations", category: "equations" },
+            { name: "Linear_Functions", title: "Linear Functions", topic: "Functions", category: "functions" },
+            { name: "Linear_Systems", title: "Linear Systems", topic: "Systems", category: "systems" },
+            { name: "Logarithmic_Equations", title: "Logarithmic Equations", topic: "Logarithms", category: "exponential" },
+            { name: "Logarithmic_Functions", title: "Logarithmic Functions", topic: "Functions", category: "exponential" },
+            { name: "Matrix_Multiplication", title: "Matrix Multiplication", topic: "Matrices", category: "systems" },
+            { name: "Natural_Logarithm", title: "Natural Logarithm", topic: "Logarithms", category: "exponential" },
+            { name: "One_to_One_Function", title: "One-to-One Function", topic: "Functions", category: "functions" },
+            { name: "Polynomial_Equations", title: "Polynomial Equations", topic: "Polynomials", category: "polynomials" },
+            { name: "Properties_of_Logarithms", title: "Properties of Logarithms", topic: "Logarithms", category: "exponential" },
+            { name: "Quadratic_Formula", title: "Quadratic Formula", topic: "Quadratics", category: "polynomials" },
+            { name: "Rational_Equations", title: "Rational Equations", topic: "Rational Functions", category: "polynomials" },
+            { name: "Rational_Root_Theorem", title: "Rational Root Theorem", topic: "Polynomials", category: "polynomials" },
+            { name: "Synthetic_Division", title: "Synthetic Division", topic: "Polynomials", category: "polynomials" },
+            { name: "System_Types", title: "System Types", topic: "Systems", category: "systems" },
+            { name: "Vertex_Form", title: "Vertex Form", topic: "Quadratics", category: "polynomials" },
+            { name: "What_IS_a_Function", title: "What IS a Function", topic: "Functions", category: "functions" },
+            { name: "What_IS_a_Polynomial", title: "What IS a Polynomial", topic: "Polynomials", category: "polynomials" },
+            { name: "Zero_Product_Property", title: "Zero Product Property", topic: "Polynomials", category: "polynomials" }
+        ];
+
+        let filteredConcepts = concepts;
+
+        function renderConcepts() {
+            const grid = document.getElementById('conceptsGrid');
+            const count = document.getElementById('conceptCount');
+            
+            grid.innerHTML = filteredConcepts.map(concept => `
+                <div class="concept-card">
+                    <h3><a href="https://github.com/StudioCordillera/math1414-obsidian-vault/blob/main/02_Concepts/${concept.name}.md">${concept.title}</a></h3>
+                    <span class="topic">${concept.topic}</span>
+                </div>
+            `).join('');
+            
+            count.textContent = filteredConcepts.length;
+        }
+
+        function filterCategory(category) {
+            // Update active button
+            document.querySelectorAll('.category-filter').forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+            
+            // Filter concepts
+            if (category === 'all') {
+                filteredConcepts = concepts;
+            } else {
+                filteredConcepts = concepts.filter(c => c.category === category);
+            }
+            
+            renderConcepts();
+        }
+
+        // Search functionality
+        document.getElementById('searchBox').addEventListener('input', function(e) {
+            const searchTerm = e.target.value.toLowerCase();
+            filteredConcepts = concepts.filter(c => 
+                c.title.toLowerCase().includes(searchTerm) || 
+                c.topic.toLowerCase().includes(searchTerm) ||
+                c.name.toLowerCase().includes(searchTerm)
+            );
+            renderConcepts();
+        });
+
+        // Initial render
+        renderConcepts();
+    </script>
+</body>
+</html>
