@@ -14,7 +14,12 @@ highlighter: rouge
 kramdown:
   input: GFM
   syntax_highlighter: rouge
-
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  
 # Permalink settings for clean URLs
 permalink: pretty
 
@@ -32,18 +37,33 @@ defaults:
     values:
       layout: "concept"
       category: "concept"
+      permalink: "/02_Concepts/:basename/"
   - scope:
       path: "01_Course/Exercise_Databases"
       type: "pages"
     values:
       layout: "exercise"
       category: "exercise"
+      permalink: "/01_Course/Exercise_Databases/:basename/"
   - scope:
       path: "01_Course/Exam_Resources"
       type: "pages"
     values:
       layout: "exam_resource"
       category: "exam_resource"
+      permalink: "/01_Course/Exam_Resources/:basename/"
+  - scope:
+      path: "00_Index"
+      type: "pages"
+    values:
+      layout: "default"
+      permalink: "/00_Index/:basename/"
+  - scope:
+      path: "01_Course/Textbook"
+      type: "pages"
+    values:
+      layout: "default"
+      permalink: "/01_Course/Textbook/:basename/"
 
 # Exclude files from processing
 exclude:
@@ -56,3 +76,4 @@ exclude:
 # Include files that start with underscores
 include:
   - _redirects
+  - .htaccess
