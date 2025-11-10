@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Graphing Functions"
+topic: "Functions"
 title: Graphing Functions
 type: Method
 status: review

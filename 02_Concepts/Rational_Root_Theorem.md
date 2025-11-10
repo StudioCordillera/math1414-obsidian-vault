@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Rational Root Theorem"
+topic: "Polynomials"
 type: Claim
 status: review
 importance: high

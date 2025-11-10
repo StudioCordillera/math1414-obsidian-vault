@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Factor Theorem"
+topic: "Polynomials"
 type: Claim
 status: review
 importance: high

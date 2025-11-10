@@ -1,3 +1,9 @@
+---
+layout: concept
+title: "Function Composition"
+topic: "Functions"
+---
+
 # Function Composition
 *Chaining Functions Together — The Fundamental Operation*
 

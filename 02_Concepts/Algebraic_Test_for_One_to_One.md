@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Algebraic Test for One to One"
+topic: "General Math"
 type: Method
 status: review
 importance: high

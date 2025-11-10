@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Working From Factored Form"
+topic: "Polynomials"
 title: Working From Factored Form (Polynomials)
 type: Method
 status: review

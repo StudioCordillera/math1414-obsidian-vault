@@ -1,3 +1,9 @@
+---
+layout: concept
+title: "Order of Operations"
+topic: "General Math"
+---
+
 # Order of Operations (PEMDAS)
 *The Universal Rules for Evaluating Expressions*
 

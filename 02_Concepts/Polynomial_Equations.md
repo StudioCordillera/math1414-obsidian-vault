@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Polynomial Equations"
+topic: "Polynomials"
 type: Topic
 status: review
 importance: high

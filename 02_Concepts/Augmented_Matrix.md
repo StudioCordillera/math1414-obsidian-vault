@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Augmented Matrix"
+topic: "Systems & Matrices"
 type: Definition
 status: in-progress
 importance: high

@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Extraneous Solutions"
+topic: "General Math"
 type: Definition
 status: stable
 importance: high

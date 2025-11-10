@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Finding Polynomial Roots"
+topic: "Polynomials"
 type: Method
 status: review
 importance: high

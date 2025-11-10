@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Constructing Polynomials from Roots"
+topic: "Polynomials"
 type: Method
 status: review
 importance: high

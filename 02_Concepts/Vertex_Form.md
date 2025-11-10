@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Vertex Form"
+topic: "General Math"
 title: Vertex Form
 type: Topic
 status: review

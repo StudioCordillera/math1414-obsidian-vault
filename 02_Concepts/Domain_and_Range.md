@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Domain and Range"
+topic: "Functions"
 title: Domain and Range
 type: Definition
 status: review

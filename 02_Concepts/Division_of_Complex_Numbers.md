@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Division of Complex Numbers"
+topic: "General Math"
 title: Division of Complex Numbers (Conjugate Method)
 type: Method
 status: in-progress

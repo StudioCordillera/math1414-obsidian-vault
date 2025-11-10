@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Consistent vs Inconsistent Systems"
+topic: "Systems & Matrices"
 type: Definition
 status: in-progress
 importance: medium

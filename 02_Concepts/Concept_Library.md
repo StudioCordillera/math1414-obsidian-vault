@@ -1,3 +1,9 @@
+---
+layout: concept
+title: "Concept Library"
+topic: "General Math"
+---
+
 # Concept Library v1.0
 ## Compressed Knowledge Base with @Reference System
 **Version**: 1.0 | **Date**: October 15, 2025  

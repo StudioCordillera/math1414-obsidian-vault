@@ -1,3 +1,9 @@
+---
+layout: concept
+title: "Graph to Equation"
+topic: "Equations & Inequalities"
+---
+
 # Constructing Equations from Graphs
 *Reverse Engineering: Visual → Algebraic*
 

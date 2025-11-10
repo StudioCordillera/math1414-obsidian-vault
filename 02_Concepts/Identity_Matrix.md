@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Identity Matrix"
+topic: "Systems & Matrices"
 type: Definition
 status: in-progress
 importance: medium

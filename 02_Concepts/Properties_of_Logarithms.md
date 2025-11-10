@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Properties of Logarithms"
+topic: "Exponential & Logarithmic"
 type: Definition
 status: review
 importance: high

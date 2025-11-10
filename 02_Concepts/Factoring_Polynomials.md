@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Factoring Polynomials"
+topic: "Polynomials"
 type: Method
 status: in-progress
 importance: high

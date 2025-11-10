@@ -1,3 +1,9 @@
+---
+layout: concept
+title: "Point Conditions Method"
+topic: "General Math"
+---
+
 # Using Point Conditions to Find Equations
 *When You're Given Locations Instead of Forms*
 

@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Standard Form"
+topic: "General Math"
 title: Standard Form (Polynomials)
 type: Topic
 status: review

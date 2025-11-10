@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Graphing Quadratic Functions"
+topic: "Functions"
 type: Topic
 status: review
 importance: high

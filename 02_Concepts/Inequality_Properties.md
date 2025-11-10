@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Inequality Properties"
+topic: "Equations & Inequalities"
 type: Claim
 status: in-progress
 importance: high

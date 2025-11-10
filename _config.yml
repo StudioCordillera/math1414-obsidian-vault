@@ -1,0 +1,67 @@
+theme: minima
+title: "MATH 1414 - Mathematics Learning Vault"
+description: "Comprehensive College Algebra & Functions knowledge base with 150+ concept notes"
+url: "https://studiocordillera.github.io"
+baseurl: "/math1414-obsidian-vault"
+
+# Site settings
+author: "Math Student"
+email: "student@math1414.edu"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Collections for better organization
+collections:
+  concepts:
+    output: true
+    permalink: /concepts/:name/
+  exercises:
+    output: true
+    permalink: /exercises/:name/
+  exam_resources:
+    output: true
+    permalink: /exam-resources/:name/
+
+# Defaults for front matter
+defaults:
+  - scope:
+      path: "02_Concepts"
+      type: "pages"
+    values:
+      layout: "concept"
+      category: "concept"
+  - scope:
+      path: "01_Course/Exercise_Databases"
+      type: "pages"
+    values:
+      layout: "exercise"
+      category: "exercise"
+  - scope:
+      path: "01_Course/Exam_Resources"
+      type: "pages"
+    values:
+      layout: "exam_resource"
+      category: "exam_resource"
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - .obsidian/
+  - .gitignore
+  - System/
+  - __USER_MANAGED__/
+
+# Include files that start with underscores
+include:
+  - _redirects

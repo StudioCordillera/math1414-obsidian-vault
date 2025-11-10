@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Division Algorithm"
+topic: "General Math"
 type: Claim
 status: review
 importance: high

@@ -1,3 +1,9 @@
+---
+layout: concept
+title: "Solving Higher Degree Equations"
+topic: "Equations & Inequalities"
+---
+
 # Solving Higher-Degree Polynomial Equations
 *Techniques for Cubics, Quartics, and Beyond*
 

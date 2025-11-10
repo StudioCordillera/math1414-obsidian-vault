@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Circles"
+topic: "General Math"
 title: Circles in the Coordinate Plane
 type: Definition
 status: review

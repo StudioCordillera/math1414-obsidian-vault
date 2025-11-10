@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Algebraic Equations"
+topic: "Equations & Inequalities"
 type: Topic
 status: in-progress
 importance: medium

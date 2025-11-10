@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Graphing Polynomials"
+topic: "Polynomials"
 type: Topic
 status: review
 importance: high

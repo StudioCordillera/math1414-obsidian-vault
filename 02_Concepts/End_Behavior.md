@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "End Behavior"
+topic: "General Math"
 type: Topic
 status: review
 importance: high

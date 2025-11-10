@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Growth and Decay Models"
+topic: "Exponential & Logarithmic"
 type: Application
 status: review
 importance: high

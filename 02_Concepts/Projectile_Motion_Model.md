@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Projectile Motion Model"
+topic: "General Math"
 title: Projectile Motion Model (Algebraic)
 type: Definition
 status: in-progress

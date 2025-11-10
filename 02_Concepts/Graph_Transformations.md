@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Graph Transformations"
+topic: "General Math"
 type: Topic
 status: in-progress
 importance: medium

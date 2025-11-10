@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Linear Functions"
+topic: "Functions"
 title: Linear Functions
 type: Definition
 status: review

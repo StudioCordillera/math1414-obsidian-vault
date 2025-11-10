@@ -1,3 +1,9 @@
+---
+layout: concept
+title: "Complex Conjugate Roots"
+topic: "Polynomials"
+---
+
 # Complex Conjugate Roots
 *Understanding Imaginary Solutions and Why They Always Come in Pairs*
 

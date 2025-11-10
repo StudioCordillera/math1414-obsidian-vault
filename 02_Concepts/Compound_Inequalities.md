@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Compound Inequalities"
+topic: "General Math"
 type: Definition
 status: stable
 importance: high

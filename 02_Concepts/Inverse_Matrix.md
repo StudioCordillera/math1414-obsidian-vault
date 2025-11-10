@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Inverse Matrix"
+topic: "Functions"
 type: Definition
 status: in-progress
 importance: high

@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Determinant"
+topic: "General Math"
 type: Definition
 status: in-progress
 importance: high

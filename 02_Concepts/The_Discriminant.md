@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "The Discriminant"
+topic: "General Math"
 type: Definition
 status: review
 importance: high

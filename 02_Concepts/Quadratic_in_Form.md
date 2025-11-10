@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Quadratic in Form"
+topic: "Polynomials"
 type: Method
 status: review
 importance: high

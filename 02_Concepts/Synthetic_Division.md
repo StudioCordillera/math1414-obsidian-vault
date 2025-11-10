@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Synthetic Division"
+topic: "General Math"
 type: Method
 status: review
 importance: high

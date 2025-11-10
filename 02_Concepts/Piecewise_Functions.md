@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Piecewise Functions"
+topic: "Functions"
 title: Piecewise Functions
 type: Definition
 status: review

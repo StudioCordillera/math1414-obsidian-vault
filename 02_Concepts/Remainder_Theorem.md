@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Remainder Theorem"
+topic: "General Math"
 type: Claim
 status: review
 importance: high

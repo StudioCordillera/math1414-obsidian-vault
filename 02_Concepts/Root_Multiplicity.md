@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Root Multiplicity"
+topic: "Polynomials"
 type: Topic
 status: review
 importance: high

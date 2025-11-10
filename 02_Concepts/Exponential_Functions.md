@@ -1,7 +1,10 @@
 ---
+layout: concept
 type: Topic
 status: review
 importance: high
+title: "Exponential Functions"
+topic: "Functions & Exponential Growth"
 tags:
   - concept/algebra
   - chapter-4

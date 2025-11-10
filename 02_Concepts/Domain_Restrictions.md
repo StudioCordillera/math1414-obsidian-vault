@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Domain Restrictions"
+topic: "Functions"
 title: Domain Restrictions
 type: Definition
 status: in-progress

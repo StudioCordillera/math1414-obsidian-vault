@@ -1,3 +1,9 @@
+---
+layout: concept
+title: "Fundamental Theorem of Algebra"
+topic: "General Math"
+---
+
 # The Fundamental Theorem of Algebra
 *Why Roots Always Exist*
 

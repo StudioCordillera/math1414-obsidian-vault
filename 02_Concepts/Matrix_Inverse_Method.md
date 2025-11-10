@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Matrix Inverse Method"
+topic: "Functions"
 type: Method
 status: in-progress
 importance: medium

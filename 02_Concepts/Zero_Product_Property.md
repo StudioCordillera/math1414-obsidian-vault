@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Zero Product Property"
+topic: "General Math"
 type: Claim
 status: stable
 importance: critical

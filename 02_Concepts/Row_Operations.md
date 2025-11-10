@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Row Operations"
+topic: "General Math"
 type: Method
 status: in-progress
 importance: high

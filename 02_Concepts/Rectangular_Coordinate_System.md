@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Rectangular Coordinate System"
+topic: "Systems & Matrices"
 title: Rectangular Coordinate System
 type: Definition
 status: review

@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Algebraic Manipulation"
+topic: "General Math"
 type: Topic
 status: in-progress
 importance: medium

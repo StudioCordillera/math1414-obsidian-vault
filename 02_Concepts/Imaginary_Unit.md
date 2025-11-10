@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Imaginary Unit"
+topic: "General Math"
 type: Definition
 status: stable
 importance: critical

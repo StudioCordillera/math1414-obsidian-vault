@@ -1,3 +1,9 @@
+---
+layout: concept
+title: "Polynomial and Rational Inequalities"
+topic: "Polynomials"
+---
+
 # Solving Polynomial and Rational Inequalities
 *The Sign Chart Method for Finding Solution Intervals*
 

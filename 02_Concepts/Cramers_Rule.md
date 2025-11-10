@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Cramers Rule"
+topic: "Systems & Matrices"
 type: Method
 status: in-progress
 importance: medium

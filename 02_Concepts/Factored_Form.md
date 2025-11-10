@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Factored Form"
+topic: "Polynomials"
 title: Factored Form (Polynomials)
 type: Topic
 status: review

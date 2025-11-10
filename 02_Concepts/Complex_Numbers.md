@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Complex Numbers"
+topic: "General Math"
 type: Definition
 status: stable
 importance: high

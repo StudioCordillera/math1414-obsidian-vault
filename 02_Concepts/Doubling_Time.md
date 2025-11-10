@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Doubling Time"
+topic: "General Math"
 type: Application
 status: review
 importance: medium

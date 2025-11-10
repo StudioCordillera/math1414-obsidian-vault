@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Completing the Square"
+topic: "General Math"
 title: Completing the Square
 type: Method
 status: review

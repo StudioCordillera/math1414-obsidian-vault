@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Exponential Equations"
+topic: "Exponential & Logarithmic"
 title: Exponential Equations
 type: Method
 status: review

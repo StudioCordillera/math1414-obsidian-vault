@@ -1,3 +1,9 @@
+---
+layout: concept
+title: "Real World Applications"
+topic: "General Math"
+---
+
 # Real-World Applications of Quadratic and Polynomial Functions
 *Connecting Math to Practical Problem-Solving*
 

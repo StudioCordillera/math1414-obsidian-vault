@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "System Types"
+topic: "Systems & Matrices"
 title: System Types
 type: Topic
 status: in-progress

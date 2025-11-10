@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Radical Equations"
+topic: "Equations & Inequalities"
 type: Method
 status: stable
 importance: high

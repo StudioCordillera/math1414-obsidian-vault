@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Function Transformations"
+topic: "Functions"
 title: Function Transformations
 type: Method
 status: review

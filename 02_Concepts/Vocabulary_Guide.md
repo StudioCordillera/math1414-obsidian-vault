@@ -1,3 +1,9 @@
+---
+layout: concept
+title: "Vocabulary Guide"
+topic: "General Math"
+---
+
 # COMPREHENSIVE VOCABULARY GUIDE v2.0
 ## Master Index for Relational Mathematics Framework
 **Version**: 2.0  

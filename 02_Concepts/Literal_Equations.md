@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Literal Equations"
+topic: "Equations & Inequalities"
 title: Literal Equations (Solving for a Variable)
 type: Method
 status: review

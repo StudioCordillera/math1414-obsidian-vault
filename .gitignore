@@ -66,3 +66,13 @@ node_modules/
 venv/
 env/
 .env
+
+# Jekyll build files
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+Gemfile.lock
+
+# Local scripts
+add_frontmatter.py

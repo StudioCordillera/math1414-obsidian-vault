@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Special Product Patterns"
+topic: "General Math"
 type: Definition
 status: stable
 importance: critical

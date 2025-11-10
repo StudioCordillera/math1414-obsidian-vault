@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Rational Equations"
+topic: "Equations & Inequalities"
 type: Method
 status: stable
 importance: high

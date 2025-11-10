@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Linear Systems"
+topic: "Systems & Matrices"
 type: Topic
 status: in-progress
 importance: high

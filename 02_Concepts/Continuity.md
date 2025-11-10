@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Continuity"
+topic: "General Math"
 title: Continuity
 type: Definition
 status: review

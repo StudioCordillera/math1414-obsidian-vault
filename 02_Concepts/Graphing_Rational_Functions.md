@@ -1,3 +1,9 @@
+---
+layout: concept
+title: "Graphing Rational Functions"
+topic: "Functions"
+---
+
 # Graphing Rational Functions
 *Understanding Asymptotes, Holes, and Discontinuities*
 

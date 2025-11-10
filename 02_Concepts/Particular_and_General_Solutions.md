@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Particular and General Solutions"
+topic: "General Math"
 title: Particular and General Solutions
 type: Topic
 status: in-progress

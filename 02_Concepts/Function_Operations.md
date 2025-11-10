@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Function Operations"
+topic: "Functions"
 title: Function Operations
 type: Method
 status: review

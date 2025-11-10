@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Square Root Property"
+topic: "Polynomials"
 type: Claim
 status: stable
 importance: critical

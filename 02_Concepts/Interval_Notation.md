@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Interval Notation"
+topic: "General Math"
 type: Definition
 status: stable
 importance: high

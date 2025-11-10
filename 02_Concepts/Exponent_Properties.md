@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Exponent Properties"
+topic: "General Math"
 type: Claim
 status: stable
 importance: critical

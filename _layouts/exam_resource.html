@@ -1,0 +1,161 @@
+---
+layout: default
+---
+
+<div class="exam-resource-header">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+        <div>
+            <h1>{{ page.title | default: page.name | replace: '_', ' ' | replace: '-', ' ' }}</h1>
+            <span style="background: var(--accent-color); color: white; padding: 4px 12px; border-radius: 15px; font-size: 0.9em;">
+                🎓 Exam Resource
+            </span>
+        </div>
+        <div class="resource-actions">
+            <a href="{{ site.baseurl }}/01_Course/Exam_Resources/" style="background: var(--light-bg); padding: 8px 16px; border-radius: 4px; text-decoration: none; color: var(--text-color);">
+                ← Back to Exam Prep
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="exam-resource-content">
+    {{ content }}
+</div>
+
+<div class="exam-resource-footer" style="margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--border-color);">
+    <div style="background: var(--light-bg); padding: 20px; border-radius: 6px;">
+        <h3>🎯 Exam Success Resources</h3>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px;">
+            <div>
+                <strong>📋 Study Plans</strong><br>
+                <a href="{{ site.baseurl }}/01_Course/Exam_Resources/">All Study Materials</a>
+            </div>
+            <div>
+                <strong>📝 Practice Problems</strong><br>
+                <a href="{{ site.baseurl }}/01_Course/Exercise_Databases/">Exercise Databases</a>
+            </div>
+            <div>
+                <strong>📚 Quick Reference</strong><br>
+                <a href="{{ site.baseurl }}/02_Concepts/">Concept Library</a>
+            </div>
+            <div>
+                <strong>📖 Course Materials</strong><br>
+                <a href="{{ site.baseurl }}/01_Course/">Textbook Resources</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+.exam-resource-content h2 {
+    background: linear-gradient(90deg, var(--accent-color), transparent);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin-top: 30px;
+}
+
+.exam-resource-content h3 {
+    border-left: 4px solid var(--accent-color);
+    padding-left: 15px;
+    background: #fdeaea;
+    padding: 10px 15px;
+    border-radius: 0 6px 6px 0;
+}
+
+/* Priority indicators */
+.exam-resource-content .high-priority {
+    background: #fdeaea;
+    border: 2px solid var(--accent-color);
+    border-radius: 6px;
+    padding: 15px;
+    margin: 15px 0;
+}
+
+.exam-resource-content .medium-priority {
+    background: #fff3e0;
+    border: 2px solid var(--warning-color);
+    border-radius: 6px;
+    padding: 15px;
+    margin: 15px 0;
+}
+
+.exam-resource-content .low-priority {
+    background: #e8f5e8;
+    border: 2px solid var(--success-color);
+    border-radius: 6px;
+    padding: 15px;
+    margin: 15px 0;
+}
+
+/* Study tip highlighting */
+.exam-resource-content .tip {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 15px;
+    border-radius: 6px;
+    margin: 15px 0;
+}
+
+.exam-resource-content .tip::before {
+    content: "💡 Study Tip";
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* Formula boxes */
+.exam-resource-content .formula-box {
+    background: #f8f9fa;
+    border: 2px solid var(--primary-color);
+    border-radius: 6px;
+    padding: 15px;
+    text-align: center;
+    font-family: 'Monaco', 'Menlo', monospace;
+    font-size: 1.1em;
+    margin: 15px 0;
+}
+
+/* Checklist styling */
+.exam-resource-content ul.checklist {
+    list-style: none;
+    padding-left: 0;
+}
+
+.exam-resource-content ul.checklist li::before {
+    content: "☐ ";
+    font-size: 1.2em;
+    color: var(--primary-color);
+    margin-right: 8px;
+}
+
+.exam-resource-content ul.checklist li.completed::before {
+    content: "☑ ";
+    color: var(--success-color);
+}
+
+/* Timeline styling */
+.exam-resource-content .timeline-item {
+    display: flex;
+    align-items: flex-start;
+    margin: 15px 0;
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 6px;
+    border-left: 4px solid var(--primary-color);
+}
+
+.exam-resource-content .timeline-badge {
+    background: var(--primary-color);
+    color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-right: 15px;
+    flex-shrink: 0;
+}
+</style>

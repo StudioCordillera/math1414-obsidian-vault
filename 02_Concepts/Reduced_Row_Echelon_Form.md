@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Reduced Row Echelon Form"
+topic: "General Math"
 type: Definition
 status: in-progress
 importance: medium

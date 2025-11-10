@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Function Notation"
+topic: "Functions"
 title: Function Notation
 type: Definition
 status: review

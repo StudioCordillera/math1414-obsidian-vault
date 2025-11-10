@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Linear Equations"
+topic: "Systems & Matrices"
 type: Definition
 status: stable
 importance: critical

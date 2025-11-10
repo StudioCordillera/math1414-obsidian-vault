@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Distance Rate Time Problems"
+topic: "General Math"
 title: Distance-Rate-Time Problems
 type: Method
 status: in-progress

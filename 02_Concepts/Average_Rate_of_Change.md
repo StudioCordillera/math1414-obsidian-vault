@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Average Rate of Change"
+topic: "General Math"
 title: Average Rate of Change
 type: Method
 status: review

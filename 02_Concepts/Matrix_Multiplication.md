@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Matrix Multiplication"
+topic: "Systems & Matrices"
 type: Method
 status: in-progress
 importance: high

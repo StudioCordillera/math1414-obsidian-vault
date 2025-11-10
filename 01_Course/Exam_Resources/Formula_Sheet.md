@@ -1,3 +1,10 @@
+---
+layout: exam_resource
+title: "One-Page Formula Sheet"
+description: "Everything You Need on a Single Page"
+priority: high
+---
+
 # One-Page Formula Sheet
 *Everything You Need on a Single Page*
 

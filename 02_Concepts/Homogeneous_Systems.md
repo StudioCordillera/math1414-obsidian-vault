@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Homogeneous Systems"
+topic: "Systems & Matrices"
 title: Homogeneous Systems
 type: Topic
 status: in-progress

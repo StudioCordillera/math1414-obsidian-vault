@@ -1,0 +1,108 @@
+---
+layout: default
+---
+
+<div class="concept-header">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+        <div>
+            <h1>{{ page.title | default: page.name | replace: '_', ' ' | replace: '-', ' ' }}</h1>
+            {% if page.topic %}
+            <span style="background: var(--primary-color); color: white; padding: 4px 12px; border-radius: 15px; font-size: 0.9em;">
+                📖 {{ page.topic }}
+            </span>
+            {% endif %}
+        </div>
+        <div class="concept-actions">
+            <a href="{{ site.baseurl }}/02_Concepts/" style="background: var(--light-bg); padding: 8px 16px; border-radius: 4px; text-decoration: none; color: var(--text-color);">
+                ← Back to Concepts
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="concept-content">
+    {{ content }}
+</div>
+
+<div class="concept-footer" style="margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--border-color);">
+    <div style="background: var(--light-bg); padding: 20px; border-radius: 6px;">
+        <h3>🔗 Related Resources</h3>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px;">
+            <div>
+                <strong>📚 More Concepts</strong><br>
+                <a href="{{ site.baseurl }}/02_Concepts/">Browse All Concepts</a>
+            </div>
+            <div>
+                <strong>📝 Practice Problems</strong><br>
+                <a href="{{ site.baseurl }}/01_Course/Exercise_Databases/">Exercise Databases</a>
+            </div>
+            <div>
+                <strong>🎓 Exam Prep</strong><br>
+                <a href="{{ site.baseurl }}/01_Course/Exam_Resources/">Study Resources</a>
+            </div>
+            <div>
+                <strong>📖 Course Materials</strong><br>
+                <a href="{{ site.baseurl }}/01_Course/">Textbook Resources</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+.concept-content h2 {
+    background: linear-gradient(90deg, var(--primary-color), transparent);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin-top: 30px;
+}
+
+.concept-content h3 {
+    border-left: 4px solid var(--primary-color);
+    padding-left: 15px;
+    background: var(--light-bg);
+    padding: 10px 15px;
+    border-radius: 0 6px 6px 0;
+}
+
+.concept-content ul li {
+    margin: 10px 0;
+}
+
+.concept-content .math {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 6px;
+    border-left: 4px solid var(--success-color);
+    margin: 15px 0;
+}
+
+/* Formula highlighting */
+.concept-content .formula {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1.2em;
+    margin: 20px 0;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+/* Example boxes */
+.concept-content .example {
+    background: #e8f5e8;
+    border: 1px solid #27ae60;
+    border-radius: 6px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.concept-content .example::before {
+    content: "💡 Example";
+    font-weight: bold;
+    color: #27ae60;
+    display: block;
+    margin-bottom: 10px;
+}
+</style>

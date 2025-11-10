@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    
+    <!-- SEO -->
+    {% seo %}
+    
+    <style>
+        :root {
+            --primary-color: #3498db;
+            --secondary-color: #2c3e50;
+            --accent-color: #e74c3c;
+            --success-color: #27ae60;
+            --warning-color: #f39c12;
+            --light-bg: #f8f9fa;
+            --white: #ffffff;
+            --text-color: #333333;
+            --muted-color: #7f8c8d;
+            --border-color: #ecf0f1;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            background-color: var(--light-bg);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 20px 0;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            margin: 0;
+            text-align: center;
+            font-size: 2.5rem;
+        }
+
+        .header .subtitle {
+            text-align: center;
+            opacity: 0.9;
+            margin-top: 10px;
+        }
+
+        /* Navigation */
+        .nav {
+            background: white;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .nav a {
+            display: inline-block;
+            margin: 5px 10px;
+            padding: 8px 16px;
+            color: var(--primary-color);
+            text-decoration: none;
+            border-radius: 4px;
+            transition: all 0.3s;
+            font-weight: 500;
+        }
+
+        .nav a:hover {
+            background: var(--primary-color);
+            color: white;
+        }
+
+        /* Main content */
+        .main-content {
+            background: white;
+            border-radius: 8px;
+            padding: 40px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+
+        /* Typography */
+        .main-content h1 {
+            color: var(--secondary-color);
+            border-bottom: 3px solid var(--primary-color);
+            padding-bottom: 10px;
+            margin-bottom: 25px;
+        }
+
+        .main-content h2 {
+            color: var(--secondary-color);
+            margin-top: 35px;
+            margin-bottom: 15px;
+        }
+
+        .main-content h3 {
+            color: var(--primary-color);
+            margin-top: 25px;
+            margin-bottom: 12px;
+        }
+
+        /* Links */
+        .main-content a {
+            color: var(--primary-color);
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.3s;
+        }
+
+        .main-content a:hover {
+            border-bottom-color: var(--primary-color);
+        }
+
+        /* Code blocks */
+        code {
+            background: var(--light-bg);
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+        }
+
+        pre {
+            background: var(--light-bg);
+            padding: 20px;
+            border-radius: 6px;
+            overflow-x: auto;
+            border-left: 4px solid var(--primary-color);
+        }
+
+        pre code {
+            background: none;
+            padding: 0;
+        }
+
+        /* Tables */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th, td {
+            border: 1px solid var(--border-color);
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background: var(--light-bg);
+            font-weight: 600;
+        }
+
+        /* Lists */
+        ul, ol {
+            margin: 15px 0;
+            padding-left: 25px;
+        }
+
+        li {
+            margin: 8px 0;
+        }
+
+        /* Blockquotes */
+        blockquote {
+            border-left: 4px solid var(--primary-color);
+            padding-left: 20px;
+            margin: 20px 0;
+            color: var(--muted-color);
+            font-style: italic;
+        }
+
+        /* Footer */
+        .footer {
+            background: var(--secondary-color);
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+            margin-top: 50px;
+        }
+
+        .footer a {
+            color: var(--primary-color);
+        }
+
+        /* Breadcrumb */
+        .breadcrumb {
+            background: white;
+            padding: 15px;
+            border-radius: 6px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+
+        .breadcrumb a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        .breadcrumb .separator {
+            margin: 0 8px;
+            color: var(--muted-color);
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+
+            .main-content {
+                padding: 20px;
+            }
+
+            .header h1 {
+                font-size: 2rem;
+            }
+
+            .nav a {
+                display: block;
+                margin: 5px 0;
+            }
+        }
+
+        /* Math support */
+        .math {
+            overflow-x: auto;
+        }
+
+        /* Obsidian link conversion */
+        .internal-link {
+            color: var(--primary-color);
+            font-weight: 500;
+            text-decoration: none;
+            border-bottom: 1px dotted var(--primary-color);
+        }
+
+        .internal-link:hover {
+            border-bottom-style: solid;
+        }
+    </style>
+    
+    <!-- MathJax for mathematical expressions -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            }
+        };
+    </script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>📚 {{ site.title }}</h1>
+            <div class="subtitle">{{ site.description }}</div>
+        </div>
+    </header>
+
+    <div class="container">
+        <nav class="nav">
+            <a href="{{ site.baseurl }}/">🏠 Home</a>
+            <a href="{{ site.baseurl }}/02_Concepts/">📚 Concepts</a>
+            <a href="{{ site.baseurl }}/01_Course/">📖 Course Materials</a>
+            <a href="{{ site.baseurl }}/01_Course/Exercise_Databases/">📝 Exercises</a>
+            <a href="{{ site.baseurl }}/01_Course/Exam_Resources/">🎓 Exam Prep</a>
+        </nav>
+
+        {% if page.url != "/" %}
+        <div class="breadcrumb">
+            <a href="{{ site.baseurl }}/">Home</a>
+            {% assign parts = page.url | split: '/' %}
+            {% assign current_path = '' %}
+            {% for part in parts %}
+                {% unless part == '' %}
+                    {% assign current_path = current_path | append: '/' | append: part %}
+                    <span class="separator">→</span>
+                    {% if forloop.last %}
+                        <span>{{ page.title | default: part | replace: '_', ' ' | replace: '-', ' ' | capitalize }}</span>
+                    {% else %}
+                        <a href="{{ site.baseurl }}{{ current_path }}/">{{ part | replace: '_', ' ' | replace: '-', ' ' | capitalize }}</a>
+                    {% endif %}
+                {% endunless %}
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        <main class="main-content">
+            {{ content }}
+        </main>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p><strong>{{ site.title }}</strong></p>
+            <p>Built with <a href="https://obsidian.md">Obsidian</a> & <a href="https://jekyllrb.com">Jekyll</a> • Fall 2025</p>
+            <p><em>"Mathematics is not about numbers, equations, computations, or algorithms: it is about understanding."</em><br>
+            - William Paul Thurston</p>
+        </div>
+    </footer>
+
+    <script>
+        // Convert Obsidian-style links to proper HTML links
+        document.addEventListener('DOMContentLoaded', function() {
+            const content = document.querySelector('.main-content');
+            if (content) {
+                // Convert [[Link]] format to proper links
+                content.innerHTML = content.innerHTML.replace(
+                    /\[\[([^\]]+)\]\]/g,
+                    '<a href="{{ site.baseurl }}/02_Concepts/$1/" class="internal-link">$1</a>'
+                );
+                
+                // Convert file extensions in links
+                content.innerHTML = content.innerHTML.replace(
+                    /href="([^"]+)\.md"/g,
+                    'href="$1/"'
+                );
+            }
+        });
+    </script>
+</body>
+</html>

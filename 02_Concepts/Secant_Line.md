@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Secant Line"
+topic: "General Math"
 title: Secant Line
 type: Definition
 status: in-progress

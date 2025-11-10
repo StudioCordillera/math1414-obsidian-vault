@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Logarithmic Functions"
+topic: "Functions"
 type: Topic
 status: review
 importance: high

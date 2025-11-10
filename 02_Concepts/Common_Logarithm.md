@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Common Logarithm"
+topic: "Exponential & Logarithmic"
 type: Definition
 status: in-progress
 importance: medium

@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Gauss Jordan Elimination"
+topic: "General Math"
 type: Method
 status: in-progress
 importance: high

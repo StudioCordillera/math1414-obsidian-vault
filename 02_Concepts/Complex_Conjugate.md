@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Complex Conjugate"
+topic: "General Math"
 title: Complex Conjugate
 type: Definition
 status: in-progress

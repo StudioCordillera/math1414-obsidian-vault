@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Mixture Problems"
+topic: "General Math"
 title: Mixture Problems
 type: Method
 status: in-progress

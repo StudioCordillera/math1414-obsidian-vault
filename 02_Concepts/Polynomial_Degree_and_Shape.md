@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Polynomial Degree and Shape"
+topic: "Polynomials"
 type: Topic
 status: review
 importance: high

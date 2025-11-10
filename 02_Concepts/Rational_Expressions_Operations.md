@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Rational Expressions Operations"
+topic: "General Math"
 type: Method
 status: stable
 importance: critical

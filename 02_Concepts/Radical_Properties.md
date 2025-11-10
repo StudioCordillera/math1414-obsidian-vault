@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Radical Properties"
+topic: "General Math"
 type: Definition
 status: stable
 importance: critical

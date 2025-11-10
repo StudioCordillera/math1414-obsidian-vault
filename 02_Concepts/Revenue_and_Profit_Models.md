@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Revenue and Profit Models"
+topic: "General Math"
 type: Topic
 status: review
 importance: high

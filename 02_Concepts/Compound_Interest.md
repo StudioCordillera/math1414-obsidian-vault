@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Compound Interest"
+topic: "General Math"
 type: Application
 status: review
 importance: high

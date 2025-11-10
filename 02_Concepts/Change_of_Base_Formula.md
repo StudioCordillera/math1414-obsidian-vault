@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Change of Base Formula"
+topic: "General Math"
 type: Method
 status: review
 importance: high

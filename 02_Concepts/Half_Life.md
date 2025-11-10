@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Half Life"
+topic: "General Math"
 type: Application
 status: review
 importance: medium

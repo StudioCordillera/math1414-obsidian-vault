@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Factoring Strategies"
+topic: "Polynomials"
 type: Method
 status: stable
 importance: critical

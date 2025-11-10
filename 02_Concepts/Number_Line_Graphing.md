@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Number Line Graphing"
+topic: "General Math"
 type: Method
 status: in-progress
 importance: medium

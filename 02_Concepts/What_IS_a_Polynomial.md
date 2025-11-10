@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "What IS a Polynomial"
+topic: "Polynomials"
 title: What IS a Polynomial?
 type: Topic
 status: review

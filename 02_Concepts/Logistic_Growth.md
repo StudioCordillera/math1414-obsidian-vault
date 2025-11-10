@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Logistic Growth"
+topic: "Exponential & Logarithmic"
 type: Topic
 status: in-progress
 importance: medium

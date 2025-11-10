@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Work Problems"
+topic: "General Math"
 title: Work Problems (Combined Rates)
 type: Method
 status: in-progress

@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Parallel and Perpendicular Lines"
+topic: "General Math"
 title: Parallel and Perpendicular Lines
 type: Definition
 status: review

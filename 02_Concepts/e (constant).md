@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "e (constant)"
+topic: "General Math"
 type: Definition
 status: in-progress
 importance: high

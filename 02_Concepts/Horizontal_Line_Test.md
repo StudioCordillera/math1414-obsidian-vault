@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Horizontal Line Test"
+topic: "General Math"
 type: Definition
 status: review
 importance: high

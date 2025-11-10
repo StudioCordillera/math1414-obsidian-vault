@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Quadratic Optimization"
+topic: "Polynomials"
 type: Method
 status: review
 importance: high

@@ -1,7 +1,9 @@
 ---
+layout: exercise
 type: Definition
 status: review
 importance: critical
+title: "Chapter 4 Section 4.1 - Exponential Functions Exercises"
 tags:
   - concept/functions
   - chapter-4

@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Equation Types"
+topic: "Equations & Inequalities"
 title: Equation Types (Identity, Contradiction, Conditional)
 type: Definition
 status: review

@@ -1,3 +1,9 @@
+---
+layout: concept
+title: "Functions Relations Graphs"
+topic: "Functions"
+---
+
 # Functions, Relations, and Graphs
 *The Foundation of Mathematical Relationships*
 

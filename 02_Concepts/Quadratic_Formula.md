@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Quadratic Formula"
+topic: "Polynomials"
 type: Definition
 status: stable
 importance: critical

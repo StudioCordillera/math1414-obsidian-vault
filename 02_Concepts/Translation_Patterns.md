@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Translation Patterns"
+topic: "General Math"
 title: Translation Patterns (Words → Algebra)
 type: Method
 status: in-progress

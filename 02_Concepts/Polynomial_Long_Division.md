@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "Polynomial Long Division"
+topic: "Polynomials"
 type: Method
 status: in-progress
 importance: high

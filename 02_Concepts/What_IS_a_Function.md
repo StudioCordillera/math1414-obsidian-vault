@@ -1,4 +1,7 @@
 ---
+layout: concept
+title: "What IS a Function"
+topic: "Functions"
 title: What IS a Function?
 type: Definition
 status: review
