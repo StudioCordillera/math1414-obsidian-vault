@@ -15,25 +15,16 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 
+# Permalink settings for clean URLs
+permalink: pretty
+
 # Plugins
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
 
-# Collections for better organization
-collections:
-  concepts:
-    output: true
-    permalink: /concepts/:name/
-  exercises:
-    output: true
-    permalink: /exercises/:name/
-  exam_resources:
-    output: true
-    permalink: /exam-resources/:name/
-
-# Defaults for front matter
+# Defaults for front matter - configure layouts for different directories
 defaults:
   - scope:
       path: "02_Concepts"
