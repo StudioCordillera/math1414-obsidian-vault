@@ -219,7 +219,7 @@
             
             grid.innerHTML = filteredConcepts.map(concept => `
                 <div class="concept-card">
-                    <h3><a href="https://github.com/StudioCordillera/math1414-obsidian-vault/blob/main/02_Concepts/${concept.name}.md">${concept.title}</a></h3>
+                    <h3><a href="../02_Concepts/${concept.name}/">${concept.title}</a></h3>
                     <span class="topic">${concept.topic}</span>
                 </div>
             `).join('');
