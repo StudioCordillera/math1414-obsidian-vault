@@ -1,35 +1,43 @@
 ---
 layout: concept
-title: "Synthetic Division"
-topic: "General Math"
+title: Synthetic Division
+topic: General Math
 type: Method
 status: review
 importance: high
 tags:
-  - concept/algebra
-  - chapter-3
-  - math/polynomials
-  - method/division
+- concept/algebra
+- chapter-3
+- math/polynomials
+- method/division
 sources:
-  - "Textbook Chapter 3"
+- Textbook Chapter 3
 source_refs:
-  - "Ch.3 — Polynomial functions"
+- Ch.3 — Polynomial functions
 relations:
   broader:
-    - "[[Finding_Polynomial_Roots]]"
-    - "[[Division_Algorithm]]"
+  - '[[Finding_Polynomial_Roots]]'
+  - '[[Division_Algorithm]]'
   narrower: []
   depends_on:
-    - "[[Remainder_Theorem]]"
-    - "[[Factor_Theorem]]"
+  - '[[Remainder_Theorem]]'
+  - '[[Factor_Theorem]]'
   defines: []
   related:
-    - "[[Rational_Root_Theorem]]"
-    - "[[Constructing_Polynomials_from_Roots]]"
+  - '[[Rational_Root_Theorem]]'
+  - '[[Constructing_Polynomials_from_Roots]]'
   used_in:
-    - "[[Finding_Polynomial_Roots]]"
+  - '[[Finding_Polynomial_Roots]]'
 created: 2025-10-21
-updated: 2025-10-25
+updated: 2025-11-16
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
+related:
+- '[[Factor_Theorem]]'
+- '[[Factoring_Polynomials]]'
+- '[[Polynomial_Long_Division]]'
+- '[[Remainder_Theorem]]'
 ---
 # Synthetic Division and the Remainder Theorem
 *The Fast-Track Method for Polynomial Division*

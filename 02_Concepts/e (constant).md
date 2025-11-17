@@ -21,7 +21,10 @@ relations:
     - [[Growth_and_Decay_Models]]
     - [[Logarithmic_Functions]]
 created: 2025-10-30
-updated: 2025-10-30
+updated: 2025-11-16
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
 ---
 
 # The Constant e

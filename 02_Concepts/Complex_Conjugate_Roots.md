@@ -2,6 +2,10 @@
 layout: concept
 title: "Complex Conjugate Roots"
 topic: "Polynomials"
+updated: 2025-11-16
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
 ---
 
 # Complex Conjugate Roots

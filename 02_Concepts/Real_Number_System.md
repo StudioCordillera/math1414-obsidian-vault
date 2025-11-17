@@ -1,9 +1,16 @@
 ---
 layout: concept
-title: "Real Number System"
-topic: "Systems & Matrices"
+title: Real Number System
+topic: Systems & Matrices
+created: 2025-10-19
+updated: 2025-11-16
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
+narrower:
+- '[[Complex_Numbers]]'
+- '[[Radical_Properties]]'
 ---
-
 # The Real Number System
 *The Foundation of All Algebra*
 

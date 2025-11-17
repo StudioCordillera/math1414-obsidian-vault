@@ -1,31 +1,42 @@
 ---
 layout: concept
-title: "Graphing Quadratic Functions"
-topic: "Functions"
+title: Graphing Quadratic Functions
+topic: Functions
 type: Topic
 status: review
 importance: high
 tags:
-  - concept/algebra
-  - chapter-3
-  - math/quadratics
-  - method/graphing
+- concept/algebra
+- chapter-3
+- math/quadratics
+- method/graphing
 relations:
   broader:
-    - "[[Graphing_Functions]]"
+  - '[[Graphing_Functions]]'
   narrower: []
   depends_on:
-    - "[[Vertex_Form]]"
-    - "[[Quadratic_Formula]]"
-    - "[[Completing_the_Square]]"
-    - "[[The_Discriminant]]"
+  - '[[Vertex_Form]]'
+  - '[[Quadratic_Formula]]'
+  - '[[Completing_the_Square]]'
+  - '[[The_Discriminant]]'
   related:
-    - "[[Master_Transformation_Map]]"
-    - "[[Domain_and_Range]]"
+  - '[[Master_Transformation_Map]]'
+  - '[[Domain_and_Range]]'
   used_in: []
 review:
   next: 2025-11-24
-updated: 2025-10-24
+updated: 2025-11-16
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
+related:
+- '[[Completing_the_Square]]'
+- '[[Constructing_Polynomials_from_Roots]]'
+defines:
+- '[[Factored_Form]]'
+- '[[Quadratic_Formula]]'
+narrower:
+- '[[Vertex_Form]]'
 ---
 # Graphing Quadratic Functions
 #quadratics #graphing #parabolas #vertex #transformations #foundational

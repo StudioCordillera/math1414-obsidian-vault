@@ -18,6 +18,8 @@ Following the Universal Knowledge Framework approach, this document extracts:
 
 ## 📐 SECTION R.1: SETS AND THE REAL NUMBER LINE
 
+> See [[Real_Number_System]] for comprehensive coverage of number classifications.
+
 ### Core Concept: Real Number System Hierarchy
 
 **The Foundation Structure**:
@@ -59,6 +61,8 @@ graph TD
 ---
 
 ### Method 1: Interval Notation Translation
+
+> See [[Interval_Notation]] for detailed coverage.
 
 **Purpose**: Convert between set-builder and interval notation
 
@@ -120,6 +124,8 @@ D ∪ E = ℝ                  ← covers entire real line
 
 ### Method 3: Absolute Value Interpretation
 
+> See [[Absolute_Value]] for complete theory and applications.
+
 **Definition**: Distance from zero on number line
 ```
 |x| = {  x    if x ≥ 0
@@ -158,6 +164,8 @@ To simplify |expression|:
 ---
 
 ### Method 4: Order of Operations (PEMDAS)
+
+> See [[Order_of_Operations]] for comprehensive examples.
 
 **Critical Sequence**:
 1. **P**arentheses (and other grouping: |  |, √‾, fraction bars)
@@ -209,6 +217,8 @@ Step 7: Final subtraction: 7 + 20 = 27
 ---
 
 ### Method 5: Properties of Real Numbers (Algebraic Structure)
+
+> See [[Algebraic_Manipulation]] for application examples.
 
 **Commutative Properties**:
 ```
@@ -339,6 +349,8 @@ b⁻ⁿ = 1/bⁿ = (1/b)ⁿ    (for b ≠ 0)
 ---
 
 ### Method 2: Properties of Exponents
+
+> See [[Exponent_Properties]] for comprehensive coverage of all exponent rules.
 
 **Product Rule**: Same base → add exponents
 ```
@@ -588,6 +600,8 @@ Method 2: Power first, then root
 ---
 
 ### Method 3: Properties of Radicals
+
+> See [[Radical_Properties]] for detailed property explanations and examples.
 
 **Product Property**:
 ```
@@ -840,6 +854,8 @@ Properties → Simplification → Modeling
 
 ## 📐 SECTION R.4: POLYNOMIALS AND MULTIPLICATION OF RADICALS
 
+> See [[What_IS_a_Polynomial]] for comprehensive polynomial theory.
+
 ### Core Concept: Polynomial Structure
 
 **Definition**: A polynomial in x is an expression of the form:
@@ -941,6 +957,8 @@ ________________________
 
 ### Method 3: Special Product Patterns
 
+> See [[Special_Product_Patterns]] and [[Difference_of_Squares]] for extensive examples.
+
 **Pattern 1: Sum and Difference (Difference of Squares)**
 ```
 (a + b)(a − b) = a² − b²
@@ -1019,6 +1037,8 @@ Example: (2 + √3)(2 − √3) = 4 − 3 = 1
 ---
 
 ## 📐 SECTION R.5: FACTORING
+
+> See [[Factoring_Strategies]] and [[Factoring_Polynomials]] for comprehensive coverage.
 
 ### Core Concept: Factoring as Reverse Multiplication
 
@@ -1154,11 +1174,13 @@ Mnemonic: "SOAP" (Same sign, Opposite sign, Always Positive)
 
 ## 📐 SECTION R.6: RATIONAL EXPRESSIONS AND MORE OPERATIONS ON RADICALS
 
+> See [[Rational_Expressions_Operations]] for detailed coverage of all operations.
+
 ### Core Concept: Rational Expressions
 
 **Definition**: Ratio of two polynomials, P(x)/Q(x) where Q(x) ≠ 0
 
-**Domain Restrictions**: Values that make denominator zero are excluded
+**Domain Restrictions**: Values that make denominator zero are excluded (see [[Domain_Restrictions]])
 
 Example:
 ```
@@ -1372,6 +1394,40 @@ All concepts in Chapter R are essential for:
 ---
 
 **Chapter R Complete**: All 6 sections extracted with comprehensive method documentation, implicit knowledge identification, common errors, and mastery checklists.
+
+---
+
+## 🔗 Related Concepts
+
+### Foundation Concepts
+- [[Real_Number_System]] - Number type classifications (ℕ, ℤ, ℚ, ℝ, ℂ)
+- [[Interval_Notation]] - Representing sets and inequalities
+- [[Absolute_Value]] - Distance interpretation and properties
+- [[Order_of_Operations]] - PEMDAS evaluation sequence
+- [[Algebraic_Manipulation]] - Properties of real numbers and simplification
+
+### Exponent & Radical Concepts  
+- [[Exponent_Properties]] - Product, quotient, power rules
+- [[Radical_Properties]] - nth-roots, rationalization, simplification
+- [[Complex_Numbers]] - Extending real numbers with imaginary unit
+
+### Polynomial Concepts
+- [[What_IS_a_Polynomial]] - Structure, degree, classification
+- [[Special_Product_Patterns]] - Binomial squares, difference of squares
+- [[Difference_of_Squares]] - a² - b² factoring pattern
+- [[Factoring_Strategies]] - Systematic approach to factoring
+- [[Factoring_Polynomials]] - GCF, grouping, trinomials, special patterns
+
+### Rational Expression Concepts
+- [[Rational_Expressions_Operations]] - Simplifying, multiplying, dividing, adding, subtracting
+- [[Domain_Restrictions]] - Excluded values from denominators
+
+### Supporting Concepts
+- [[Zero_Product_Property]] - Used in equation solving (Chapter 1)
+- [[Completing_the_Square]] - Quadratic technique building on polynomials
+- [[Quadratic_Formula]] - Derived using Chapter R skills
+
+---
 
 **Navigation**:
 - [[01_Course/Textbook/Index|← Textbook Index]]

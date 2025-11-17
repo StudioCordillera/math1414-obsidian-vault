@@ -30,7 +30,7 @@ Following the Universal Knowledge Framework approach, this document extracts:
 
 ### Method 1: Solving Linear Equations
 
-**Linear Equation in One Variable**: ax + b = 0, where a ≠ 0
+**[[Linear_Equations|Linear Equation]] in One Variable**: ax + b = 0, where a ≠ 0
 
 **Standard Solution Process**:
 ```
@@ -119,7 +119,7 @@ Recognition: Variables cancel, false statement remains (3 = 5)
 
 ### Method 3: Solving Rational Equations
 
-**Rational Equation**: Contains rational expressions (fractions with polynomials)
+**[[Rational_Equations|Rational Equation]]**: Contains rational expressions (fractions with polynomials)
 
 **Key Strategy**: Clear fractions by multiplying by LCD of all denominators
 
@@ -164,7 +164,7 @@ Step 6: Check restrictions
 ```
 
 #### 🧠 Implicit Knowledge Required
-- **Extraneous solutions**: Values that satisfy transformed equation but not original
+- **[[Extraneous_Solutions|Extraneous solutions]]**: Values that satisfy transformed equation but not original
 - Always arise when:
   - Multiplying by variable expression
   - Squaring both sides
@@ -403,6 +403,8 @@ Answer: 2.4 hours (or 2 hours 24 minutes)
 **Motivation**: √(-1) has no real solution, but we need it!
 
 **Imaginary Unit**: i = √(-1)
+
+> See [[Complex_Numbers]] for full theory and properties.
 ```
 Key property: i² = -1
 Powers of i cycle:
@@ -492,7 +494,7 @@ L: 2i(-4i) = -8i² = -8(-1) = 8
 
 ### Method 3: Complex Conjugates and Division
 
-**Complex Conjugate**: Change sign of imaginary part
+**[[Complex_Conjugate|Complex Conjugate]]**: Change sign of imaginary part
 ```
 Conjugate of (a + bi) is (a - bi)
 Notation: z̄ or z*
@@ -537,7 +539,7 @@ Step 4: Write in standard form
 
 ### Core Concept: Second-Degree Equations
 
-**Standard Form**: ax² + bx + c = 0, where a ≠ 0
+**[[Quadratic_Equations|Standard Form]]**: ax² + bx + c = 0, where a ≠ 0
 
 **Solution Methods**:
 1. Factoring
@@ -549,9 +551,9 @@ Step 4: Write in standard form
 
 ### Method 1: Solving by Factoring
 
-**Strategy**: Use Zero Product Property
+**Strategy**: Use [[Zero_Product_Property]]
 
-**Zero Product Property**: If AB = 0, then A = 0 or B = 0
+**[[Zero_Product_Property|Zero Product Property]]**: If AB = 0, then A = 0 or B = 0
 
 **Process**:
 ```
@@ -632,6 +634,8 @@ Solutions: x = 7, x = -1
 
 **Goal**: Transform ax² + bx + c = 0 into perfect square form
 
+> See [[Completing_the_Square]] for detailed theory and applications.
+
 **Process** (when a = 1):
 ```
 1. Move constant to right side: x² + bx = -c
@@ -676,7 +680,7 @@ Step 5: Solve
 
 ### Method 4: Quadratic Formula
 
-**The Quadratic Formula**:
+**The [[Quadratic_Formula|Quadratic Formula]]**:
 ```
 For ax² + bx + c = 0:
 
@@ -685,7 +689,7 @@ x = [-b ± √(b² - 4ac)] / (2a)
 
 **When to Use**: Universal method (works for all quadratics)
 
-**Discriminant**: b² - 4ac
+**[[The_Discriminant|Discriminant]]**: b² - 4ac
 ```
 If b² - 4ac > 0: Two distinct real solutions
 If b² - 4ac = 0: One repeated real solution
@@ -742,7 +746,7 @@ Solutions: x = (3 + √41)/4  or  x = (3 - √41)/4
 
 ### Method 1: Pythagorean Theorem Applications
 
-**Pythagorean Theorem**: For right triangle with legs a, b and hypotenuse c:
+**[[Pythagorean_Theorem]]**: For right triangle with legs a, b and hypotenuse c:
 ```
 a² + b² = c²
 ```
@@ -913,7 +917,7 @@ Solutions: x = 0, 3, 4
 
 **Strategy**: Isolate radical, then square both sides
 
-**CRITICAL**: Squaring can introduce extraneous solutions - MUST CHECK!
+**CRITICAL**: Squaring can introduce [[Extraneous_Solutions|extraneous solutions]] - MUST CHECK!
 
 **Process**:
 ```
@@ -1038,7 +1042,7 @@ Step 1: Isolate variable term
 Step 2: Divide by -3 (REVERSE inequality!)
      x < 3
 
-Step 3: Write in interval notation
+Step 3: Write in [[Interval_Notation|interval notation]]
      (-∞, 3)
 
 Step 4: Graph
@@ -1062,6 +1066,8 @@ Step 4: Graph
 ---
 
 ### Method 2: Compound Inequalities
+
+> See [[Compound_Inequalities]] for detailed theory.
 
 **Two Types**:
 
@@ -1123,6 +1129,8 @@ Graph: ←―――○     ○―――→
 ---
 
 ### Method 3: Absolute Value Inequalities
+
+> See [[Absolute_Value_Inequalities]] for complete coverage.
 
 **Two Cases Based on Inequality**:
 
@@ -1375,6 +1383,43 @@ What type of equation?
 
 **5. Transformation Reduces Complexity**
 > Many complex equations reduce to simpler forms through substitution, isolation, or algebraic manipulation.
+
+---
+
+## 🔗 RELATED CONCEPTS
+
+This chapter connects to these concept nodes in the vault:
+
+### Equation Types
+- [[Linear_Equations]] - First-degree equations (Section 1.1)
+- [[Quadratic_Equations]] - Second-degree equations (Section 1.4)
+- [[Rational_Equations]] - Equations with fractions (Section 1.1)
+- [[Radical_Equations]] - Equations with radicals (Section 1.6)
+- [[Polynomial_Equations]] - Higher-degree equations (Section 1.6)
+
+### Solution Methods
+- [[Zero_Product_Property]] - Foundation for solving by factoring (Section 1.4)
+- [[Completing_the_Square]] - Quadratic solution technique (Section 1.4)
+- [[Quadratic_Formula]] - Universal quadratic solver (Section 1.4)
+- [[The_Discriminant]] - Predicts solution types (Section 1.4)
+
+### Number Systems
+- [[Complex_Numbers]] - Extending real numbers (Section 1.3)
+- [[Complex_Conjugate]] - Division technique (Section 1.3)
+- [[Imaginary_Unit]] - Powers of i (Section 1.3)
+
+### Inequalities
+- [[Compound_Inequalities]] - AND/OR combinations (Section 1.7)
+- [[Absolute_Value_Inequalities]] - Distance-based inequalities (Section 1.7)
+- [[Interval_Notation]] - Solution set representation (Section 1.7)
+
+### Applications
+- [[Pythagorean_Theorem]] - Right triangle applications (Section 1.5)
+- [[Distance_Rate_Time_Problems]] - Motion problems (Section 1.2)
+- [[Mixture_Problems]] - Concentration problems (Section 1.2)
+
+### Solution Verification
+- [[Extraneous_Solutions]] - False solutions from transformations (Sections 1.1, 1.6)
 
 ---
 

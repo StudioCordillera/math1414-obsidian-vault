@@ -7,21 +7,33 @@ type: Method
 status: review
 importance: high
 tags:
-  - node/method
-  - status/review
+  - method/polynomials
+  - math/polynomials
   - pedagogy/pattern
-  - domain/analysis
+  - chapter-3
 relations:
-  broader: ["[[Factored_Form]]"]
+  broader:
+    - "[[Factored_Form]]"
   narrower: []
-  depends_on: ["[[Zero_Product_Property]]", "[[Root_Multiplicity]]", "[[End_Behavior]]"]
+  depends_on:
+    - "[[Zero_Product_Property]]"
+    - "[[Root_Multiplicity]]"
+    - "[[End_Behavior]]"
   defines: []
-  related: ["[[Standard_Form]]", "[[Graphing_Functions]]", "[[Constructing_Polynomials_from_Roots]]"]
-  used_in: ["[[Finding_Polynomial_Roots]]", "[[Polynomial_and_Rational_Inequalities]]"]
+  related:
+    - "[[Standard_Form]]"
+    - "[[Graphing_Functions]]"
+    - "[[Constructing_Polynomials_from_Roots]]"
+  used_in:
+    - "[[Finding_Polynomial_Roots]]"
+    - "[[Polynomial_and_Rational_Inequalities]]"
 sources: []
 source_refs: []
 created: 2025-10-21
-updated: 2025-10-21
+updated: 2025-11-16
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
 ---
 
 # Working From Factored Form

@@ -1,9 +1,15 @@
 ---
 layout: concept
-title: "Real World Applications"
-topic: "General Math"
+title: Real World Applications
+topic: General Math
+created: 2025-10-19
+updated: 2025-11-16
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
+defines:
+- '[[Revenue_and_Profit_Models]]'
 ---
-
 # Real-World Applications of Quadratic and Polynomial Functions
 *Connecting Math to Practical Problem-Solving*
 

@@ -3,12 +3,10 @@ layout: concept
 title: "Secant Line"
 topic: "General Math"
 title: Secant Line
-type: Definition
+type: concept/definition
 status: in-progress
 importance: medium
 tags:
-  - node/definition
-  - domain/functions
   - chapter2
 sources:
   - MillerGerken_AlgTrig2e
@@ -32,7 +30,10 @@ review:
   cadence: semester
   next: 2026-01-10
 created: 2025-10-21
-updated: 2025-10-21
+updated: 2025-11-16
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
 ---
 
 # Secant Line

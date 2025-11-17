@@ -1,47 +1,51 @@
 ---
 layout: concept
-title: "Radical Properties"
-topic: "General Math"
+title: Radical Properties
+topic: General Math
 type: Definition
 status: stable
 importance: critical
 tags:
-  - concept/algebra
-  - concept/radicals
-  - chapter-r
-  - prerequisites
+- concept/algebra
+- concept/radicals
+- chapter-r
+- prerequisites
 sources:
-  - miller-gerken-2ed
+- miller-gerken-2ed
 source_refs:
-  - "Miller & Gerken §R.3 p.21-28"
+- Miller & Gerken §R.3 p.21-28
 relations:
   broader:
-    - "[[Real_Number_System]]"
-    - "[[Exponent_Properties]]"
+  - '[[Real_Number_System]]'
+  - '[[Exponent_Properties]]'
   narrower:
-    - Product Property
-    - Quotient Property
-    - Power Property
-    - Nested Radical Property
-    - Absolute Value Property
+  - Product Property
+  - Quotient Property
+  - Power Property
+  - Nested Radical Property
+  - Absolute Value Property
   depends_on:
-    - "[[Exponent_Properties]]"
-    - "[[Rational_Numbers]]"
+  - '[[Exponent_Properties]]'
+  - '[[Rational_Numbers]]'
   related:
-    - "[[Rational_Exponents]]"
-    - "[[Simplifying_Expressions]]"
+  - '[[Rational_Exponents]]'
+  - '[[Simplifying_Expressions]]'
   used_in:
-    - "[[Radical_Equations]]"
-    - "[[Rationalizing_Denominators]]"
-    - "[[Complex_Numbers]]"
+  - '[[Radical_Equations]]'
+  - '[[Rationalizing_Denominators]]'
+  - '[[Complex_Numbers]]'
 review:
   last: 2025-10-19
   next: 2025-10-26
   interval: 7 days
 created: 2025-10-19
 updated: 2025-10-19
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
+related:
+- '[[Exponent_Properties]]'
 ---
-
 # Radical Properties
 
 ## Definition

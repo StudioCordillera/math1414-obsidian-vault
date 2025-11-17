@@ -1,42 +1,46 @@
 ---
 layout: concept
-title: "Square Root Property"
-topic: "Polynomials"
+title: Square Root Property
+topic: Polynomials
 type: Claim
 status: stable
 importance: critical
 tags:
-  - math/properties
-  - math/quadratic
-  - math/equations
-  - concept/method
+- math/properties
+- math/quadratic
+- math/equations
+- concept/method
 sources:
-  - miller-gerken-2ed
+- miller-gerken-2ed
 source_refs:
-  - "Miller & Gerken §1.4 p.102-103"
+- Miller & Gerken §1.4 p.102-103
 relations:
   broader:
-    - "[[Quadratic_Equations]]"
+  - '[[Quadratic_Equations]]'
   narrower: []
   depends_on:
-    - "[[Equality_Properties]]"
-    - "[[Real_Number_System]]"
-    - "[[Complex_Numbers]]"
-    - "[[Imaginary_Unit]]"
+  - '[[Equality_Properties]]'
+  - '[[Real_Number_System]]'
+  - '[[Complex_Numbers]]'
+  - '[[Imaginary_Unit]]'
   defines: []
   used_in:
-    - "[[Completing_the_Square]]"
-    - "[[Quadratic_Formula]]"
+  - '[[Completing_the_Square]]'
+  - '[[Quadratic_Formula]]'
   related:
-    - "[[Zero_Product_Property]]"
-    - "[[Radical_Equations]]"
+  - '[[Zero_Product_Property]]'
+  - '[[Radical_Equations]]'
 review:
   next: 2025-10-26
   cadence: monthly
 created: 2025-10-19
-updated: 2025-10-19
+updated: 2025-11-16
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
+related:
+- '[[Quadratic_Formula]]'
 ---
-
 # Square Root Property
 
 ## Definition

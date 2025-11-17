@@ -1,41 +1,52 @@
 ---
 layout: concept
-title: "Domain and Range"
-topic: "Functions"
 title: Domain and Range
+topic: Functions
 type: Definition
 status: review
 importance: high
 tags:
-  - node/definition
-  - domain/functions
-  - chapter2
+- concept/functions
+- math/functions
+- chapter-2
 sources:
-  - MillerGerken_AlgTrig2e
+- MillerGerken_AlgTrig2e
 source_refs:
-  - Ch2 §2.3 Functions and Relations
-  - Ch2 §2.4 Linear Equations in Two Variables
+- Ch2 §2.3 Functions and Relations
+- Ch2 §2.4 Linear Equations in Two Variables
 relations:
   broader:
-    - "[[What_IS_a_Function]]"
+  - '[[What_IS_a_Function]]'
   narrower: []
   depends_on:
-    - "[[Interval_Notation]]"
-    - "[[Domain_Restrictions]]"
+  - '[[Interval_Notation]]'
+  - '[[Domain_Restrictions]]'
   defines: []
   related:
-    - "[[Function_Notation]]"
-    - "[[Piecewise_Functions]]"
-    - "[[Graphing_Functions]]"
+  - '[[Function_Notation]]'
+  - '[[Piecewise_Functions]]'
+  - '[[Graphing_Functions]]'
   used_in:
-    - "[[01_Course/Textbook/Chapter2_Functions_Relations]]"
+  - '[[01_Course/Textbook/Chapter2_Functions_Relations]]'
 review:
   cadence: semester
   next: 2026-01-10
 created: 2025-10-20
-updated: 2025-10-21
+updated: 2025-11-16
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
+related:
+- '[[Average_Rate_of_Change]]'
+- '[[Function_Transformations]]'
+- '[[Graphing_Quadratic_Functions]]'
+- '[[Rectangular_Coordinate_System]]'
+- '[[Vertex_Form]]'
+narrower:
+- '[[Domain_Restrictions]]'
+used_in:
+- '[[Interval_Notation]]'
 ---
-
 # Domain and Range
 Understanding what inputs are allowed and what outputs occur
 

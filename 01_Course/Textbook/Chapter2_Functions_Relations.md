@@ -65,6 +65,8 @@ This practical application shows why functions are essential: **they formalize r
 
 ## SECTION 2.1: The Rectangular Coordinate System and Graphing Utilities
 
+> See [[Rectangular_Coordinate_System]] for detailed theory.
+
 ### Conceptual Foundation
 
 **Historical Context**: René Descartes (1597-1650) revolutionized mathematics by connecting algebra and geometry through the coordinate plane. This **unification of two mathematical domains** enabled:
@@ -464,6 +466,8 @@ y-intercept: (0, -1)
 
 ## SECTION 2.2: Circles
 
+> See [[Circles]] for complete geometric and algebraic theory.
+
 ### Conceptual Foundation
 
 **Geometric Definition**: A **circle** is the set of all points in a plane equidistant from a fixed point (the **center**). The fixed distance is called the **radius**.
@@ -752,10 +756,12 @@ Functions provide a **precise mathematical language** to describe and analyze th
 **RELATION**: A set of ordered pairs (x, y)
 - **Domain**: Set of all x values (inputs)
 - **Range**: Set of all y values (outputs)
+- See [[Domain_and_Range]] for detailed analysis
 
-**FUNCTION**: A special relation where each x value is paired with **exactly one** y value
+**[[What_IS_a_Function|FUNCTION]]**: A special relation where each x value is paired with **exactly one** y value
 - Formal definition: For each x in the domain, there is **exactly one** corresponding y in the range
 - Denoted: "y is a function of x"
+- See [[What_IS_a_Function]] for comprehensive definition and examples
 
 **Critical Distinction**:
 - ALL functions are relations
@@ -919,6 +925,8 @@ Domain  Range      Domain  Range
 ---
 
 ### METHOD 2.3.2: Function Notation and Evaluation
+
+> See [[Function_Notation]] for complete coverage.
 
 **Purpose**: Understand and use function notation; evaluate functions at specific inputs
 
@@ -1189,6 +1197,8 @@ Interpretation: When x = 0, function value is -4
 
 ### METHOD 2.3.4: Determining Domain and Range
 
+> See [[Domain_and_Range]] and [[Domain_Restrictions]] for detailed theory.
+
 **Purpose**: Identify all valid input values (domain) and all possible output values (range)
 
 **Prerequisites**:
@@ -1358,9 +1368,11 @@ Are there explicit restrictions?
 
 ## SECTION 2.4: Linear Equations in Two Variables and Linear Functions
 
+> See [[Linear_Functions]] for comprehensive coverage.
+
 ### Conceptual Foundation
 
-**Big Idea**: Linear functions are the simplest and most important class of functions. They model **constant rate of change** and appear throughout mathematics, science, economics, and everyday life.
+**Big Idea**: [[Linear_Functions|Linear functions]] are the simplest and most important class of functions. They model **constant rate of change** and appear throughout mathematics, science, economics, and everyday life.
 
 **Real-World Example** (from Chapter 2 opening):
 - Median income for bachelor's degree holders: y = 1261x + 33,296
@@ -1817,6 +1829,8 @@ All points have same x-coordinate.
 
 ## SECTION 2.6: Transformations of Graphs
 
+> See [[Function_Transformations]] and [[Graph_Transformations]] for detailed coverage.
+
 ### Core Transformation Rules
 
 Let y = f(x) be a function. Then:
@@ -1875,6 +1889,8 @@ f(x) = ⎨ f₂(x)  if condition 2
 ---
 
 ## SECTION 2.8: Algebra of Functions and Function Composition
+
+> See [[Function_Operations]] and [[Function_Composition]] for comprehensive theory.
 
 ### Operations on Functions
 
@@ -4970,19 +4986,44 @@ Composition (2.8) — Combining functions
 
 ---
 
-## 🔗 CONNECTIONS TO CONCEPT LIBRARY
+## 🔗 RELATED CONCEPTS
 
-**Concepts Needing Atomic Nodes** (Priority for extraction):
-1. [ ] [[Functions]] - Core definition
-2. [ ] [[Domain_and_Range]] - Essential property
-3. [ ] [[Slope]] - Rate of change concept
-4. [ ] [[Linear_Functions]] - Simplest function family
-5. [ ] [[Function_Composition]] - Combining functions
-6. [ ] [[Function_Transformations]] - Systematic modifications
-7. [ ] [[Piecewise_Functions]] - Multi-rule functions
-8. [ ] [[Continuity]] - Smoothness property
-9. [ ] [[Parallel_and_Perpendicular_Lines]] - Geometric relationships
-10. [ ] [[Average_Rate_of_Change]] - Precursor to derivative
+This chapter connects to these concept nodes in the vault:
+
+### Core Function Concepts
+- [[What_IS_a_Function]] - Fundamental definition and vertical line test (Section 2.3)
+- [[Function_Notation]] - f(x) notation and evaluation (Section 2.3)
+- [[Domain_and_Range]] - Input and output sets (Section 2.3)
+- [[Domain_Restrictions]] - Division by zero, even roots (Section 2.3)
+
+### Coordinate System & Graphing
+- [[Rectangular_Coordinate_System]] - Cartesian plane foundation (Section 2.1)
+- [[Circles]] - Distance-based geometric definition (Section 2.2)
+- [[Graphing_Functions]] - Point-plotting and analysis (Sections 2.1, 2.7)
+
+### Linear Functions
+- [[Linear_Functions]] - Constant rate of change (Section 2.4)
+- [[Parallel_and_Perpendicular_Lines]] - Slope relationships (Section 2.4)
+- [[Linear_Equations]] - Two-variable equations (Section 2.4)
+
+### Function Operations
+- [[Function_Operations]] - Addition, subtraction, multiplication, division (Section 2.8)
+- [[Function_Composition]] - f∘g notation and evaluation (Section 2.8)
+
+### Function Transformations
+- [[Function_Transformations]] - Shifts, stretches, reflections (Section 2.6)
+- [[Graph_Transformations]] - Visual modifications (Section 2.6)
+
+### Special Function Types
+- [[Piecewise_Functions]] - Multiple-rule functions (Section 2.7)
+- [[Inverse_Functions]] - One-to-one requirement (preview for Chapter 5)
+- [[One_to_One_Function]] - Horizontal line test (Section 2.3)
+
+### Supporting Concepts
+- [[Interval_Notation]] - Domain/range representation (Section 2.3)
+- [[Average_Rate_of_Change]] - Slope as rate (Section 2.4)
+- [[Completing_the_Square]] - Circle equation conversion (Section 2.2)
+- [[Order_of_Operations]] - Function evaluation (Section 2.3)
 
 ---
 

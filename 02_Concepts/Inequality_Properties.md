@@ -3,19 +3,36 @@ layout: concept
 title: "Inequality Properties"
 topic: "Equations & Inequalities"
 type: Claim
-status: in-progress
+status: stable
 importance: high
-tags: [inequalities, properties, algebra]
-sources: [miller-gerken]
-source_refs: ["Ch.1 §1.7 Inequalities"]
+tags:
+  - concept/inequalities
+  - concept/properties
+  - math/inequalities
+  - chapter-1
+sources:
+  - MillerGerken2023
+source_refs:
+  - "Ch.1 §1.7 Inequalities"
 relations:
-  broader: [Inequalities]
+  broader:
+    - "[[Compound_Inequalities]]"
   narrower: []
-  depends_on: [Order_of_Operations, Real_Number_System]
-  related: [Compound_Inequalities, Absolute_Value_Inequalities, Number_Line_Graphing]
-  used_in: [Linear_Inequalities]
+  depends_on:
+    - "[[Order_of_Operations]]"
+    - "[[Real_Number_System]]"
+  related:
+    - "[[Compound_Inequalities]]"
+    - "[[Absolute_Value_Inequalities]]"
+    - "[[Number_Line_Graphing]]"
+  used_in:
+    - "[[Linear_Equations]]"
 review:
-  next: 2025-10-27
+  next: 2025-11-21
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
+updated: 2025-11-16
 ---
 
 # Inequality Properties (Algebra of Inequalities)

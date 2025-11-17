@@ -1,9 +1,16 @@
 ---
 layout: concept
-title: "Solving Higher Degree Equations"
-topic: "Equations & Inequalities"
+title: Solving Higher Degree Equations
+topic: Equations & Inequalities
+created: 2025-10-19
+updated: 2025-11-16
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
+related:
+- '[[Polynomial_Equations]]'
+- '[[Quadratic_in_Form]]'
 ---
-
 # Solving Higher-Degree Polynomial Equations
 *Techniques for Cubics, Quartics, and Beyond*
 

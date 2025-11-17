@@ -1,9 +1,18 @@
 ---
 layout: concept
-title: "Polynomial and Rational Inequalities"
-topic: "Polynomials"
+title: Polynomial and Rational Inequalities
+topic: Polynomials
+created: 2025-10-19
+updated: 2025-11-16
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
+related:
+- '[[Factored_Form]]'
+defines:
+- '[[Standard_Form]]'
+- '[[Working_From_Factored_Form]]'
 ---
-
 # Solving Polynomial and Rational Inequalities
 *The Sign Chart Method for Finding Solution Intervals*
 

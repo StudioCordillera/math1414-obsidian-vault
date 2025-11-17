@@ -1,4 +1,7 @@
 ---
+# TEMPLATE: Topic/Chapter Node
+# Standards: System/Specs/Node Standard v2.0
+# Reference: [[System/STANDARDS_AUTHORITY|Standards Authority]]
 type: Topic
 status: draft
 importance: high
@@ -225,6 +228,26 @@ Students can ask themselves:
 - [ ] Tags follow approved taxonomy
 - [ ] Sources properly cited
 
+## Quality Checklist
+
+Before advancing this node's status, verify compliance:
+
+- [ ] Topic overview is comprehensive
+- [ ] All major subtopics identified and linked
+- [ ] Learning progression clearly outlined
+- [ ] Key connections between concepts explained
+- [ ] All relationships bidirectionally linked
+- [ ] Tags follow approved taxonomy (no deprecated tags)
+- [ ] Sources properly cited
+- [ ] Run [[New_Content_Checklist]] - All sections pass
+- [ ] Run [[Verification_Protocol]] before marking stable
+
+### Quick Verification
+✅ **Draft → In-Progress**: Sections A+B of [[New_Content_Checklist]]  
+✅ **In-Progress → Review**: Sections A+B+C of [[New_Content_Checklist]]  
+✅ **Review → Stable**: Full [[Verification_Protocol]] (all 5 levels)
+
 ---
 
-*Template aligned with Node Standard v2.0*
+*Template aligned with Node Standard v2.0*  
+*QA Reference: [[New_Content_Checklist]] | [[Verification_Protocol]]*

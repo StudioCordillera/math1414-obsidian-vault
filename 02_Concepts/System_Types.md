@@ -25,7 +25,10 @@ relations:
     - [[Chapter5_Core_Set_Checklist]]
 review:
   next: 2025-11-25
-updated: 2025-10-25
+updated: 2025-11-16
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
 ---
 # System Types
 

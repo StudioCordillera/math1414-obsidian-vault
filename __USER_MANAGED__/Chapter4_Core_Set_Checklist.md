@@ -119,3 +119,10 @@ Audit Log
 - 2025-11-01 — Chapter 4 extraction integrated in main note; examples merged per section. Ready for QA sweep (domain/asymptote, example IDs). Dashboard update pending header target.
 
 - 2025-11-01 — Final QA sweep complete for Chapter 4 note; domains/asymptotes verified; logistic example recalibrated (k≈0.349) and dependent example updated. Chapter 4 status set to review; cross-links verified. Dashboard update appended.
+
+## Completed v2.0 Nodes — 2025-11-17 (Emergency Sprint Phase 2)
+
+- [x] [[02_Concepts/Horizontal_Line_Test]] — Upgraded to v2.0 frontmatter
+- [x] [[02_Concepts/Change_of_Base_Formula]] — Upgraded to v2.0 frontmatter
+- [x] [[02_Concepts/Extraneous_Solutions]] — Upgraded to v2.0 frontmatter
+- [x] [[02_Concepts/Logistic_Growth_Models]] — Created new node

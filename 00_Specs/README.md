@@ -1,13 +1,28 @@
-# 00_Specs (pointer)
+# 00_Specs (POINTER ONLY)
 
-Canonical specs live in System/Specs.
+⚠️ **This folder is a pointer only. All canonical specifications live in `System/Specs/`**
 
-If you accidentally create or edit files here, move them to System/Specs or drop them into System/Specs/_Inbox.md for triage.
+## Authoritative Standards Location
 
-Mappings:
-- Node Standard → System/Specs/Node Standard.md
-- Relations Types → System/Specs/Relations - Relation Types.md
-- Tags Taxonomy → System/Specs/Tags Taxonomy.md
-- Dashboards → Relational Cognition Corpus/Dashboards/
+**Primary Authority**: [[System/STANDARDS_AUTHORITY|Standards Authority Hierarchy]]  
+**All Specifications**: `System/Specs/` folder
 
-See also: System/README.md
+### Quick Links:
+- **Node Standard v2.0** → `System/Specs/Node Standard v2.0.md` (AUTHORITATIVE)
+- **Relations Types** → `System/Specs/Relations - Relation Types.md`
+- **Tags Taxonomy** → `System/Specs/Tags Taxonomy.md`
+
+## Policy
+
+**DO NOT** create or edit specification files in this folder.
+
+If you accidentally create or edit files here:
+1. Move them to `System/Specs/`
+2. Or add to `System/Specs/_Inbox.md` for triage
+
+**See also**: [[System/README|System Documentation]] | [[System/STANDARDS_AUTHORITY|Standards Authority]]
+
+---
+
+**Last Updated**: 2025-11-16  
+**Status**: Pointer only - all specs deleted from Relational Cognition Corpus/00_Specs (conflicting duplicates removed)

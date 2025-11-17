@@ -1,35 +1,40 @@
 ---
 layout: concept
-title: "Quadratic in Form"
-topic: "Polynomials"
+title: Quadratic in Form
+topic: Polynomials
 type: Method
 status: review
 importance: high
 tags:
-  - concept/algebra
-  - chapter-1
-  - math/equations
-  - method/solving
+- concept/algebra
+- chapter-1
+- math/equations
+- method/solving
 sources:
-  - miller-gerken
+- miller-gerken
 source_refs:
-  - Ch.1 §1.6 More Equations and Applications
+- Ch.1 §1.6 More Equations and Applications
 relations:
   broader:
-    - "[[Polynomial_Equations]]"
+  - '[[Polynomial_Equations]]'
   narrower: []
   depends_on:
-    - "[[Quadratic_Formula]]"
-    - "[[Completing_the_Square]]"
+  - '[[Quadratic_Formula]]'
+  - '[[Completing_the_Square]]'
   related:
-    - "[[Solving_Higher_Degree_Equations]]"
+  - '[[Solving_Higher_Degree_Equations]]'
   used_in:
-    - "[[Polynomial_Equations]]"
+  - '[[Polynomial_Equations]]'
 review:
   next: 2025-11-25
-updated: 2025-10-25
+updated: 2025-11-16
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
+related:
+- '[[Completing_the_Square]]'
+- '[[Polynomial_Equations]]'
 ---
-
 # Equations Quadratic in Form
 
 Pattern: au^{2} + bu + c = 0 after substitution u = g(x). Common: u = x² for x⁴ terms; u = 1/x for rational; u = √x when both √x and x appear.

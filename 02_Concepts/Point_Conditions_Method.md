@@ -1,9 +1,16 @@
 ---
 layout: concept
-title: "Point Conditions Method"
-topic: "General Math"
+title: Point Conditions Method
+topic: General Math
+created: 2025-10-19
+updated: 2025-11-16
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
+related:
+- '[[Linear_Functions]]'
+- '[[Parallel_and_Perpendicular_Lines]]'
 ---
-
 # Using Point Conditions to Find Equations
 *When You're Given Locations Instead of Forms*
 

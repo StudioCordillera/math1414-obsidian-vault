@@ -1,41 +1,48 @@
 ---
 layout: concept
-title: "Piecewise Functions"
-topic: "Functions"
 title: Piecewise Functions
+topic: Functions
 type: Definition
 status: review
 importance: high
 tags:
-  - node/definition
-  - domain/functions
-  - chapter2
+- concept/functions
+- math/functions
+- chapter-2
 sources:
-  - MillerGerken_AlgTrig2e
+- MillerGerken_AlgTrig2e
 source_refs:
-  - Ch2 §2.7 Piecewise-Defined Functions
+- Ch2 §2.7 Piecewise-Defined Functions
 relations:
   broader:
-    - "[[Functions_Relations_Graphs]]"
+  - '[[Functions_Relations_Graphs]]'
   narrower: []
   depends_on:
-    - "[[Function_Notation]]"
-    - "[[Domain_and_Range]]"
-    - "[[Linear_Functions]]"
+  - '[[Function_Notation]]'
+  - '[[Domain_and_Range]]'
+  - '[[Linear_Functions]]'
   defines: []
   related:
-    - "[[Continuity]]"
-    - "[[Graphing_Functions]]"
-    - "[[Absolute_Value]]"
+  - '[[Continuity]]'
+  - '[[Graphing_Functions]]'
+  - '[[Absolute_Value]]'
   used_in:
-    - "[[01_Course/Textbook/Chapter2_Functions_Relations]]"
+  - '[[01_Course/Textbook/Chapter2_Functions_Relations]]'
 review:
   cadence: semester
   next: 2026-01-10
 created: 2025-10-21
-updated: 2025-10-21
+updated: 2025-11-16
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
+narrower:
+- '[[Absolute_Value]]'
+defines:
+- '[[Compound_Inequalities]]'
+related:
+- '[[Domain_and_Range]]'
 ---
-
 # Piecewise Functions
 Functions defined by different formulas on different parts of the domain.
 

@@ -1,42 +1,44 @@
 ---
 layout: concept
-title: "Continuity"
-topic: "General Math"
 title: Continuity
+topic: General Math
 type: Definition
 status: review
 importance: high
 tags:
-  - node/definition
-  - domain/functions
-  - chapter2
+- concept/functions
+- math/functions
+- chapter-2
 sources:
-  - MillerGerken_AlgTrig2e
+- MillerGerken_AlgTrig2e
 source_refs:
-  - Ch2 §2.8 Continuity (precalculus scope)
+- Ch2 §2.8 Continuity (precalculus scope)
 relations:
   broader:
-    - "[[Functions_Relations_Graphs]]"
+  - '[[Functions_Relations_Graphs]]'
   narrower: []
   depends_on:
-    - "[[Function_Notation]]"
-    - "[[Domain_and_Range]]"
-    - "[[Piecewise_Functions]]"
+  - '[[Function_Notation]]'
+  - '[[Domain_and_Range]]'
+  - '[[Piecewise_Functions]]'
   defines: []
   related:
-    - "[[Piecewise_Functions]]"
-    - "[[Average_Rate_of_Change]]"
-    - "[[Graphing_Functions]]"
-    - "[[Function_Transformations]]"
-  used_in:
-    - "[[01_Course/Textbook/Chapter2_Functions_Relations]]"
+  - '[[Piecewise_Functions]]'
+  - '[[Average_Rate_of_Change]]'
+  - '[[Graphing_Functions]]'
+  - '[[Function_Transformations]]'
+  used_in: null
+created: 2025-10-21
+updated: 2025-10-21
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0 - "[[01_Course/Textbook/Chapter2_Functions_Relations]]"
 review:
   cadence: semester
   next: 2026-01-10
-created: 2025-10-21
-updated: 2025-10-21
+related:
+- '[[Logarithmic_Functions]]'
 ---
-
 # Continuity
 Informal notion: a function you can draw without lifting your pencil on an interval.
 

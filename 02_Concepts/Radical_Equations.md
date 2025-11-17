@@ -1,47 +1,53 @@
 ---
 layout: concept
-title: "Radical Equations"
-topic: "Equations & Inequalities"
+title: Radical Equations
+topic: Equations & Inequalities
 type: Method
 status: stable
 importance: high
 tags:
-  - concept/algebra
-  - concept/equations
-  - chapter-1
-  - solving-equations
-  - radicals
+- concept/algebra
+- concept/equations
+- chapter-1
+- solving-equations
+- radicals
 sources:
-  - miller-gerken-2ed
+- miller-gerken-2ed
 source_refs:
-  - "Miller & Gerken §1.6 p.128-134"
+- Miller & Gerken §1.6 p.128-134
 relations:
   broader:
-    - "[[Equations]]"
-    - "[[Solving_Techniques]]"
+  - '[[Equations]]'
+  - '[[Solving_Techniques]]'
   narrower:
-    - Square Root Method
-    - Higher-Order Roots
+  - Square Root Method
+  - Higher-Order Roots
   depends_on:
-    - "[[Radical_Properties]]"
-    - "[[Exponent_Properties]]"
-    - "[[Quadratic_Equations]]"
+  - '[[Radical_Properties]]'
+  - '[[Exponent_Properties]]'
+  - '[[Quadratic_Equations]]'
   related:
-    - "[[Extraneous_Solutions]]"
-    - "[[Square_Root_Property]]"
-    - "[[Domain_Restrictions]]"
+  - '[[Extraneous_Solutions]]'
+  - '[[Square_Root_Property]]'
+  - '[[Domain_Restrictions]]'
   used_in:
-    - "[[Distance_Formula]]"
-    - "[[Pythagorean_Theorem]]"
-    - "[[Function_Composition]]"
+  - '[[Distance_Formula]]'
+  - '[[Pythagorean_Theorem]]'
+  - '[[Function_Composition]]'
 review:
   last: 2025-10-19
   next: 2025-10-26
   interval: 7 days
 created: 2025-10-19
 updated: 2025-10-19
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
+related:
+- '[[Equation_Types]]'
+defines:
+- '[[Radical_Properties]]'
 ---
-
 # Radical Equations
 
 ## Definition

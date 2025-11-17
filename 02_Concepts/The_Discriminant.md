@@ -26,7 +26,10 @@ review:
   cadence: semester
   next: 2026-01-10
 created: 2025-10-20
-updated: 2025-10-24
+updated: 2025-11-16
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
 ---
 
 # Interpretation

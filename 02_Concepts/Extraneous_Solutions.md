@@ -1,36 +1,15 @@
 ---
-layout: concept
-title: "Extraneous Solutions"
-topic: "General Math"
-type: Definition
-status: stable
-importance: high
+type: concept
+status: active
 tags:
-  - concept/equations
-  - concept/algebra
-  - chapter1
-  - solution-checking
-  - error-prevention
-sources:
-  - MillerGerken2023
-source_refs:
-  - "Miller & Gerken §1.6 p.140-142"
-relations:
-  broader:
-    - "[[Equation_Solving]]"
-  related:
-    - "[[Radical_Equations]]"
-    - "[[Rational_Equations]]"
-    - "[[Domain_Restrictions]]"
-  depends_on:
-    - "[[Equations]]"
-review:
-  next: 2025-11-19
-  cadence: monthly
+  - concept/problem-solving
+  - concept/properties
+  - math/equations
+  - math/logarithms
+  - chapter-4
 created: 2025-10-19
-updated: 2025-10-19
+updated: 2025-11-17
 ---
-
 # Extraneous Solutions
 
 ## Definition

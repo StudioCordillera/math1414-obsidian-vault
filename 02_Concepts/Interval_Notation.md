@@ -1,52 +1,56 @@
 ---
 layout: concept
-title: "Interval Notation"
-topic: "General Math"
+title: Interval Notation
+topic: General Math
 type: Definition
 status: stable
 importance: high
 tags:
-  - concept/notation
-  - algebra/foundations
-  - algebra/inequalities
-  - set-theory
+- concept/notation
+- algebra/foundations
+- algebra/inequalities
+- set-theory
 sources:
-  - textbook-chR
-  - textbook-ch1
+- textbook-chR
+- textbook-ch1
 source_refs:
-  - "Miller & Gerken §R.1 p.5-8"
-  - "Miller & Gerken §1.7 p.147-152"
+- Miller & Gerken §R.1 p.5-8
+- Miller & Gerken §1.7 p.147-152
 relations:
   broader:
-    - "[[Set_Notation]]"
+  - '[[Set_Notation]]'
   narrower:
-    - "[[Open_Interval]]"
-    - "[[Closed_Interval]]"
-    - "[[Half_Open_Interval]]"
+  - '[[Open_Interval]]'
+  - '[[Closed_Interval]]'
+  - '[[Half_Open_Interval]]'
   depends_on:
-    - "[[Real_Number_System]]"
-    - "[[Inequality_Notation]]"
+  - '[[Real_Number_System]]'
+  - '[[Inequality_Notation]]'
   defines:
-    - "[[Domain_and_Range]]"
-    - "[[Solution_Sets]]"
+  - '[[Domain_and_Range]]'
+  - '[[Solution_Sets]]'
   related:
-    - "[[Set_Builder_Notation]]"
-    - "[[Number_Line_Representation]]"
-    - "[[Inequalities]]"
+  - '[[Set_Builder_Notation]]'
+  - '[[Number_Line_Representation]]'
+  - '[[Inequalities]]'
   used_in:
-    - "[[Linear_Inequalities]]"
-    - "[[Compound_Inequalities]]"
-    - "[[Absolute_Value_Inequalities]]"
-    - "[[Function_Domain]]"
-    - "[[Function_Range]]"
+  - '[[Linear_Inequalities]]'
+  - '[[Compound_Inequalities]]'
+  - '[[Absolute_Value_Inequalities]]'
+  - '[[Function_Domain]]'
+  - '[[Function_Range]]'
+created: 2025-10-19
+updated: 2025-10-19
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
 review:
   last: 2025-10-19
   next: 2025-11-02
   interval: 14
-created: 2025-10-19
-updated: 2025-10-19
+related:
+- '[[What_IS_a_Function]]'
 ---
-
 # Interval Notation
 
 ## Definition

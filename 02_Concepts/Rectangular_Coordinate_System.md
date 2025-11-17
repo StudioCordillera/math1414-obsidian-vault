@@ -1,40 +1,43 @@
 ---
 layout: concept
-title: "Rectangular Coordinate System"
-topic: "Systems & Matrices"
 title: Rectangular Coordinate System
+topic: Systems & Matrices
 type: Definition
 status: review
 importance: high
 tags:
-  - node/definition
-  - domain/functions
-  - chapter2
+- concept/functions
+- math/functions
+- chapter-2
 sources:
-  - MillerGerken_AlgTrig2e
+- MillerGerken_AlgTrig2e
 source_refs:
-  - "Ch2 §2.1 Rectangular Coordinate System"
+- Ch2 §2.1 Rectangular Coordinate System
 relations:
   broader:
-    - "[[Functions_Relations_Graphs]]"
+  - '[[Functions_Relations_Graphs]]'
   narrower: []
   depends_on: []
   defines: []
   related:
-    - "[[Graphing_Functions]]"
-    - "[[Domain_and_Range]]"
-    - "[[Circles]]"
-    - "[[Linear_Functions]]"
-    - "[[Parallel_and_Perpendicular_Lines]]"
+  - '[[Graphing_Functions]]'
+  - '[[Domain_and_Range]]'
+  - '[[Circles]]'
+  - '[[Linear_Functions]]'
+  - '[[Parallel_and_Perpendicular_Lines]]'
   used_in:
-    - "[[01_Course/Textbook/Chapter2_Functions_Relations]]"
+  - '[[01_Course/Textbook/Chapter2_Functions_Relations]]'
 review:
   cadence: semester
   next: 2026-01-10
 created: 2025-10-21
-updated: 2025-10-21
+updated: 2025-11-16
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
+narrower:
+- '[[Circles]]'
 ---
-
 # Rectangular Coordinate System
 Foundation for graphs, distance, and analytic geometry
 

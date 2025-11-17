@@ -28,7 +28,10 @@ relations:
     - [[Growth_and_Decay_Models]]
     - [[Compound_Interest]]
 created: 2025-10-30
-updated: 2025-10-30
+updated: 2025-11-16
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
 ---
 
 # Natural Logarithm (ln)

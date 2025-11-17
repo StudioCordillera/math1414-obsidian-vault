@@ -1,47 +1,55 @@
 ---
 layout: concept
-title: "Rational Equations"
-topic: "Equations & Inequalities"
+title: Rational Equations
+topic: Equations & Inequalities
 type: Method
 status: stable
 importance: high
 tags:
-  - concept/algebra
-  - concept/equations
-  - chapter-1
-  - solving-equations
+- concept/algebra
+- concept/equations
+- chapter-1
+- solving-equations
 sources:
-  - miller-gerken-2ed
+- miller-gerken-2ed
 source_refs:
-  - "Miller & Gerken §1.1 p.87-93"
+- Miller & Gerken §1.1 p.87-93
 relations:
   broader:
-    - "[[Equations]]"
-    - "[[Solving_Techniques]]"
+  - '[[Equations]]'
+  - '[[Solving_Techniques]]'
   narrower:
-    - LCD Method
-    - Cross-Multiplication
+  - LCD Method
+  - Cross-Multiplication
   depends_on:
-    - "[[Rational_Expressions_Operations]]"
-    - "[[Linear_Equations]]"
-    - "[[Factoring_Strategies]]"
-    - "[[Domain_Restrictions]]"
+  - '[[Rational_Expressions_Operations]]'
+  - '[[Linear_Equations]]'
+  - '[[Factoring_Strategies]]'
+  - '[[Domain_Restrictions]]'
   related:
-    - "[[Extraneous_Solutions]]"
-    - "[[Rational_Functions]]"
-    - "[[Proportion_Problems]]"
+  - '[[Extraneous_Solutions]]'
+  - '[[Rational_Functions]]'
+  - '[[Proportion_Problems]]'
   used_in:
-    - "[[Work_Problems]]"
-    - "[[Rate_Problems]]"
-    - "[[Mixture_Problems]]"
+  - '[[Work_Problems]]'
+  - '[[Rate_Problems]]'
+  - '[[Mixture_Problems]]'
 review:
   last: 2025-10-19
   next: 2025-10-26
   interval: 7 days
 created: 2025-10-19
 updated: 2025-10-19
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
+related:
+- '[[Distance_Rate_Time_Problems]]'
+- '[[Domain_Restrictions]]'
+- '[[Equation_Types]]'
+- '[[Literal_Equations]]'
+- '[[Mixture_Problems]]'
 ---
-
 # Rational Equations
 
 ## Definition

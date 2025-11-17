@@ -1,41 +1,46 @@
 ---
 layout: concept
-title: "Revenue and Profit Models"
-topic: "General Math"
+title: Revenue and Profit Models
+topic: General Math
 type: Topic
 status: review
 importance: high
 tags:
-  - applications
-  - quadratics
-  - optimization
-  - revenue
-  - profit
-  - modeling
+- applications
+- quadratics
+- optimization
+- revenue
+- profit
+- modeling
 sources:
-  - miller-gerken
+- miller-gerken
 source_refs:
-  - Ch.1 §1.5 Applications of Quadratics
+- Ch.1 §1.5 Applications of Quadratics
 relations:
   broader:
-    - "[[Quadratic_Applications]]"
+  - '[[Quadratic_Applications]]'
   narrower: []
   depends_on:
-    - "[[Linear_Equations]]"
-    - "[[Quadratic_Formula]]"
-    - "[[Vertex_Form]]"
-    - "[[Quadratic_Optimization]]"
-    - "[[Translation_Patterns]]"
+  - '[[Linear_Equations]]'
+  - '[[Quadratic_Formula]]'
+  - '[[Vertex_Form]]'
+  - '[[Quadratic_Optimization]]'
+  - '[[Translation_Patterns]]'
   related:
-    - "[[Projectile_Motion_Model]]"
-    - "[[Absolute_Value]]"
+  - '[[Projectile_Motion_Model]]'
+  - '[[Absolute_Value]]'
   used_in:
-    - "[[Real_World_Applications]]"
+  - '[[Real_World_Applications]]'
 review:
   next: 2025-10-27
   cadence: semester
+updated: 2025-11-16
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
+defines:
+- '[[Literal_Equations]]'
 ---
-
 # Revenue and Profit Models
 
 Definition: Models where revenue R(x) and cost C(x) are functions of quantity x; profit P(x) = R(x) − C(x). In many entry-level scenarios, R(x) and/or P(x) are quadratic, enabling vertex-based optimization (max/min).

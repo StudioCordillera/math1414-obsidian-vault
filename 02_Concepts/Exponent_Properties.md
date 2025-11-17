@@ -1,55 +1,59 @@
 ---
 layout: concept
-title: "Exponent Properties"
-topic: "General Math"
+title: Exponent Properties
+topic: General Math
 type: Claim
 status: stable
 importance: critical
 tags:
-  - concept/property
-  - algebra/foundations
-  - algebra/exponents
-  - methods/simplification
+- concept/property
+- algebra/foundations
+- algebra/exponents
+- methods/simplification
 sources:
-  - textbook-chR
-  - textbook-ch1
+- textbook-chR
+- textbook-ch1
 source_refs:
-  - "Miller & Gerken §R.2 p.13-19"
-  - "Miller & Gerken §R.3 p.23-28"
+- Miller & Gerken §R.2 p.13-19
+- Miller & Gerken §R.3 p.23-28
 relations:
   broader:
-    - "[[Laws_of_Exponents]]"
-    - "[[Algebraic_Properties]]"
+  - '[[Laws_of_Exponents]]'
+  - '[[Algebraic_Properties]]'
   narrower:
-    - "[[Product_Rule_Exponents]]"
-    - "[[Quotient_Rule_Exponents]]"
-    - "[[Power_Rule_Exponents]]"
-    - "[[Zero_Exponent_Rule]]"
-    - "[[Negative_Exponent_Rule]]"
+  - '[[Product_Rule_Exponents]]'
+  - '[[Quotient_Rule_Exponents]]'
+  - '[[Power_Rule_Exponents]]'
+  - '[[Zero_Exponent_Rule]]'
+  - '[[Negative_Exponent_Rule]]'
   depends_on:
-    - "[[Real_Number_System]]"
-    - "[[Multiplication]]"
-    - "[[Exponent_Notation]]"
+  - '[[Real_Number_System]]'
+  - '[[Multiplication]]'
+  - '[[Exponent_Notation]]'
   defines:
-    - "[[Exponential_Simplification]]"
-    - "[[Scientific_Notation]]"
+  - '[[Exponential_Simplification]]'
+  - '[[Scientific_Notation]]'
   related:
-    - "[[Radical_Properties]]"
-    - "[[Rational_Exponents]]"
-    - "[[Polynomial_Operations]]"
+  - '[[Radical_Properties]]'
+  - '[[Rational_Exponents]]'
+  - '[[Polynomial_Operations]]'
   used_in:
-    - "[[Polynomial_Simplification]]"
-    - "[[Scientific_Notation]]"
-    - "[[Exponential_Functions]]"
-    - "[[Logarithms]]"
+  - '[[Polynomial_Simplification]]'
+  - '[[Scientific_Notation]]'
+  - '[[Exponential_Functions]]'
+  - '[[Logarithms]]'
 review:
   last: 2025-10-19
   next: 2025-11-02
   interval: 14
 created: 2025-10-19
-updated: 2025-10-19
+updated: 2025-11-16
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
+narrower:
+- '[[Radical_Properties]]'
 ---
-
 # Exponent Properties
 
 ## Definition

@@ -2,6 +2,10 @@
 layout: concept
 title: "Fundamental Theorem of Algebra"
 topic: "General Math"
+updated: 2025-11-16
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
 ---
 
 # The Fundamental Theorem of Algebra

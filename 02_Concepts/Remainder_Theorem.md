@@ -1,35 +1,14 @@
 ---
-layout: concept
-title: "Remainder Theorem"
-topic: "General Math"
-type: Claim
-status: review
-importance: high
+type: concept
+status: active
 tags:
-  - node/claim
-  - domain/analysis
-  - pedagogy/pattern
-  - status/review
-sources:
-  - "Textbook Chapter 3"
-source_refs:
-  - "Ch.3 — Polynomial functions"
-relations:
-  broader:
-    - "[[Division_Algorithm]]"
-  narrower:
-    - "[[Factor_Theorem]]"
-  depends_on:
-    - "[[Division_Algorithm]]"
-  defines: []
-  related:
-    - "[[Synthetic_Division]]"
-    - "[[Finding_Polynomial_Roots]]"
-    - "[[Rational_Root_Theorem]]"
-  used_in:
-    - "[[Finding_Polynomial_Roots]]"
+  - concept/theorems
+  - concept/polynomials
+  - math/polynomials
+  - math/algebra
+  - chapter-3
 created: 2025-10-21
-updated: 2025-10-21
+updated: 2025-11-17
 ---
 # The Remainder Theorem
 *The Shortcut to Finding What's Left Over*

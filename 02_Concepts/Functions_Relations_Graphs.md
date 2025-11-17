@@ -1,9 +1,24 @@
 ---
 layout: concept
-title: "Functions Relations Graphs"
-topic: "Functions"
+title: Functions Relations Graphs
+topic: Functions
+updated: 2025-11-16
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
+narrower:
+- '[[Average_Rate_of_Change]]'
+- '[[Continuity]]'
+- '[[Function_Operations]]'
+- '[[Function_Transformations]]'
+- '[[Graphing_Functions]]'
+- '[[Linear_Functions]]'
+- '[[Logarithmic_Functions]]'
+- '[[Piecewise_Functions]]'
+- '[[Rectangular_Coordinate_System]]'
+- '[[Secant_Line]]'
+- '[[What_IS_a_Function]]'
 ---
-
 # Functions, Relations, and Graphs
 *The Foundation of Mathematical Relationships*
 

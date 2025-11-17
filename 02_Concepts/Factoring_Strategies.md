@@ -1,49 +1,53 @@
 ---
 layout: concept
-title: "Factoring Strategies"
-topic: "Polynomials"
+title: Factoring Strategies
+topic: Polynomials
 type: Method
 status: stable
 importance: critical
 tags:
-  - concept/algebra
-  - concept/polynomials
-  - concept/factoring
-  - chapter-r
-  - prerequisites
+- concept/algebra
+- concept/polynomials
+- concept/factoring
+- chapter-r
+- prerequisites
 sources:
-  - miller-gerken-2ed
+- miller-gerken-2ed
 source_refs:
-  - "Miller & Gerken §R.5 p.37-45"
+- Miller & Gerken §R.5 p.37-45
 relations:
   broader:
-    - "[[Polynomial_Operations]]"
-    - "[[Algebraic_Techniques]]"
+  - '[[Polynomial_Operations]]'
+  - '[[Algebraic_Techniques]]'
   narrower:
-    - Greatest Common Factor (GCF)
-    - Factoring by Grouping
-    - Trinomial Factoring
-    - Special Patterns
+  - Greatest Common Factor (GCF)
+  - Factoring by Grouping
+  - Trinomial Factoring
+  - Special Patterns
   depends_on:
-    - "[[Distributive_Property]]"
-    - "[[Special_Product_Patterns]]"
-    - "[[Prime_Factorization]]"
+  - '[[Distributive_Property]]'
+  - '[[Special_Product_Patterns]]'
+  - '[[Prime_Factorization]]'
   related:
-    - "[[Zero_Product_Property]]"
-    - "[[Polynomial_Multiplication]]"
-    - "[[Solving_Equations]]"
+  - '[[Zero_Product_Property]]'
+  - '[[Polynomial_Multiplication]]'
+  - '[[Solving_Equations]]'
   used_in:
-    - "[[Quadratic_Equations]]"
-    - "[[Rational_Expressions]]"
-    - "[[Solving_Polynomial_Equations]]"
+  - '[[Quadratic_Equations]]'
+  - '[[Rational_Expressions]]'
+  - '[[Solving_Polynomial_Equations]]'
 review:
   last: 2025-10-19
   next: 2025-10-26
   interval: 7 days
 created: 2025-10-19
-updated: 2025-10-19
+updated: 2025-11-16
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
+defines:
+- '[[Zero_Product_Property]]'
 ---
-
 # Factoring Strategies
 
 ## Definition

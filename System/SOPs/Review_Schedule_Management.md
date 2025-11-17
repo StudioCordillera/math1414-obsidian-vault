@@ -10,6 +10,9 @@ tags:
 sources:
   - "Node Standard v2.0"
   - "Audit findings 2025-11-04"
+standards_authority: "System/Specs/Node Standard v2.0"
+reference_docs:
+  - "[[System/STANDARDS_AUTHORITY|Standards Authority Hierarchy]]"
 relations:
   broader:
     - "[[Node Standard v2.0]]"

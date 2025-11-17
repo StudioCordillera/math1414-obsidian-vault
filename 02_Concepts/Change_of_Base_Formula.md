@@ -1,41 +1,15 @@
 ---
-layout: concept
-title: "Change of Base Formula"
-topic: "General Math"
-type: Method
-status: review
-importance: high
+type: concept
+status: active
 tags:
-  - concept/algebra
-  - chapter-4
+  - concept/formulas
+  - concept/properties
   - math/logarithms
-  - method/skills
+  - math/algebra
+  - chapter-4
 created: 2025-10-25
-updated: 2025-11-05
-review:
-  next: 2025-12-05
-  cadence: monthly
-relations:
-  broader:
-    - [[Logarithmic_Functions]]
-    - [[Properties_of_Logarithms]]
-  narrower: []
-  depends_on:
-    - [[Inverse_Functions]]
-    - [[Exponential_Functions]]
-  related:
-    - [[Logarithmic_Equations]]
-    - [[Exponential_Equations]]
-  used_in:
-    - [[Properties_of_Logarithms]]
-  defined_in:
-    - [[01_Course/Textbook/Chapter4_Exponential_Logarithmic]]
-sources:
-  - Textbook/Algebra_by_section
-source_refs:
-  - [[00_Books/Algebra_by_section/pages/p452]]
+updated: 2025-11-17
 ---
-
 # Change of Base Formula
 
 Definition/Statement

@@ -11,6 +11,9 @@ sources:
   - "Compression System Research"
   - "Node Standard v2.0"
   - "Cognitive Load Theory"
+standards_authority: "System/Specs/Node Standard v2.0"
+reference_docs:
+  - "[[System/STANDARDS_AUTHORITY|Standards Authority Hierarchy]]"
 relations:
   broader:
     - "[[Node Standard v2.0]]"

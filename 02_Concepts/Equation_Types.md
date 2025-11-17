@@ -1,39 +1,43 @@
 ---
 layout: concept
-title: "Equation Types"
-topic: "Equations & Inequalities"
 title: Equation Types (Identity, Contradiction, Conditional)
+topic: Equations & Inequalities
 type: Definition
 status: review
 importance: high
 tags:
-  - node/definition
-  - domain/algebra
-  - pedagogy/pattern
+- concept/equations
+- math/algebra
+- pedagogy/pattern
+- chapter-1
 sources:
-  - Textbook_Ch1
+- Textbook_Ch1
 source_refs:
-  - "Ch1 §1.1 p.xx"
+- Ch1 §1.1 p.xx
 relations:
   broader:
-    - "[[Linear_Equations]]"
+  - '[[Linear_Equations]]'
   narrower: []
   depends_on:
-    - "[[Equality_Properties]]"
+  - '[[Equality_Properties]]'
   defines: []
   related:
-    - "[[Rational_Equations]]"
-    - "[[Radical_Equations]]"
-    - "[[Extraneous_Solutions]]"
+  - '[[Rational_Equations]]'
+  - '[[Radical_Equations]]'
+  - '[[Extraneous_Solutions]]'
   used_in:
-    - "[[Chapter1_Equations_Inequalities]]"
+  - '[[Chapter1_Equations_Inequalities]]'
 review:
   cadence: semester
   next: 2026-01-10
 created: 2025-10-20
-updated: 2025-10-20
+updated: 2025-11-16
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
+related:
+- '[[Literal_Equations]]'
 ---
-
 # Definition
 - Identity: An equation true for all values in its domain (e.g., 2(x+3)=2x+6; after simplification → 0=0).
 - Contradiction: An equation false for all values (e.g., x+3=x−1 → 3=−1).

@@ -2,6 +2,11 @@
 layout: concept
 title: "Vocabulary Guide"
 topic: "General Math"
+created: 2025-10-19
+updated: 2025-11-16
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
 ---
 
 # COMPREHENSIVE VOCABULARY GUIDE v2.0

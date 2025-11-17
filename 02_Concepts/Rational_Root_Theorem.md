@@ -1,36 +1,44 @@
 ---
 layout: concept
-title: "Rational Root Theorem"
-topic: "Polynomials"
+title: Rational Root Theorem
+topic: Polynomials
 type: Claim
 status: review
 importance: high
 tags:
-  - concept/algebra
-  - chapter-3
-  - math/polynomials
-  - method/root-finding
+- concept/algebra
+- chapter-3
+- math/polynomials
+- method/root-finding
 sources:
-  - "Textbook Chapter 3"
+- Textbook Chapter 3
 source_refs:
-  - "Ch.3 — Polynomial functions"
+- Ch.3 — Polynomial functions
 relations:
   broader:
-    - "[[Finding_Polynomial_Roots]]"
+  - '[[Finding_Polynomial_Roots]]'
   narrower: []
   depends_on:
-    - "[[Division_Algorithm]]"
-    - "[[Remainder_Theorem]]"
-    - "[[Factor_Theorem]]"
+  - '[[Division_Algorithm]]'
+  - '[[Remainder_Theorem]]'
+  - '[[Factor_Theorem]]'
   defines: []
   related:
-    - "[[Synthetic_Division]]"
-    - "[[Constructing_Polynomials_from_Roots]]"
-    - "[[Polynomial_Degree_and_Shape]]"
+  - '[[Synthetic_Division]]'
+  - '[[Constructing_Polynomials_from_Roots]]'
+  - '[[Polynomial_Degree_and_Shape]]'
   used_in:
-    - "[[Finding_Polynomial_Roots]]"
+  - '[[Finding_Polynomial_Roots]]'
 created: 2025-10-21
-updated: 2025-10-25
+updated: 2025-11-16
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
+related:
+- '[[Division_Algorithm]]'
+- '[[Factor_Theorem]]'
+- '[[Factoring_Polynomials]]'
+- '[[Remainder_Theorem]]'
 ---
 # Rational Root Theorem
 *The Detective's Tool for Finding Polynomial Zeros*

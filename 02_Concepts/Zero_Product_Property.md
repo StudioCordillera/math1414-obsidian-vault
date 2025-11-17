@@ -1,69 +1,74 @@
 ---
 layout: concept
-title: "Zero Product Property"
-topic: "General Math"
+title: Zero Product Property
+topic: General Math
 type: Claim
 status: stable
 importance: critical
 tags:
-  - concept/property
-  - concept/algebra
-  - chapter1
-  - factoring
-  - theorem
+- concept/property
+- concept/algebra
+- chapter1
+- factoring
+- theorem
 sources:
-  - MillerGerken2023
+- MillerGerken2023
 source_refs:
-  - Miller & Gerken §1.4 p.120-121
+- Miller & Gerken §1.4 p.120-121
 relations:
   broader:
-    - "[[Properties_of_Real_Numbers]]"
+  - '[[Properties_of_Real_Numbers]]'
   depends_on:
-    - "[[Real_Number_System]]"
+  - '[[Real_Number_System]]'
   used_in:
-    - "[[Factoring_Strategies]]"
-    - "[[Quadratic_Equations]]"
-    - "[[Polynomial_Equations]]"
+  - '[[Factoring_Strategies]]'
+  - '[[Quadratic_Equations]]'
+  - '[[Polynomial_Equations]]'
   related:
-    - "[[Quadratic_Formula]]"
-    - "[[Factoring]]"
+  - '[[Quadratic_Formula]]'
+  - '[[Factoring]]'
 review:
   next: 2025-11-19
   cadence: monthly
 created: 2025-10-19
-updated: 2025-10-19
+updated: 2025-11-16
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
 frontmatter:
   type: Claim
   status: stable
   importance: critical
   tags:
-    - concept/algebra
-    - chapter-1
-    - math/properties
-    - method/factoring
+  - concept/algebra
+  - chapter-1
+  - math/properties
+  - method/factoring
   sources:
-    - MillerGerken2023
+  - MillerGerken2023
   source_refs:
-    - Miller & Gerken §1.4 p.120-121
+  - Miller & Gerken §1.4 p.120-121
   relations:
     broader:
-      - Real_Number_System
+    - Real_Number_System
     depends_on:
-      - Real_Number_System
+    - Real_Number_System
     used_in:
-      - Factoring_Strategies
-      - Quadratic_Equations
-      - Polynomial_Equations
+    - Factoring_Strategies
+    - Quadratic_Equations
+    - Polynomial_Equations
     related:
-      - Quadratic_Formula
-      - Factoring_Polynomials
+    - Quadratic_Formula
+    - Factoring_Polynomials
   review:
     next: 2025-11-19
     cadence: monthly
   created: 2025-10-19
   updated: 2025-10-25
+related:
+- '[[Factoring_Strategies]]'
+- '[[Square_Root_Property]]'
 ---
-
 # Zero Product Property
 
 ## Statement of Property

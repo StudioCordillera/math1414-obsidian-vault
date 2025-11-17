@@ -1,41 +1,47 @@
 ---
 layout: concept
-title: "Linear Functions"
-topic: "Functions"
 title: Linear Functions
+topic: Functions
 type: Definition
 status: review
 importance: critical
 tags:
-  - node/definition
-  - domain/functions
-  - chapter2
+- concept/functions
+- math/functions
+- chapter-2
 sources:
-  - MillerGerken_AlgTrig2e
+- MillerGerken_AlgTrig2e
 source_refs:
-  - "Ch2 §2.4 Linear Equations in Two Variables"
+- Ch2 §2.4 Linear Equations in Two Variables
 relations:
   broader:
-    - "[[Functions_Relations_Graphs]]"
+  - '[[Functions_Relations_Graphs]]'
   narrower: []
   depends_on:
-    - "[[Rectangular_Coordinate_System]]"
-    - "[[Linear_Equations]]"
+  - '[[Rectangular_Coordinate_System]]'
+  - '[[Linear_Equations]]'
   defines: []
   related:
-    - "[[Graphing_Functions]]"
-    - "[[Parallel_and_Perpendicular_Lines]]"
-    - "[[Point_Conditions_Method]]"
-    - "[[Average_Rate_of_Change]]"
+  - '[[Graphing_Functions]]'
+  - '[[Parallel_and_Perpendicular_Lines]]'
+  - '[[Point_Conditions_Method]]'
+  - '[[Average_Rate_of_Change]]'
   used_in:
-    - "[[01_Course/Textbook/Chapter2_Functions_Relations]]"
+  - '[[01_Course/Textbook/Chapter2_Functions_Relations]]'
 review:
   cadence: semester
   next: 2026-01-10
 created: 2025-10-21
-updated: 2025-10-21
+updated: 2025-11-16
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
+related:
+- '[[Linear_Equations]]'
+- '[[Rectangular_Coordinate_System]]'
+narrower:
+- '[[Parallel_and_Perpendicular_Lines]]'
 ---
-
 # Linear Functions
 First-order models with constant rate of change
 

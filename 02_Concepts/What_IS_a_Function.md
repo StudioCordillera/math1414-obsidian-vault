@@ -1,43 +1,47 @@
 ---
 layout: concept
-title: "What IS a Function"
-topic: "Functions"
 title: What IS a Function?
+topic: Functions
 type: Definition
 status: review
 importance: critical
 tags:
-  - node/definition
-  - domain/functions
-  - chapter2
+- concept/functions
+- math/functions
+- chapter-2
 sources:
-  - MillerGerken_AlgTrig2e
-  - LawvereSchanuel_ConceptualMathematics
+- MillerGerken_AlgTrig2e
+- LawvereSchanuel_ConceptualMathematics
 source_refs:
-  - Ch2 §2.3 Functions and Relations
-  - Lawvere & Schanuel Article I p.16
+- Ch2 §2.3 Functions and Relations
+- Lawvere & Schanuel Article I p.16
 relations:
   broader:
-    - "[[Functions_Relations_Graphs]]"
+  - '[[Functions_Relations_Graphs]]'
   narrower: []
   depends_on:
-    - "[[Equality_Properties]]"
-    - "[[Order_of_Operations]]"
+  - '[[Equality_Properties]]'
+  - '[[Order_of_Operations]]'
   defines: []
   related:
-    - "[[Function_Composition]]"
-    - "[[Master_Transformation_Map]]"
-    - "[[Interval_Notation]]"
-    - "[[Domain_Restrictions]]"
+  - '[[Function_Composition]]'
+  - '[[Master_Transformation_Map]]'
+  - '[[Interval_Notation]]'
+  - '[[Domain_Restrictions]]'
   used_in:
-    - "[[01_Course/Textbook/Chapter2_Functions_Relations]]"
+  - '[[01_Course/Textbook/Chapter2_Functions_Relations]]'
 review:
   cadence: semester
   next: 2026-01-10
 created: 2025-10-20
 updated: 2025-10-21
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
+narrower:
+- '[[Domain_and_Range]]'
+- '[[Function_Notation]]'
 ---
-
 # What IS a Function?
 A function is a rule that assigns to each input in a specified set (the domain) exactly one output in a target set (the codomain).
 

@@ -80,3 +80,17 @@ Purpose: Track creation/QC of core Chapter 3 concept nodes. Append-only audit li
 **Batch C Summary**: 7 nodes verified at review status with proper Node Standard compliance, cross-links confirmed bidirectional. All theorem/method nodes in polynomial division chain are complete and properly structured.
 
 **Next Action**: Fix Polynomial_Degree_and_Shape frontmatter, then proceed to next chapter concepts or continue Chapter 3 integration.
+
+## Completed v2.0 Nodes — 2025-11-16 (Phase 1: Variation)
+- [x] [[02_Concepts/Direct_Variation]] — Emergency Sprint Phase 1
+- [x] [[02_Concepts/Inverse_Variation]] — Emergency Sprint Phase 1
+- [x] [[02_Concepts/Joint_Variation]] — Emergency Sprint Phase 1
+- [x] [[02_Concepts/Combined_Variation]] — Emergency Sprint Phase 1
+
+## Completed v2.0 Nodes — 2025-11-17 (Emergency Sprint Phases 4 & 5)
+- [x] [[02_Concepts/Vertical_Asymptotes]] — Phase 4: Asymptotes
+- [x] [[02_Concepts/Horizontal_Asymptotes]] — Phase 4: Asymptotes
+- [x] [[02_Concepts/Oblique_Asymptotes]] — Phase 4: Asymptotes
+- [x] [[02_Concepts/Factor_Theorem]] — Phase 5: Theorems (upgraded to v2.0)
+- [x] [[02_Concepts/Remainder_Theorem]] — Phase 5: Theorems (upgraded to v2.0)
+- [x] [[02_Concepts/Multiplicity_of_Zeros]] — Phase 5: Theorems

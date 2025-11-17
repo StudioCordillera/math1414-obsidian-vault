@@ -1,38 +1,47 @@
 ---
 layout: concept
-title: "Complex Numbers"
-topic: "General Math"
+title: Complex Numbers
+topic: General Math
 type: Definition
 status: stable
 importance: high
 tags:
-  - concept/number-system
-  - concept/algebra
-  - chapter1
-  - complex-numbers
+- concept/number-system
+- concept/algebra
+- chapter1
+- complex-numbers
 sources:
-  - MillerGerken2023
+- MillerGerken2023
 source_refs:
-  - "Miller & Gerken §1.3 p.108-115"
+- Miller & Gerken §1.3 p.108-115
 relations:
   broader:
-    - "[[Real_Number_System]]"
+  - '[[Real_Number_System]]'
   narrower:
-    - "[[Imaginary_Unit]]"
-    - "[[Complex_Conjugates]]"
+  - '[[Imaginary_Unit]]'
+  - '[[Complex_Conjugates]]'
   depends_on:
-    - "[[Real_Number_System]]"
-    - "[[Imaginary_Unit]]"
+  - '[[Real_Number_System]]'
+  - '[[Imaginary_Unit]]'
   related:
-    - "[[Quadratic_Formula]]"
-    - "[[The_Discriminant]]"
+  - '[[Quadratic_Formula]]'
+  - '[[The_Discriminant]]'
 review:
   next: 2025-11-19
   cadence: monthly
 created: 2025-10-19
-updated: 2025-10-19
+updated: 2025-11-16
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
+narrower:
+- '[[Complex_Conjugate]]'
+- '[[Division_of_Complex_Numbers]]'
+used_in:
+- '[[Imaginary_Unit]]'
+defines:
+- '[[Radical_Properties]]'
 ---
-
 # Complex Numbers
 
 ## Definition

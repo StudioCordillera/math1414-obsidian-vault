@@ -6,21 +6,37 @@ title: Translation Patterns (Words → Algebra)
 type: Method
 status: in-progress
 importance: high
-tags: [node/method, domain/algebra, pedagogy/motivation]
-sources: [Textbook_Ch1]
-source_refs: ["Ch1 §1.2 p.xx"]
+tags:
+  - method/algebra
+  - math/algebra
+  - pedagogy/motivation
+  - chapter-1
+sources:
+  - Textbook_Ch1
+source_refs:
+  - "Ch1 §1.2 p.xx"
 relations:
-  broader: [[Applications_of_Linear_Equations]]
+  broader:
+    - "[[Applications_of_Linear_Equations]]"
   narrower: []
-  depends_on: [[Order_of_Operations]], [[Inequality_Properties]]
+  depends_on:
+    - "[[Order_of_Operations]]"
+    - "[[Inequality_Properties]]"
   defines: []
-  related: [[Mixture_Problems]], [[Distance_Rate_Time_Problems]], [[Work_Problems]]
-  used_in: [[Chapter1_Equations_Inequalities]]
+  related:
+    - "[[Mixture_Problems]]"
+    - "[[Distance_Rate_Time_Problems]]"
+    - "[[Work_Problems]]"
+  used_in:
+    - "[[Chapter1_Equations_Inequalities]]"
 review:
   cadence: semester
   next: 2026-01-10
 created: 2025-10-20
-updated: 2025-10-20
+updated: 2025-11-16
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
 ---
 
 # Patterns

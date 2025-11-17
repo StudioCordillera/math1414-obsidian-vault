@@ -1,51 +1,55 @@
 ---
 layout: concept
-title: "Absolute Value"
-topic: "General Math"
+title: Absolute Value
+topic: General Math
 type: Definition
 status: stable
 importance: critical
 tags:
-  - concept/function
-  - algebra/foundations
-  - algebra/inequalities
-  - geometry/distance
+- concept/function
+- algebra/foundations
+- algebra/inequalities
+- geometry/distance
 sources:
-  - textbook-chR
-  - textbook-ch1
+- textbook-chR
+- textbook-ch1
 source_refs:
-  - "Miller & Gerken §R.1 p.8-10"
-  - "Miller & Gerken §1.7 p.152-157"
+- Miller & Gerken §R.1 p.8-10
+- Miller & Gerken §1.7 p.152-157
 relations:
   broader:
-    - "[[Piecewise_Functions]]"
-    - "[[Distance_Functions]]"
+  - '[[Piecewise_Functions]]'
+  - '[[Distance_Functions]]'
   narrower:
-    - "[[Absolute_Value_of_Real_Numbers]]"
-    - "[[Absolute_Value_of_Expressions]]"
+  - '[[Absolute_Value_of_Real_Numbers]]'
+  - '[[Absolute_Value_of_Expressions]]'
   depends_on:
-    - "[[Real_Number_System]]"
-    - "[[Number_Line_Representation]]"
+  - '[[Real_Number_System]]'
+  - '[[Number_Line_Representation]]'
   defines:
-    - "[[Distance_on_Number_Line]]"
-    - "[[Magnitude]]"
+  - '[[Distance_on_Number_Line]]'
+  - '[[Magnitude]]'
   related:
-    - "[[Absolute_Value_Equations]]"
-    - "[[Absolute_Value_Inequalities]]"
-    - "[[Piecewise_Functions]]"
+  - '[[Absolute_Value_Equations]]'
+  - '[[Absolute_Value_Inequalities]]'
+  - '[[Piecewise_Functions]]'
   used_in:
-    - "[[Absolute_Value_Equations]]"
-    - "[[Absolute_Value_Inequalities]]"
-    - "[[Distance_Formula]]"
-    - "[[Modulus_Complex_Numbers]]"
+  - '[[Absolute_Value_Equations]]'
+  - '[[Absolute_Value_Inequalities]]'
+  - '[[Distance_Formula]]'
+  - '[[Modulus_Complex_Numbers]]'
 review:
   last: 2025-10-19
   next: 2025-11-02
   interval: 14
 created: 2025-10-19
-updated: 2025-10-19
+updated: 2025-11-16
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
+related:
+- '[[Revenue_and_Profit_Models]]'
 ---
-
 # Absolute Value
 
 ## Definition

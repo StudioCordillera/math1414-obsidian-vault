@@ -1,39 +1,43 @@
 ---
 layout: concept
-title: "Parallel and Perpendicular Lines"
-topic: "General Math"
 title: Parallel and Perpendicular Lines
+topic: General Math
 type: Definition
 status: review
 importance: high
 tags:
-  - node/definition
-  - domain/functions
-  - chapter2
+- concept/functions
+- math/functions
+- chapter-2
 sources:
-  - MillerGerken_AlgTrig2e
+- MillerGerken_AlgTrig2e
 source_refs:
-  - "Ch2 §2.4 Linear Equations in Two Variables"
+- Ch2 §2.4 Linear Equations in Two Variables
 relations:
   broader:
-    - "[[Linear_Functions]]"
+  - '[[Linear_Functions]]'
   narrower: []
   depends_on:
-    - "[[Rectangular_Coordinate_System]]"
-    - "[[Linear_Functions]]"
+  - '[[Rectangular_Coordinate_System]]'
+  - '[[Linear_Functions]]'
   defines: []
   related:
-    - "[[Point_Conditions_Method]]"
-    - "[[Graph_to_Equation]]"
+  - '[[Point_Conditions_Method]]'
+  - '[[Graph_to_Equation]]'
   used_in:
-    - "[[01_Course/Textbook/Chapter2_Functions_Relations]]"
+  - '[[01_Course/Textbook/Chapter2_Functions_Relations]]'
 review:
   cadence: semester
   next: 2026-01-10
 created: 2025-10-21
-updated: 2025-10-21
+updated: 2025-11-16
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
+related:
+- '[[Linear_Functions]]'
+- '[[Rectangular_Coordinate_System]]'
 ---
-
 # Parallel and Perpendicular Lines
 Slope relationships and equation methods
 

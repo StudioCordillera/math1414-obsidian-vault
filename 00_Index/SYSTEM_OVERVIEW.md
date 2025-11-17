@@ -14,6 +14,19 @@
 
 ---
 
+## 📚 SYSTEM STANDARDS
+
+**⚠️ MUST READ BEFORE ANY CONCEPT WORK: [[System/CONCEPT_NODE_MANIFESTO]]**
+
+All vault content follows the **Concept Node Manifesto** philosophy:
+
+- **Supreme Authority**: `System/CONCEPT_NODE_MANIFESTO.md` — Six-layer complete package philosophy
+- **Technical Implementation**: `System/Specs/Node Standard v2.0.md` — Frontmatter and structure specifications
+- **Quality Procedures**: `System/PHASE_QC_REFERENCE.md` — QC checklists and relational cognition standards
+
+**This document (SYSTEM_OVERVIEW) explains the pedagogical THEORY.**  
+**The Manifesto defines HOW to create complete concept nodes.**
+
 ## 🏗️ SYSTEM ARCHITECTURE
 
 ### 1. Morphism-Based Thinking

@@ -1,4 +1,7 @@
 ---
+# TEMPLATE: Reference Pattern (@reference compression)
+# Standards: System/Specs/Node Standard v2.0
+# Reference: [[System/STANDARDS_AUTHORITY|Standards Authority]]
 type: Template
 status: active
 importance: high
@@ -307,8 +310,22 @@ The discriminant Δ = b²-4ac reveals solution characteristics:
 
 ---
 
+## Quality Checklist
+
+Before using this reference pattern:
+
+- [ ] All compression levels documented
+- [ ] Examples for each compression level  
+- [ ] Decompression notes clear
+- [ ] Related concepts properly linked
+- [ ] Tags follow approved taxonomy
+- [ ] Run [[New_Content_Checklist]] as applicable
+
+---
+
 **Template Status**: ✅ Active
 **Next Review**: 2025-12-04  
 **Version**: 1.0 (Initial)
 
-*This reference pattern template enables sophisticated content compression while maintaining mathematical precision and user experience quality.*
+*This reference pattern template enables sophisticated content compression while maintaining mathematical precision and user experience quality.*  
+*QA Reference: [[New_Content_Checklist]]*

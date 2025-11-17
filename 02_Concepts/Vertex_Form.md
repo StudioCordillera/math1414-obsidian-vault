@@ -1,34 +1,40 @@
 ---
 layout: concept
-title: "Vertex Form"
-topic: "General Math"
 title: Vertex Form
+topic: General Math
 type: Topic
 status: review
 importance: high
 tags:
-  - concept/algebra
-  - chapter-3
-  - math/quadratics
-  - method/graphing
+- concept/algebra
+- chapter-3
+- math/quadratics
+- method/graphing
 relations:
   broader:
-    - "[[Graphing_Quadratic_Functions]]"
+  - '[[Graphing_Quadratic_Functions]]'
   depends_on:
-    - "[[Completing_the_Square]]"
-    - "[[Standard_Form]]"
-    - "[[Factored_Form]]"
+  - '[[Completing_the_Square]]'
+  - '[[Standard_Form]]'
+  - '[[Factored_Form]]'
   related:
-    - "[[Quadratic_Optimization]]"
-    - "[[Master_Transformation_Map]]"
-    - "[[Domain_and_Range]]"
+  - '[[Quadratic_Optimization]]'
+  - '[[Master_Transformation_Map]]'
+  - '[[Domain_and_Range]]'
   used_in:
-    - "[[Projectile_Motion_Model]]"
+  - '[[Projectile_Motion_Model]]'
   defined_in:
-    - "[[Chapter3_Polynomials]]"
+  - '[[Chapter3_Polynomials]]'
 review:
   next: 2025-11-24
-updated: 2025-10-24
+updated: 2025-11-16
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
+used_in:
+- '[[Completing_the_Square]]'
+broader:
+- '[[Standard_Form]]'
 ---
 # Vertex Form
 *The Transformation Lens: Where Maximum and Minimum Live*

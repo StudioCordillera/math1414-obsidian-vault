@@ -1,35 +1,14 @@
 ---
-layout: concept
-title: "Factor Theorem"
-topic: "Polynomials"
-type: Claim
-status: review
-importance: high
+type: concept
+status: active
 tags:
-  - node/claim
-  - domain/analysis
-  - pedagogy/pattern
-  - status/review
-sources:
-  - "Textbook Chapter 3"
-source_refs:
-  - "Ch.3 — Polynomial functions"
-relations:
-  broader:
-    - "[[Finding_Polynomial_Roots]]"
-  narrower: []
-  depends_on:
-    - "[[Remainder_Theorem]]"
-    - "[[Division_Algorithm]]"
-  defines: []
-  related:
-    - "[[Constructing_Polynomials_from_Roots]]"
-    - "[[Rational_Root_Theorem]]"
-    - "[[Synthetic_Division]]"
-  used_in:
-    - "[[Finding_Polynomial_Roots]]"
+  - concept/theorems
+  - concept/polynomials
+  - math/polynomials
+  - math/algebra
+  - chapter-3
 created: 2025-10-21
-updated: 2025-10-21
+updated: 2025-11-17
 ---
 # The Factor Theorem
 *The Bridge Between Roots and Factors*

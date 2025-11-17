@@ -1,50 +1,61 @@
 ---
 layout: concept
-title: "Compound Inequalities"
-topic: "General Math"
+title: Compound Inequalities
+topic: General Math
 type: Definition
 status: stable
 importance: high
 tags:
-  - concept/inequality
-  - algebra/inequalities
-  - logic/compound-statements
-  - set-theory
+- concept/inequality
+- algebra/inequalities
+- logic/compound-statements
+- set-theory
 sources:
-  - textbook-ch1
+- textbook-ch1
 source_refs:
-  - "Miller & Gerken §1.7 p.147-152"
+- Miller & Gerken §1.7 p.147-152
 relations:
   broader:
-    - "[[Inequalities]]"
-    - "[[Compound_Statements]]"
+  - '[[Inequalities]]'
+  - '[[Compound_Statements]]'
   narrower:
-    - "[[Conjunction_Inequality]]"
-    - "[[Disjunction_Inequality]]"
+  - '[[Conjunction_Inequality]]'
+  - '[[Disjunction_Inequality]]'
   depends_on:
-    - "[[Linear_Inequalities]]"
-    - "[[Interval_Notation]]"
-    - "[[Set_Operations]]"
+  - '[[Linear_Inequalities]]'
+  - '[[Interval_Notation]]'
+  - '[[Set_Operations]]'
   defines:
-    - "[[AND_Logic]]"
-    - "[[OR_Logic]]"
+  - '[[AND_Logic]]'
+  - '[[OR_Logic]]'
   related:
-    - "[[Absolute_Value_Inequalities]]"
-    - "[[Union_and_Intersection]]"
-    - "[[Number_Line_Representation]]"
+  - '[[Absolute_Value_Inequalities]]'
+  - '[[Union_and_Intersection]]'
+  - '[[Number_Line_Representation]]'
   used_in:
-    - "[[Absolute_Value_Inequalities]]"
-    - "[[Domain_Restrictions]]"
-    - "[[Piecewise_Functions]]"
-    - "[[Optimization_Problems]]"
+  - '[[Absolute_Value_Inequalities]]'
+  - '[[Domain_Restrictions]]'
+  - '[[Piecewise_Functions]]'
+  - '[[Optimization_Problems]]'
 review:
   last: 2025-10-19
   next: 2025-11-02
   interval: 14
-created: 2025-10-19
-updated: 2025-10-19
+created: 2025-10-15
+updated: 2025-11-16
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
+narrower:
+- '[[Absolute_Value_Inequalities]]'
+- '[[Inequality_Properties]]'
+- '[[Number_Line_Graphing]]'
+related:
+- '[[Inequality_Properties]]'
+- '[[Number_Line_Graphing]]'
+defines:
+- '[[Interval_Notation]]'
 ---
-
 # Compound Inequalities
 
 ## Definition

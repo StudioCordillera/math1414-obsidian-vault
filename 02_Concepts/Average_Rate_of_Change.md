@@ -1,40 +1,45 @@
 ---
 layout: concept
-title: "Average Rate of Change"
-topic: "General Math"
 title: Average Rate of Change
+topic: General Math
 type: Method
 status: review
 importance: high
 tags:
-  - node/method
-  - domain/functions
-  - chapter2
+- method/analysis
+- concept/functions
+- math/functions
+- chapter-2
 sources:
-  - MillerGerken_AlgTrig2e
+- MillerGerken_AlgTrig2e
 source_refs:
-  - "Ch2 §2.8 (rate of change, secant lines)"
+- Ch2 §2.8 (rate of change, secant lines)
 relations:
   broader:
-    - "[[Functions_Relations_Graphs]]"
+  - '[[Functions_Relations_Graphs]]'
   narrower: []
   depends_on:
-    - "[[Function_Notation]]"
-    - "[[Linear_Functions]]"
+  - '[[Function_Notation]]'
+  - '[[Linear_Functions]]'
   defines: []
   related:
-    - "[[Graphing_Functions]]"
-    - "[[Domain_and_Range]]"
-    - "[[Continuity]]"
+  - '[[Graphing_Functions]]'
+  - '[[Domain_and_Range]]'
+  - '[[Continuity]]'
   used_in:
-    - "[[01_Course/Textbook/Chapter2_Functions_Relations]]"
+  - '[[01_Course/Textbook/Chapter2_Functions_Relations]]'
 review:
   cadence: semester
   next: 2026-01-10
 created: 2025-10-21
-updated: 2025-10-21
+updated: 2025-11-16
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
+related:
+- '[[Linear_Functions]]'
+- '[[Secant_Line]]'
 ---
-
 # Average Rate of Change
 Secant slope between two inputs
 

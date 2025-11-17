@@ -1,34 +1,41 @@
 ---
 layout: concept
-title: "Quadratic Optimization"
-topic: "Polynomials"
+title: Quadratic Optimization
+topic: Polynomials
 type: Method
 status: review
 importance: high
 tags:
-  - concept/algebra
-  - chapter-1
-  - math/quadratics
-  - method/optimization
+- concept/algebra
+- chapter-1
+- math/quadratics
+- method/optimization
 relations:
   broader:
-    - [[02_Concepts/Real_World_Applications]]
+  - - - 02_Concepts/Real_World_Applications
   depends_on:
-    - [[02_Concepts/Vertex_Form]]
-    - [[02_Concepts/Completing_the_Square]]
-    - [[02_Concepts/Quadratic_Formula]]
-    - [[02_Concepts/Function_Notation]]
+  - - - 02_Concepts/Vertex_Form
+  - - - 02_Concepts/Completing_the_Square
+  - - - 02_Concepts/Quadratic_Formula
+  - - - 02_Concepts/Function_Notation
   related:
-    - [[02_Concepts/Projectile_Motion_Model]]
-    - [[02_Concepts/Revenue_and_Profit_Models]]
-    - [[02_Concepts/Graphing_Quadratic_Functions]]
-    - [[02_Concepts/Domain_and_Range]]
-    - [[02_Concepts/Average_Rate_of_Change]]
+  - - - 02_Concepts/Projectile_Motion_Model
+  - - - 02_Concepts/Revenue_and_Profit_Models
+  - - - 02_Concepts/Graphing_Quadratic_Functions
+  - - - 02_Concepts/Domain_and_Range
+  - - - 02_Concepts/Average_Rate_of_Change
 review:
   next: 2025-11-24
-updated: 2025-10-24
+updated: 2025-11-16
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
+related:
+- '[[Completing_the_Square]]'
+- '[[Vertex_Form]]'
+defines:
+- '[[Quadratic_Formula]]'
 ---
-
 # Quadratic Optimization Problems
 
 Finding maximum and minimum values in context by using the vertex of a quadratic model.

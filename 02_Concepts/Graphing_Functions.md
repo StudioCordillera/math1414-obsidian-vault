@@ -1,40 +1,68 @@
 ---
 layout: concept
-title: "Graphing Functions"
-topic: "Functions"
 title: Graphing Functions
+topic: Functions
 type: Method
 status: review
 importance: high
 tags:
-  - node/method
-  - domain/functions
-  - chapter2
+- method/functions
+- math/functions
+- chapter-2
 sources:
-  - MillerGerken_AlgTrig2e
+- MillerGerken_AlgTrig2e
 source_refs:
-  - "Ch2 §2.1–2.4 Foundations and Linear Graphing"
+- Ch2 §2.1–2.4 Foundations and Linear Graphing
 relations:
   broader:
-    - "[[Functions_Relations_Graphs]]"
+  - '[[Functions_Relations_Graphs]]'
   narrower: []
   depends_on:
-    - "[[Rectangular_Coordinate_System]]"
-    - "[[Function_Notation]]"
-    - "[[Domain_and_Range]]"
+  - '[[Rectangular_Coordinate_System]]'
+  - '[[Function_Notation]]'
+  - '[[Domain_and_Range]]'
   defines: []
   related:
-    - "[[Master_Transformation_Map]]"
-    - "[[Graph_to_Equation]]"
+  - '[[Master_Transformation_Map]]'
+  - '[[Graph_to_Equation]]'
   used_in:
-    - "[[01_Course/Textbook/Chapter2_Functions_Relations]]"
+  - '[[01_Course/Textbook/Chapter2_Functions_Relations]]'
 review:
   cadence: semester
   next: 2026-01-10
 created: 2025-10-21
-updated: 2025-10-21
+updated: 2025-11-16
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
+related:
+- '[[Average_Rate_of_Change]]'
+- '[[Circles]]'
+- '[[Constructing_Polynomials_from_Roots]]'
+- '[[Continuity]]'
+- '[[Domain_and_Range]]'
+- '[[End_Behavior]]'
+- '[[Factored_Form]]'
+- '[[Finding_Polynomial_Roots]]'
+- '[[Function_Notation]]'
+- '[[Function_Operations]]'
+- '[[Function_Transformations]]'
+- '[[Linear_Functions]]'
+- '[[Logarithmic_Functions]]'
+- '[[Piecewise_Functions]]'
+- '[[Polynomial_Degree_and_Shape]]'
+- '[[Rectangular_Coordinate_System]]'
+- '[[Secant_Line]]'
+- '[[Standard_Form]]'
+- '[[Working_From_Factored_Form]]'
+defines:
+- '[[End_Behavior]]'
+- '[[Polynomial_Degree_and_Shape]]'
+- '[[Polynomial_Equations]]'
+- '[[Root_Multiplicity]]'
+narrower:
+- '[[Graphing_Quadratic_Functions]]'
 ---
-
 # Graphing Functions
 Systematic plotting and analysis
 

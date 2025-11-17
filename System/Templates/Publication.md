@@ -1,4 +1,7 @@
 ---
+# TEMPLATE: Publication/Source Node
+# Standards: System/Specs/Node Standard v2.0
+# Reference: [[System/STANDARDS_AUTHORITY|Standards Authority]]
 type: Publication
 status: stable
 importance: medium
@@ -179,6 +182,19 @@ updated: YYYY-MM-DD
 - [ ] All relationships bidirectionally linked
 - [ ] Tags follow approved taxonomy
 
+## Quality Checklist
+
+Before marking this publication entry complete:
+
+- [ ] Full bibliographic information present
+- [ ] Citation key unique and descriptive
+- [ ] Key concepts extracted and linked
+- [ ] Main claims identified
+- [ ] All relationships bidirectionally linked
+- [ ] Tags follow approved taxonomy
+- [ ] Run [[New_Content_Checklist]] - All sections pass
+
 ---
 
-*Template aligned with Node Standard v2.0*
+*Template aligned with Node Standard v2.0*  
+*QA Reference: [[New_Content_Checklist]]*

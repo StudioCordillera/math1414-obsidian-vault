@@ -50,6 +50,8 @@ Recent Activity
 
 ## 4.1 Inverse Functions — Extraction (draft)
 
+> See [[Inverse_Functions]] and [[One_to_One_Function]] for detailed theory.
+
 Orientation and targets
 - Objectives: Identify one-to-one functions; define and verify inverse functions; compute f^{-1} for eligible f; handle domain restrictions.
 - Relational anchors: [[What_IS_a_Function]], [[Function_Notation]], [[Domain_and_Range]], [[Function_Composition]], [[Graphing_Functions]]
@@ -121,6 +123,8 @@ Mastery checklist (4.1)
 ---
 
 ## 4.2 Exponential Functions — Extraction (draft)
+
+> See [[Exponential_Functions]], [[Growth_and_Decay_Models]], and [[Compound_Interest]] for comprehensive coverage.
 
 Orientation and targets
 - Objectives: Define and graph b^x (b>0, b≠1); understand base e; apply compound interest; model growth/decay and half-life.
@@ -272,10 +276,12 @@ Mastery checklist (4.2)
 
 ## 4.3 Logarithmic Functions — Extraction (draft)
 
+> See [[Logarithmic_Functions]], [[Natural_Logarithm]], and [[Change_of_Base_Formula]] for detailed theory.
+
 Orientation and targets
 - Objectives: Define logarithms as inverses of exponentials; convert between log and exponential forms; evaluate ln and log; graph logs and interpret domains/asymptotes.
 - Relational anchors: [[Inverse_Functions]] ↔ [[Exponential_Functions]]; [[Domain_and_Range]]; [[Graph_Transformations]].
-- Core concepts: [[Logarithmic_Functions]], [[Natural_Logarithm|ln]], [[Common_Logarithm|log_{10}]], [[Change_of_Base_Formula]].
+- Core concepts: [[Logarithmic_Functions]], [[Natural_Logarithm]], [[Common_Logarithm]], [[Change_of_Base_Formula]].
 
 Definitions and core facts
 - Definition (inverse): y = log_b(x) iff b^y = x, with base b>0, b≠1.
@@ -913,6 +919,46 @@ Answer: log_2(x(x − 2)) = 3 ⇒ x^2 − 2x = 8 ⇒ x = 1 ± 3; domain x > 2 �
 13) Graph transform quick check: y = −2 log_3(x − 1) + 4
 Answer: Asymptote x = 1; domain x > 1; points: x = 2 → y = 4; x = 4 → y = 2; decreasing due to −2 factor
 
+
+---
+
+## 🔗 RELATED CONCEPTS
+
+This chapter connects to these concept nodes in the vault:
+
+### Function Foundations
+- [[Inverse_Functions]] - Core relationship between exponential and logarithmic (Sections 4.1, 4.2, 4.3)
+- [[One_to_One_Function]] - Requirement for inverse functions (Section 4.1)
+- [[Horizontal_Line_Test]] - Verifying one-to-one property (Section 4.1)
+- [[Function_Composition]] - Verifying inverse relationships (Section 4.1)
+
+### Exponential Functions & Models
+- [[Exponential_Functions]] - Base b^x functions (Section 4.2)
+- [[e (constant)]] - Natural exponential base (Section 4.2)
+- [[Growth_and_Decay_Models]] - Applications (Sections 4.2, 4.6)
+- [[Compound_Interest]] - Financial applications (Section 4.2)
+- [[Half_Life]] - Decay modeling (Section 4.2)
+- [[Doubling_Time]] - Growth modeling (Section 4.2)
+
+### Logarithmic Functions
+- [[Logarithmic_Functions]] - Inverse of exponential (Section 4.3)
+- [[Natural_Logarithm]] - Base e logarithm (Section 4.3)
+- [[Common_Logarithm]] - Base 10 logarithm (Section 4.3)
+- [[Change_of_Base_Formula]] - Converting between bases (Sections 4.3, 4.4)
+- [[Properties_of_Logarithms]] - Product, quotient, power rules (Section 4.4)
+
+### Equation Solving
+- [[Exponential_Equations]] - Solving b^x = c (Section 4.5)
+- [[Logarithmic_Equations]] - Solving log equations (Section 4.5)
+
+### Supporting Concepts
+- [[Domain_and_Range]] - Function analysis (all sections)
+- [[Exponent_Properties]] - Foundation for exponentials (Section 4.2)
+- [[Graph_Transformations]] - Shifting and scaling (Sections 4.2, 4.3)
+
+### Advanced Applications
+- [[Logistic_Growth]] - Bounded growth model (Section 4.6)
+- [[Exponential_Regression]] - Data modeling (applications)
 
 ---
 ## Textbook Page Links — Chapter 4 (for quick reference)

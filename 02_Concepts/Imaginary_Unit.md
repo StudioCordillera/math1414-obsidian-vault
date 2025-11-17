@@ -30,7 +30,10 @@ review:
   next: 2025-11-19
   cadence: monthly
 created: 2025-10-19
-updated: 2025-10-19
+updated: 2025-11-16
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
 ---
 
 # Imaginary Unit (i)

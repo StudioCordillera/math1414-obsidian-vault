@@ -17,13 +17,15 @@ Following the Universal Knowledge Framework approach, this document extracts:
 
 ## 📐 SECTION 3.1: QUADRATIC FUNCTIONS
 
+> See [[Graphing_Quadratic_Functions]] for complete graphing procedures.
+
 ### Example 1: Analyzing and Graphing a Quadratic Function
 **Page**: 303  
 **Given**: f(x) = -2(x - 1)² + 8
 
 #### Step-by-Step Solution
 
-1. **Identify Form**: f(x) = a(x - h)² + k where a = -2, h = 1, k = 8
+1. **Identify Form**: [[Vertex_Form|f(x) = a(x - h)² + k]] where a = -2, h = 1, k = 8
    - Since a < 0, parabola opens **DOWNWARD** ∩
 
 2. **Extract Vertex**: (h, k) = (1, 8)
@@ -45,13 +47,13 @@ Following the Universal Knowledge Framework approach, this document extracts:
 
 6. **Max/Min**: Vertex is **MAXIMUM** at y = 8
 
-7. **Domain & Range**:
+7. **[[Domain_and_Range|Domain & Range]]**:
    - Domain: (-∞, ∞)
    - Range: (-∞, 8]
 
 #### 🧠 Implicit Knowledge Required
-- Understanding [[02_Concepts/Concept_Library#@VERTEX_FORM|vertex form]] vs standard form
-- [[#Square Root Property]] for solving quadratics
+- Understanding [[Vertex_Form|vertex form]] vs [[Standard_Form|standard form]]
+- [[Square_Root_Property]] for solving quadratics
 - Concept of parabola symmetry
 - Relationship between 'a' coefficient and opening direction
 
@@ -70,6 +72,8 @@ Following the Universal Knowledge Framework approach, this document extracts:
 ### Example 2: Writing Quadratic in Vertex Form
 **Page**: 304  
 **Given**: f(x) = 3x² + 12x + 5
+
+> See [[Completing_the_Square]] for comprehensive method coverage.
 
 #### Complete the Square Method
 
@@ -99,13 +103,13 @@ Following the Universal Knowledge Framework approach, this document extracts:
 - **Sign handling**: h = -2 means vertex x-coordinate is -2
 
 #### 📊 Finding x-intercepts
-Using quadratic formula:
+Using [[Quadratic_Formula|quadratic formula]]:
 ```
 x = (-12 ± √(144 - 60)) / 6
 x = (-12 ± √84) / 6
 x = (-6 ± √21) / 3
 ```
-**Key**: Not all quadratics factor nicely! Δ = 84 > 0 → two real roots
+**Key**: Not all quadratics factor nicely! [[The_Discriminant|Δ]] = 84 > 0 → two real roots
 
 ---
 
@@ -163,6 +167,33 @@ This section addresses:
 - Complex conjugate roots (Obj. 4)
 - Discriminant interpretation (Obj. 2)
 - Polynomial degree analysis (Obj. 5)
+
+---
+
+## 🔗 RELATED CONCEPTS
+
+This chapter connects to these concept nodes in the vault:
+
+### Quadratic Functions & Forms
+- [[Graphing_Quadratic_Functions]] - Complete graphing procedures (Section 3.1)
+- [[Vertex_Form]] - a(x - h)² + k representation (Examples 1, 2)
+- [[Standard_Form]] - ax² + bx + c representation (Example 2)
+- [[Factored_Form]] - a(x - r₁)(x - r₂) representation
+
+### Solution Methods
+- [[Completing_the_Square]] - Transform to vertex form (Example 2)
+- [[Quadratic_Formula]] - Universal solver (Example 2)
+- [[Square_Root_Property]] - Solving x² = k form (Example 1)
+- [[The_Discriminant]] - Solution type predictor
+
+### Function Analysis
+- [[Domain_and_Range]] - Input/output sets (Example 1)
+- [[Quadratic_Optimization]] - Max/min applications
+
+### Related Topics
+- [[What_IS_a_Polynomial]] - Quadratics are degree-2 polynomials
+- [[Polynomial_Degree_and_Shape]] - Parabola characteristics
+- [[Function_Transformations]] - Vertex form shows transformations
 
 ---
 

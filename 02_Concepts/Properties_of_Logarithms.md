@@ -1,15 +1,15 @@
 ---
 layout: concept
-title: "Properties of Logarithms"
-topic: "Exponential & Logarithmic"
+title: Properties of Logarithms
+topic: Exponential & Logarithmic
 type: Definition
 status: review
 importance: high
 tags:
-  - concept/algebra
-  - chapter-4
-  - math/logarithms
-  - method/skills
+- concept/algebra
+- chapter-4
+- math/logarithms
+- method/skills
 created: 2025-10-25
 updated: 2025-11-05
 review:
@@ -17,27 +17,31 @@ review:
   cadence: monthly
 relations:
   broader:
-    - [[Logarithmic_Functions]]
+  - - - Logarithmic_Functions
   narrower: []
   depends_on:
-    - [[Exponential_Functions]]
-    - [[Inverse_Functions]]
-    - [[Function_Notation]]
+  - - - Exponential_Functions
+  - - - Inverse_Functions
+  - - - Function_Notation
   related:
-    - [[Change_of_Base_Formula]]
-    - [[Logarithmic_Equations]]
-    - [[Exponential_Equations]]
+  - - - Change_of_Base_Formula
+  - - - Logarithmic_Equations
+  - - - Exponential_Equations
   used_in:
-    - [[Logarithmic_Equations]]
-    - [[Exponential_Equations]]
+  - - - Logarithmic_Equations
+  - - - Exponential_Equations
   defined_in:
-    - [[01_Course/Textbook/Chapter4_Exponential_Logarithmic]]
+  - - - 01_Course/Textbook/Chapter4_Exponential_Logarithmic
 sources:
-  - Textbook/Algebra_by_section
+- Textbook/Algebra_by_section
 source_refs:
-  - [[00_Books/Algebra_by_section/pages/p446]]
+- - - 00_Books/Algebra_by_section/pages/p446
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
+related:
+- '[[Logarithmic_Functions]]'
 ---
-
 # Properties of Logarithms — Full Spec
 
 Definition (b>0, b≠1; x, y>0)

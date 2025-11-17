@@ -34,6 +34,10 @@ sources:
   - Textbook/Algebra_by_section
 source_refs:
   - [[00_Books/Algebra_by_section/pages/p440]]–[[00_Books/Algebra_by_section/pages/p448]]
+updated: 2025-11-16
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
 ---
 
 # Algebraic Test for One-to-One (Injectivity)

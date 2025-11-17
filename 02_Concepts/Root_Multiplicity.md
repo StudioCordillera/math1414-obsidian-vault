@@ -1,24 +1,36 @@
 ---
 layout: concept
-title: "Root Multiplicity"
-topic: "Polynomials"
+title: Root Multiplicity
+topic: Polynomials
 type: Topic
 status: review
 importance: high
 tags:
-  - concept/algebra
-  - chapter-3
-  - math/polynomials
-  - method/analyzing
+- concept/algebra
+- chapter-3
+- math/polynomials
+- method/analyzing
 relations:
-  broader: ["[[Polynomial_Degree_and_Shape]]"]
+  broader:
+  - '[[Polynomial_Degree_and_Shape]]'
   narrower: []
-  depends_on: ["[[What_IS_a_Polynomial]]", "[[Factored_Form]]"]
-  related: ["[[End_Behavior]]", "[[Finding_Polynomial_Roots]]", "[[Constructing_Polynomials_from_Roots]]"]
-  used_in: ["[[Graphing_Functions]]"]
+  depends_on:
+  - '[[What_IS_a_Polynomial]]'
+  - '[[Factored_Form]]'
+  related:
+  - '[[End_Behavior]]'
+  - '[[Finding_Polynomial_Roots]]'
+  - '[[Constructing_Polynomials_from_Roots]]'
+  used_in:
+  - '[[Graphing_Functions]]'
 review:
   next: 2025-11-21
-updated: 2025-10-24
+updated: 2025-11-16
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
+related:
+- '[[Factored_Form]]'
 ---
 # Root Multiplicity
 *When Roots Repeat: Understanding Double, Triple, and Higher Multiplicities*

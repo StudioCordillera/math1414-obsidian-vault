@@ -1,29 +1,44 @@
 ---
 layout: concept
-title: "Standard Form"
-topic: "General Math"
 title: Standard Form (Polynomials)
+topic: General Math
 type: Topic
 status: review
 importance: high
 tags:
-  - node/topic
-  - status/review
-  - pedagogy/pattern
-  - domain/analysis
+- concept/polynomials
+- math/polynomials
+- pedagogy/pattern
+- chapter-3
 relations:
-  broader: ["[[Polynomial_Degree_and_Shape]]"]
-  narrower: ["[[Quadratic_Formula]]", "[[Vertex_Form]]"]
-  depends_on: ["[[What_IS_a_Polynomial]]", "[[End_Behavior]]", "[[Factored_Form]]"]
+  broader:
+  - '[[Polynomial_Degree_and_Shape]]'
+  narrower:
+  - '[[Quadratic_Formula]]'
+  - '[[Vertex_Form]]'
+  depends_on:
+  - '[[What_IS_a_Polynomial]]'
+  - '[[End_Behavior]]'
+  - '[[Factored_Form]]'
   defines: []
-  related: ["[[Finding_Polynomial_Roots]]", "[[Constructing_Polynomials_from_Roots]]", "[[Graphing_Functions]]"]
-  used_in: ["[[Graph_to_Equation]]", "[[Polynomial_and_Rational_Inequalities]]"]
+  related:
+  - '[[Finding_Polynomial_Roots]]'
+  - '[[Constructing_Polynomials_from_Roots]]'
+  - '[[Graphing_Functions]]'
+  used_in:
+  - '[[Graph_to_Equation]]'
+  - '[[Polynomial_and_Rational_Inequalities]]'
 sources: []
 source_refs: []
 created: 2025-10-21
-updated: 2025-10-21
+updated: 2025-11-16
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
+related:
+- '[[Factored_Form]]'
+- '[[Working_From_Factored_Form]]'
 ---
-
 # Standard Form
 *The Universal Starting Point: Where Every Polynomial Begins*
 

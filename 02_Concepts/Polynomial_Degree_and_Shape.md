@@ -1,32 +1,42 @@
 ---
 layout: concept
-title: "Polynomial Degree and Shape"
-topic: "Polynomials"
+title: Polynomial Degree and Shape
+topic: Polynomials
 type: Topic
 status: review
 importance: high
 tags:
-  - concept/algebra
-  - chapter-3
-  - math/polynomials
-  - method/analyzing
+- concept/algebra
+- chapter-3
+- math/polynomials
+- method/analyzing
 relations:
   broader:
-    - "[[What_IS_a_Polynomial]]"
+  - '[[What_IS_a_Polynomial]]'
   narrower: []
   depends_on:
-    - "[[End_Behavior]]"
-    - "[[Root_Multiplicity]]"
-    - "[[Standard_Form]]"
+  - '[[End_Behavior]]'
+  - '[[Root_Multiplicity]]'
+  - '[[Standard_Form]]'
   related:
-    - "[[Graphing_Functions]]"
-    - "[[Constructing_Polynomials_from_Roots]]"
-    - "[[Finding_Polynomial_Roots]]"
+  - '[[Graphing_Functions]]'
+  - '[[Constructing_Polynomials_from_Roots]]'
+  - '[[Finding_Polynomial_Roots]]'
   used_in:
-    - "[[Graphing_Functions]]"
+  - '[[Graphing_Functions]]'
 review:
   next: 2025-11-21
-updated: 2025-10-24
+updated: 2025-11-16
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
+narrower:
+- '[[End_Behavior]]'
+- '[[Factored_Form]]'
+- '[[Root_Multiplicity]]'
+- '[[Standard_Form]]'
+related:
+- '[[Rational_Root_Theorem]]'
 ---
 # Polynomial Degree and Graph Shape
 *How the Leading Term Controls Everything You See*

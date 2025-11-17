@@ -1,4 +1,7 @@
 ---
+# TEMPLATE: Definition Node
+# Standards: System/Specs/Node Standard v2.0
+# Reference: [[System/STANDARDS_AUTHORITY|Standards Authority]]
 type: Definition
 status: draft
 importance: medium
@@ -92,14 +95,24 @@ updated: YYYY-MM-DD
 
 ## Quality Checklist
 
+Before advancing this node's status, verify compliance:
+
 - [ ] Definition is mathematically precise
 - [ ] At least 3 detailed examples provided
 - [ ] Common misconceptions identified (3-5)
 - [ ] All relationships bidirectionally linked
-- [ ] Tags follow approved taxonomy
+- [ ] Tags follow approved taxonomy (no deprecated tags)
 - [ ] Sources properly cited
 - [ ] Review schedule set
+- [ ] Run [[New_Content_Checklist]] - All sections pass
+- [ ] Run [[Verification_Protocol]] before marking stable
+
+### Quick Verification
+✅ **Draft → In-Progress**: Sections A+B of [[New_Content_Checklist]]  
+✅ **In-Progress → Review**: Sections A+B+C of [[New_Content_Checklist]]  
+✅ **Review → Stable**: Full [[Verification_Protocol]] (all 5 levels)
 
 ---
 
-*Template aligned with Node Standard v2.0*
+*Template aligned with Node Standard v2.0*  
+*QA Reference: [[New_Content_Checklist]] | [[Verification_Protocol]]*

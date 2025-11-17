@@ -6,10 +6,10 @@ type: Claim
 status: review
 importance: high
 tags:
-  - node/claim
-  - domain/analysis
+  - concept/polynomials
+  - math/polynomials
   - pedagogy/foundation
-  - status/review
+  - chapter-3
 sources:
   - "Textbook Chapter 3"
 source_refs:
@@ -29,6 +29,11 @@ relations:
     - "[[Rational_Root_Theorem]]"
   used_in:
     - "[[Finding_Polynomial_Roots]]"
+created: 2025-10-22
+updated: 2025-11-16
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
     - "[[Graphing_Rational_Functions]]"
 created: 2025-10-21
 updated: 2025-10-21

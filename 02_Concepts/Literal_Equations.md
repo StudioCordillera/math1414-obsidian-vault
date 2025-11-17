@@ -7,24 +7,40 @@ type: Method
 status: review
 importance: high
 tags:
-  - node/method
-  - domain/algebra
+  - method/algebra
+  - math/algebra
   - equations/linear
   - pedagogy/pattern
-sources: [MillerGerken_AlgTrig2e]
-source_refs: ["Ch1 §1.1 pp. 90-98"]
+  - chapter-1
+sources:
+  - MillerGerken_AlgTrig2e
+source_refs:
+  - "Ch1 §1.1 pp. 90-98"
 relations:
-  broader: [[Linear_Equations]]
+  broader:
+    - "[[Linear_Equations]]"
   narrower: []
-  depends_on: [[Equality_Properties]], [[Order_of_Operations]], [[Factoring_Strategies]]
+  depends_on:
+    - "[[Equality_Properties]]"
+    - "[[Order_of_Operations]]"
+    - "[[Factoring_Strategies]]"
   defines: []
-  related: [[Domain_Restrictions]], [[Equation_Types]], [[Rational_Equations]]
-  used_in: [[Chapter1_Equations_Inequalities]], [[Projectile_Motion_Model]], [[Revenue_and_Profit_Models]]
+  related:
+    - "[[Domain_Restrictions]]"
+    - "[[Equation_Types]]"
+    - "[[Rational_Equations]]"
+  used_in:
+    - "[[Chapter1_Equations_Inequalities]]"
+    - "[[Projectile_Motion_Model]]"
+    - "[[Revenue_and_Profit_Models]]"
 review:
   cadence: semester
   next: 2026-01-10
 created: 2025-10-20
-updated: 2025-10-20
+updated: 2025-11-16
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
 ---
 
 # Definition

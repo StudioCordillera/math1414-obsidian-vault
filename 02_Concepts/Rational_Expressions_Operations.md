@@ -1,4 +1,8 @@
 ---
+defines:
+- '[[Domain_Restrictions]]'
+---
+---
 layout: concept
 title: "Rational Expressions Operations"
 topic: "General Math"
@@ -39,6 +43,12 @@ relations:
     - "[[Calculus_Limits]]"
 review:
   last: 2025-10-19
+  next: 2025-10-26
+  interval: 7 days
+updated: 2025-11-16
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
   next: 2025-10-26
   interval: 7 days
 created: 2025-10-19

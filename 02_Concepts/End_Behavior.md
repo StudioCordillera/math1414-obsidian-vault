@@ -25,7 +25,10 @@ relations:
     - "[[Constructing_Polynomials_from_Roots]]"
 review:
   next: 2025-11-21
-updated: 2025-10-24
+updated: 2025-11-16
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
 ---
 # End Behavior
 *Predicting Where Polynomials Go as x Approaches Infinity*

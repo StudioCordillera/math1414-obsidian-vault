@@ -7,21 +7,36 @@ type: Topic
 status: review
 importance: high
 tags:
-  - node/topic
-  - status/review
+  - concept/polynomials
+  - math/polynomials
   - pedagogy/pattern
-  - domain/analysis
+  - chapter-3
 relations:
-  broader: ["[[Polynomial_Degree_and_Shape]]"]
-  narrower: ["[[Working_From_Factored_Form]]", "[[Constructing_Polynomials_from_Roots]]"]
-  depends_on: ["[[What_IS_a_Polynomial]]", "[[Zero_Product_Property]]", "[[Factor_Theorem]]"]
+  broader:
+    - "[[Polynomial_Degree_and_Shape]]"
+  narrower:
+    - "[[Working_From_Factored_Form]]"
+    - "[[Constructing_Polynomials_from_Roots]]"
+  depends_on:
+    - "[[What_IS_a_Polynomial]]"
+    - "[[Zero_Product_Property]]"
+    - "[[Factor_Theorem]]"
   defines: []
-  related: ["[[Standard_Form]]", "[[Root_Multiplicity]]", "[[Graphing_Functions]]", "[[Polynomial_and_Rational_Inequalities]]"]
-  used_in: ["[[Finding_Polynomial_Roots]]", "[[Graphing_Quadratic_Functions]]"]
+  related:
+    - "[[Standard_Form]]"
+    - "[[Root_Multiplicity]]"
+    - "[[Graphing_Functions]]"
+    - "[[Polynomial_and_Rational_Inequalities]]"
+  used_in:
+    - "[[Finding_Polynomial_Roots]]"
+    - "[[Graphing_Quadratic_Functions]]"
 sources: []
 source_refs: []
 created: 2025-10-21
-updated: 2025-10-21
+updated: 2025-11-16
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
 ---
 
 # Factored Form

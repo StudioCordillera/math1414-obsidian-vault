@@ -1,41 +1,14 @@
 ---
-layout: concept
-title: "Horizontal Line Test"
-topic: "General Math"
-type: Definition
-status: review
-importance: high
+type: concept
+status: active
 tags:
-  - concept/algebra
-  - chapter-4
+  - concept/functions
+  - concept/properties
   - math/functions
-  - method/graphing
-  - test/injectivity
+  - math/analysis
+  - chapter-4
 created: 2025-10-25
-updated: 2025-11-05
-review:
-  next: 2025-12-05
-  cadence: monthly
-relations:
-  broader:
-    - [[What_IS_a_Function]]
-  narrower: []
-  depends_on:
-    - [[Graphing_Functions]]
-    - [[Domain_and_Range]]
-  defines: []
-  related:
-    - [[One_to_One_Function]]
-    - [[Inverse_Functions]]
-  used_in:
-    - [[Inverse_Functions]]
-    - [[01_Course/Textbook/Chapter4_Exponential_Logarithmic]]
-  defined_in:
-    - [[01_Course/Textbook/Chapter4_Exponential_Logarithmic]]
-sources:
-  - Textbook/Algebra_by_section
-source_refs:
-  - [[00_Books/Algebra_by_section/pages/p440]]–[[00_Books/Algebra_by_section/pages/p448]]
+updated: 2025-11-17
 ---
 
 # Horizontal Line Test

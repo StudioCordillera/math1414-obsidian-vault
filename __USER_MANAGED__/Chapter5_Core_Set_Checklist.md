@@ -35,7 +35,17 @@ Core concept nodes to verify/create (Node Standard v2.0; approved tags):
 
 Audit Log
 - 2025-10-25 — Pre-check created; inventory to follow. SOP/specs untouched.
-
 - 2025-10-25 — Inventory started; created core stubs: Linear_Systems, Row_Operations, Augmented_Matrix, Gaussian_Elimination, Row_Echelon_Form, Reduced_Row_Echelon_Form, Equivalent_Systems, Matrix_Inverse_Method, Inverse_Matrix, Identity_Matrix, Matrix_Multiplication, Determinant, Cramers_Rule. SOP/specs untouched.
 - 2025-10-25 — Added: Gauss_Jordan_Elimination (stub), Consistent_vs_Inconsistent_Systems (stub). Logged per Standards v2.0. SOP/specs untouched.
-- 2025-10-25 — Added: System_Types, Homogeneous_Systems, Particular_and_General_Solutions (stubs, Node Standard v2.0). Logged per standards. 
+- 2025-10-25 — Added: System_Types, Homogeneous_Systems, Particular_and_General_Solutions (stubs, Node Standard v2.0). Logged per standards.
+
+## Completed v2.0 Nodes
+
+- [x] Augmented_Matrix — 2025-11-16
+- [x] Row_Operations (Elementary_Row_Operations) — 2025-11-16
+- [x] Row_Echelon_Form — 2025-11-16
+- [x] Reduced_Row_Echelon_Form — 2025-11-16
+- [x] Gauss_Jordan_Elimination — 2025-11-16
+- [x] Consistent_vs_Inconsistent_Systems (Inconsistent_System) — 2025-11-16
+- [x] Dependent_System — 2025-11-16 (created)
+ 

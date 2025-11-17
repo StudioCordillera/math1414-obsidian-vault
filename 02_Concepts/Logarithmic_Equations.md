@@ -6,8 +6,11 @@ title: Logarithmic Equations
 type: Method
 status: review
 importance: high
-updated: 2025-10-25
+updated: 2025-11-16
 review.next: 2025-11-25
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
 tags:
   - concept/algebra
   - chapter-4

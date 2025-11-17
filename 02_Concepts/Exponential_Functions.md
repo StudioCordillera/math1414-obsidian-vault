@@ -3,37 +3,41 @@ layout: concept
 type: Topic
 status: review
 importance: high
-title: "Exponential Functions"
-topic: "Functions & Exponential Growth"
+title: Exponential Functions
+topic: Functions & Exponential Growth
 tags:
-  - concept/algebra
-  - chapter-4
-  - math/exponential
-  - method/reference
+- concept/algebra
+- chapter-4
+- math/exponential
+- method/reference
 created: 2025-10-25
-updated: 2025-11-02
+updated: 2025-11-16
 review:
   next: 2025-11-25
 relations:
   broader:
-    - [[What_IS_a_Function]]
+  - - - What_IS_a_Function
   depends_on:
-    - [[Function_Notation]]
-    - [[Domain_and_Range]]
-    - [[Exponent_Properties]]
-    - [[Graph_Transformations]]
+  - - - Function_Notation
+  - - - Domain_and_Range
+  - - - Exponent_Properties
+  - - - Graph_Transformations
   related:
-    - [[Logarithmic_Functions]]
-    - [[Inverse_Functions]]
-    - [[Properties_of_Logarithms]]
-    - [[Change_of_Base_Formula]]
+  - - - Logarithmic_Functions
+  - - - Inverse_Functions
+  - - - Properties_of_Logarithms
+  - - - Change_of_Base_Formula
   used_in:
-    - [[Growth_and_Decay_Models]]
-    - [[Compound_Interest]]
-    - [[Exponential_Equations]]
-    - [[Logarithmic_Equations]]
+  - - - Growth_and_Decay_Models
+  - - - Compound_Interest
+  - - - Exponential_Equations
+  - - - Logarithmic_Equations
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
+defines:
+- '[[Exponent_Properties]]'
 ---
-
 # Exponential Functions — Quick Reference (Complete)
 
 Definition and forms

@@ -1,4 +1,9 @@
 ---
+narrower:
+- '[[Polynomial_Degree_and_Shape]]'
+- '[[Polynomial_Equations]]'
+---
+---
 layout: concept
 title: "What IS a Polynomial"
 topic: "Polynomials"
@@ -39,6 +44,13 @@ relations:
     - "[[Graphing_Quadratic_Functions]]"
     - "[[Constructing_Polynomials_from_Roots]]"
 review:
+  next: 2025-11-24
+  cadence: monthly
+created: 2025-10-21
+updated: 2025-11-16
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
   cadence: semester
   next: 2026-01-15
 created: 2025-10-21

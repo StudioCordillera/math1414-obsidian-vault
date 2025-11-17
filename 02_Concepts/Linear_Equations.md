@@ -1,41 +1,49 @@
 ---
 layout: concept
-title: "Linear Equations"
-topic: "Systems & Matrices"
+title: Linear Equations
+topic: Systems & Matrices
 type: Definition
 status: stable
 importance: critical
 tags:
-  - concept/equations
-  - concept/algebra
-  - chapter1
-  - foundation
-  - linear
+- concept/equations
+- concept/algebra
+- chapter1
+- foundation
+- linear
 sources:
-  - MillerGerken2023
+- MillerGerken2023
 source_refs:
-  - "Miller & Gerken §1.1 p.86-92"
+- Miller & Gerken §1.1 p.86-92
 relations:
   broader:
-    - "[[Equations]]"
+  - '[[Equations]]'
   narrower:
-    - "[[Linear_Equations_Two_Variables]]"
+  - '[[Linear_Equations_Two_Variables]]'
   depends_on:
-    - "[[Real_Number_System]]"
-    - "[[Equality_Properties]]"
+  - '[[Real_Number_System]]'
+  - '[[Equality_Properties]]'
   related:
-    - "[[Quadratic_Equations]]"
-    - "[[Linear_Functions]]"
+  - '[[Quadratic_Equations]]'
+  - '[[Linear_Functions]]'
   used_in:
-    - "[[Systems_of_Equations]]"
-    - "[[Linear_Programming]]"
+  - '[[Systems_of_Equations]]'
+  - '[[Linear_Programming]]'
 review:
   next: 2025-11-19
   cadence: monthly
 created: 2025-10-19
-updated: 2025-10-19
+updated: 2025-11-16
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
+narrower:
+- '[[Equation_Types]]'
+- '[[Literal_Equations]]'
+defines:
+- '[[Inequality_Properties]]'
+- '[[Number_Line_Graphing]]'
 ---
-
 # Linear Equations (One Variable)
 
 ## Definition

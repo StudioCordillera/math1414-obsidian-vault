@@ -1,23 +1,39 @@
 ---
 layout: concept
-title: "Number Line Graphing"
-topic: "General Math"
+title: Number Line Graphing
+topic: General Math
 type: Method
-status: in-progress
+status: stable
 importance: medium
-tags: [inequalities, graphing, visualization]
-sources: [miller-gerken]
-source_refs: ["Ch.1 §1.7 Inequalities"]
+tags:
+- method/visualization
+- concept/inequalities
+- math/inequalities
+- chapter-1
+sources:
+- MillerGerken2023
+source_refs:
+- Ch.1 §1.7 Inequalities
 relations:
-  broader: [Inequalities]
+  broader:
+  - '[[Compound_Inequalities]]'
   narrower: []
-  depends_on: [Interval_Notation]
-  related: [Compound_Inequalities, Absolute_Value_Inequalities]
-  used_in: [Linear_Inequalities]
+  depends_on:
+  - '[[Interval_Notation]]'
+  related:
+  - '[[Compound_Inequalities]]'
+  - '[[Absolute_Value_Inequalities]]'
+  used_in:
+  - '[[Linear_Equations]]'
 review:
-  next: 2025-10-27
+  next: 2025-11-21
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
+updated: 2025-11-16
+related:
+- '[[Inequality_Properties]]'
 ---
-
 # Number Line Graphing (Solution Sets)
 
 Conventions:

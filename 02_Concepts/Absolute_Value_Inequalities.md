@@ -1,46 +1,57 @@
 ---
 layout: concept
-title: "Absolute Value Inequalities"
-topic: "General Math"
+title: Absolute Value Inequalities
+topic: General Math
 type: Definition
 status: stable
 importance: high
 tags:
-  - concept/algebra
-  - concept/inequalities
-  - chapter-1
-  - solving-inequalities
+- concept/algebra
+- concept/inequalities
+- chapter-1
+- solving-inequalities
 sources:
-  - miller-gerken-2ed
+- miller-gerken-2ed
 source_refs:
-  - "Miller & Gerken §1.7 p.145-152"
+- Miller & Gerken §1.7 p.145-152
 relations:
   broader:
-    - "[[Inequalities]]"
-    - "[[Compound_Inequalities]]"
+  - '[[Inequalities]]'
+  - '[[Compound_Inequalities]]'
   narrower:
-    - Less Than Type (|x| < k)
-    - Greater Than Type (|x| > k)
+  - Less Than Type (|x| < k)
+  - Greater Than Type (|x| > k)
   depends_on:
-    - "[[Absolute_Value]]"
-    - "[[Compound_Inequalities]]"
-    - "[[Interval_Notation]]"
+  - '[[Absolute_Value]]'
+  - '[[Compound_Inequalities]]'
+  - '[[Interval_Notation]]'
   related:
-    - "[[Linear_Inequalities]]"
-    - "[[Distance_Interpretation]]"
-    - "[[Solution_Sets]]"
+  - '[[Linear_Inequalities]]'
+  - '[[Distance_Interpretation]]'
+  - '[[Solution_Sets]]'
   used_in:
-    - "[[Absolute_Value_Functions]]"
-    - "[[Error_Bounds]]"
-    - "[[Tolerance_Problems]]"
+  - '[[Absolute_Value_Functions]]'
+  - '[[Error_Bounds]]'
+  - '[[Tolerance_Problems]]'
 review:
   last: 2025-10-19
   next: 2025-10-26
   interval: 7 days
 created: 2025-10-19
-updated: 2025-10-19
+updated: 2025-11-16
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
+related:
+- '[[Absolute_Value]]'
+- '[[Compound_Inequalities]]'
+- '[[Inequality_Properties]]'
+- '[[Number_Line_Graphing]]'
+defines:
+- '[[Absolute_Value]]'
+- '[[Compound_Inequalities]]'
+- '[[Interval_Notation]]'
 ---
-
 # Absolute Value Inequalities
 
 ## Definition

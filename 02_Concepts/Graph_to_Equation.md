@@ -1,9 +1,18 @@
 ---
 layout: concept
-title: "Graph to Equation"
-topic: "Equations & Inequalities"
+title: Graph to Equation
+topic: Equations & Inequalities
+updated: 2025-11-16
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
+defines:
+- '[[Constructing_Polynomials_from_Roots]]'
+- '[[Standard_Form]]'
+related:
+- '[[Graphing_Functions]]'
+- '[[Parallel_and_Perpendicular_Lines]]'
 ---
-
 # Constructing Equations from Graphs
 *Reverse Engineering: Visual → Algebraic*
 

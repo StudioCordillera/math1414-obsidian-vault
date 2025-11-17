@@ -1,39 +1,56 @@
 ---
 layout: concept
-title: "Constructing Polynomials from Roots"
-topic: "Polynomials"
+title: Constructing Polynomials from Roots
+topic: Polynomials
 type: Method
 status: review
 importance: high
-tags: |-
-  - concept/algebra
+tags: '- concept/algebra
+
   - chapter-3
+
   - math/polynomials
-  - method/construction
+
+  - method/construction'
 sources:
-  - Textbook Chapter 3
+- Textbook Chapter 3
 source_refs:
-  - Ch.3 — Polynomial functions
+- Ch.3 — Polynomial functions
 relations:
   broader:
-    - "[[Polynomial_Equations]]"
+  - '[[Polynomial_Equations]]'
   narrower: []
   depends_on:
-    - "[[Factor_Theorem]]"
-    - "[[Complex_Conjugate_Roots]]"
-    - "[[Root_Multiplicity]]"
-    - "[[Standard_Form]]"
-    - "[[Factored_Form]]"
+  - '[[Factor_Theorem]]'
+  - '[[Complex_Conjugate_Roots]]'
+  - '[[Root_Multiplicity]]'
+  - '[[Standard_Form]]'
+  - '[[Factored_Form]]'
   defines: []
   related:
-    - "[[Finding_Polynomial_Roots]]"
-    - "[[Graphing_Functions]]"
-    - "[[Graphing_Quadratic_Functions]]"
+  - '[[Finding_Polynomial_Roots]]'
+  - '[[Graphing_Functions]]'
+  - '[[Graphing_Quadratic_Functions]]'
   used_in:
-    - "[[Polynomial_Equations]]"
-    - "[[Graph_to_Equation]]"
+  - '[[Polynomial_Equations]]'
+  - '[[Graph_to_Equation]]'
 created: 2025-10-21
-updated: 2025-10-25
+updated: 2025-11-16
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
+defines:
+- '[[End_Behavior]]'
+related:
+- '[[Factor_Theorem]]'
+- '[[Polynomial_Degree_and_Shape]]'
+- '[[Rational_Root_Theorem]]'
+- '[[Root_Multiplicity]]'
+- '[[Standard_Form]]'
+- '[[Synthetic_Division]]'
+- '[[Working_From_Factored_Form]]'
+broader:
+- '[[Factored_Form]]'
 ---
 # Constructing Polynomials from Given Roots
 *Building the Equation from the Solutions*

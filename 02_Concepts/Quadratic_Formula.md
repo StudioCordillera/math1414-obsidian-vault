@@ -1,39 +1,49 @@
 ---
 layout: concept
-title: "Quadratic Formula"
-topic: "Polynomials"
+title: Quadratic Formula
+topic: Polynomials
 type: Definition
 status: stable
 importance: critical
 tags:
-  - concept/algebra
-  - chapter-1
-  - math/quadratics
-  - method/solving
+- concept/algebra
+- chapter-1
+- math/quadratics
+- method/solving
 sources:
-  - MillerGerken2023
+- MillerGerken2023
 source_refs:
-  - Miller & Gerken §1.4 p.124-126
+- Miller & Gerken §1.4 p.124-126
 relations:
   broader:
-    - "[[Quadratic_Equations]]"
+  - '[[Quadratic_Equations]]'
   depends_on:
-    - "[[Completing_the_Square]]"
-    - "[[The_Discriminant]]"
+  - '[[Completing_the_Square]]'
+  - '[[The_Discriminant]]'
   related:
-    - "[[Complex_Numbers]]"
-    - "[[Zero_Product_Property]]"
-    - "[[Square_Root_Property]]"
+  - '[[Complex_Numbers]]'
+  - '[[Zero_Product_Property]]'
+  - '[[Square_Root_Property]]'
   used_in:
-    - "[[Graphing_Quadratic_Functions]]"
-    - "[[Quadratic_Optimization]]"
+  - '[[Graphing_Quadratic_Functions]]'
+  - '[[Quadratic_Optimization]]'
 review:
   next: 2025-11-19
   cadence: monthly
 created: 2025-10-19
-updated: 2025-10-19
+updated: 2025-11-16
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
+related:
+- '[[Completing_the_Square]]'
+- '[[The_Discriminant]]'
+defines:
+- '[[Imaginary_Unit]]'
+- '[[Square_Root_Property]]'
+broader:
+- '[[Standard_Form]]'
 ---
-
 # Quadratic Formula
 
 ## The Formula

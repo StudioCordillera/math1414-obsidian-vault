@@ -23,8 +23,11 @@ relations:
     - [[Natural_Logarithm]]
   used_in:
     - [[Logarithmic_Equations]]
-updated: 2025-10-30
 created: 2025-10-30
+updated: 2025-11-16
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
 ---
 
 # Common Logarithm (base 10)

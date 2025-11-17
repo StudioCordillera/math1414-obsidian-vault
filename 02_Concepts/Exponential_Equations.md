@@ -32,6 +32,10 @@ see_also:
   - - - Logarithmic_Functions
   - - - Properties_of_Logarithms
   - - - Change_of_Base_Formula
+updated: 2025-11-16
+qa_certified: true
+qa_date: 2025-11-16
+qa_migration: v2.0
 ---
 
 Definition
